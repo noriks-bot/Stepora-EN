@@ -1,0 +1,2539 @@
+<!DOCTYPE html><html><head><link rel="dns-prefetch" href="//images.loox.io"><link rel="dns-prefetch" href="https://fonts.loox.io"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="p:domain_verify" content="b845be09b5d375ad7db4df2ac2d0e0d8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="google-site-verification" content="YPqqEBNAlUrB__Y9Z6lUWZCANTr5gua_dYF0RACt78A"><link href="/img/favicon_bw.png" rel="icon" type="image/png"><script>window.LOOX = window.LOOX || {};
+window.LOOX.frameId = "";
+window.LOOX.inHcpModalMode = false;</script><style>.item-img {
+  position: relative;
+}
+
+.item-img .multi-photo-badge {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 90px;
+  opacity: 0.8;
+  background: #FFF;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  pointer-events: none;
+  color: #000;
+}
+
+.item-img .multi-photo-badge svg {
+  width: 20px;
+  height: 20px;
+}
+
+.item-img {
+  gap: 8px;
+}
+
+.item-img.item-img-grid {
+  flex-wrap: wrap;
+}
+
+.image-aspect-ratio-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.grid-item .item-img .image-aspect-ratio-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.01);
+}
+
+.image-aspect-ratio {
+  width: 100%;
+}</style><link rel="stylesheet" href="/css/post-image-slider/swiper@10.2.0.min.css"/><script src="/js/post-image-slider/swiper@10.2.0.min.js"></script><style>.post-image-slider {
+  height: 100%;
+  overflow: hidden;
+}
+
+#quickview .post-image-slider .swiper-wrapper .post-image-slider-slide {
+  height: 100%;
+}
+
+.post-image-slider .swiper-wrapper .post-image-slider-slide img,
+#quickview .post-image-slider .swiper-wrapper .post-image-slider-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  max-width: none;
+  max-height: none;
+  display: block;
+}
+
+
+.post-image-slider-button-next svg, 
+.post-image-slider-button-prev svg {
+  width: 24px;
+  height: 24px;
+}
+
+.post-image-slider-button-next, 
+.post-image-slider-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.40);
+  padding: 6px;
+  color: white;
+}
+
+.post-image-slider-button-next.swiper-button-disabled, 
+.post-image-slider-button-prev.swiper-button-disabled {
+  opacity: .35;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.post-image-slider-button-prev, 
+.swiper-rtl .post-image-slider-button-next {
+  left: 16px;
+  right: auto;
+}
+
+.post-image-slider-button-next, 
+.swiper-rtl .post-image-slider-button-prev {
+  right: 16px;
+  left: auto;
+}
+
+.post-image-slider-thumbnails-window {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.post-image-slider-thumbnails {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-image-slider-thumbnails-button {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: transparent;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  cursor:pointer;
+}
+
+.post-image-slider-thumbnails-button.is-active {
+  border: 2px solid white;
+}
+
+.post-image-slider-thumbnails-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.timeline-item .post-image-slider-thumbnails-window {
+  scrollbar-width: none;
+}
+
+.post-image-slider-thumbnails-window::-webkit-scrollbar {
+  display: none;
+}		
+
+.post-image-slider-thumbnails-window {
+  overflow-x: auto;
+  display: flex;
+  bottom: 16px;
+}
+
+.post-image-slider-thumbnails {
+  padding-bottom: 0;
+  flex-grow: 1;
+}
+
+.post-image-slider-thumbnails .post-image-slider-thumbnails-button {
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 620px) {
+  .post-image-slider-button-next,
+  .post-image-slider-button-prev {
+    display: none;
+  }
+
+  #quickview .grid-item-wrap .grid-item .item-img {
+      flex-basis: auto;
+      min-height: 0;
+      max-height: none;
+  }
+
+  .post-image-slider .swiper-wrapper .post-image-slider-slide,
+  #quickview .post-image-slider .swiper-wrapper .post-image-slider-slide {
+    height: auto;
+  }
+
+  .post-image-slider .swiper-wrapper .post-image-slider-slide img,
+  #quickview .post-image-slider .swiper-wrapper .post-image-slider-slide img {
+    min-height: 100vw;
+    max-height: 85vh;
+  }
+}</style><script>function initLooxPostSlider(container, swiperOptions = {}) {
+	const swiper = new Swiper(container, {
+		autoHeight: true,
+		observeParents: true,
+		observer: true,
+		preventClicks: false,
+		observeSlideChildren: true,
+		navigation: {
+			nextEl: '.post-image-slider-button-next',
+			prevEl: '.post-image-slider-button-prev',
+		},
+		breakpoints: {
+			619: {
+				autoHeight: !!swiperOptions.autoHeight,
+			},
+		},
+	});
+
+	document.addEventListener('keydown', event => {
+		if (!swiper) {
+			return;
+		}
+		const isRightArrow = event.keyCode === 39;
+		const isLeftArrow = event.keyCode === 37;
+
+		if (isLeftArrow) {
+			swiper.slidePrev();
+		} else if (isRightArrow) {
+			swiper.slideNext();
+		}
+	});
+
+	container.querySelectorAll('.post-image-slider-thumbnails-button').forEach(function (button) {
+		const index = Number(button.dataset.index);
+
+		if (index == 0) {
+			button.classList.add('is-active');
+		}
+
+		button.addEventListener('click', function (e) {
+			e.preventDefault();
+
+			swiper.slideTo(index);
+		});
+	});
+
+	swiper.on('slideChange', function (e) {
+		container
+			.querySelectorAll('.post-image-slider-thumbnails-button.is-active')
+			.forEach(function (button) {
+				button.classList.remove('is-active');
+			});
+
+		const thumbnailsWindow = container.querySelector(`.post-image-slider-thumbnails-window`);
+		const activeButton = container.querySelector(
+			`.post-image-slider-thumbnails-button[data-index="${e.activeIndex}"]`,
+		);
+
+		activeButton.classList.add('is-active');
+
+		const thumbnailsWindowRect = thumbnailsWindow.getBoundingClientRect();
+		const activeButtonRect = activeButton.getBoundingClientRect();
+
+		thumbnailsWindow.scrollTo({
+			left: Math.max(
+				activeButtonRect.left +
+					activeButtonRect.width / 2 +
+					thumbnailsWindow.scrollLeft -
+					(thumbnailsWindowRect.left + thumbnailsWindowRect.width / 2),
+				0,
+			),
+			behavior: 'smooth',
+		});
+	});
+}
+
+function handleMutations(mutationsList, swiperOptions) {
+	for (const mutation of mutationsList) {
+		if (!mutation.addedNodes.length) {
+			return;
+		}
+
+		mutation.addedNodes.forEach(elem => {
+			if (!elem?.id?.startsWith('post')) {
+				return;
+			}
+
+			const postId = elem.id.replace('post_', '');
+
+			if (!postId) {
+				return;
+			}
+
+			const selector = `post-image-slider-${postId}`;
+			const element = document.getElementById(selector);
+
+			if (!element || Number(element?.dataset?.mediaCount ?? 0) < 2) {
+				return;
+			}
+
+			initLooxPostSlider(element, swiperOptions);
+		});
+	}
+}
+
+function initLooxPostSliders(
+	{ swiperOptions, observeContainer } = { swiperOptions: {}, observeContainer: null },
+) {
+	let observer;
+
+	document.addEventListener('DOMContentLoaded', () => {
+		const observeContainerEl = observeContainer && document.querySelector(observeContainer);
+		if (observeContainerEl) {
+			observer = new MutationObserver(mutations => handleMutations(mutations, swiperOptions));
+			observer.observe(observeContainerEl, { childList: true });
+		}
+
+		const elements = document.querySelectorAll('[id^="post-image-slider"]');
+
+		Array.from(elements)
+			.filter(element => Number(element?.dataset?.mediaCount ?? 0) > 1)
+			.forEach(element => {
+				initLooxPostSlider(element, swiperOptions);
+			});
+	});
+
+	window.addEventListener('beforeunload', () => {
+		if (observer) {
+			observer.disconnect();
+		}
+	});
+}
+</script><script>initLooxPostSliders({})    
+
+</script><link href="https://fonts.loox.io/css?family=Poppins" media="all" rel="stylesheet"><style>* {font-family: "Poppins", sans-serif; }</style><style>html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100% }
+* { border:0; padding:0; margin:0; box-sizing:border-box; font-size:14px; }
+body { background-color: transparent; padding-bottom:20px; font-size: 14px; line-height: 1.42857143; margin:0; }
+a:active, a:hover { outline: 0; }
+a, a:visited, a:hover { text-decoration:none; color:#282828; }
+.space-left { margin-left:7px; }
+
+#header { border-bottom:solid 1px #DEDEDE; margin:20px auto 7px; padding:0 7px 7px; position:relative; }
+#header .dropdown-toggle { display: block; float:right; padding:8px; border-radius:2px; margin:0 0 7px 7px; }
+#header .dropdown-toggle .icon-bar { background-color: #888; }
+#header .dropdown-toggle .icon-bar+.icon-bar { margin-top: 4px; }
+#header .dropdown-toggle .icon-bar { display: block; width: 22px; height: 2px; border-radius: 1px; }
+#header #write { padding:4px 12px; font-size:16px; margin:0; height:33px; }
+
+.half { width:50%; float:left; clear:none; }
+.clearfix:after { content: " "; visibility: hidden; display: block; height: 0; clear: both; }
+.metadata { margin-bottom:5px; }
+.metadata .small { font-size:11px; color:#a3a3a3; }
+.metadata .value { font-size:13px; }
+.align-right { text-align:right; }
+.text-large { font-size:24px; vertical-align:middle; }
+.main-text { font-size:14px; line-height:19px; white-space: pre-wrap;}
+
+.action { cursor:pointer; }
+
+.truncate { height: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.summary, .review-dist-content { color:#282828; }
+.summary-text { display:inline-block; font-size:16px; vertical-align:middle; }
+
+#grid { margin:0 auto; padding:0 0 20px; }
+
+.lx-btn { border:solid 1px #282828; color:#282828; background:transparent; }
+.lx-primary {
+	border-radius:2px;
+	transition-property: background, color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+.lx-btn:hover { background:#282828; color:#fff;}
+.close-btn { line-height:30px;text-align:center;font-size:30px;cursor:pointer; }</style><style>#grid .grid-item-wrap { float:left; }
+#grid .grid-item { box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); background: #fff; color: #000000; }
+.list .grid-item { display:flex; flex-flow:wrap; flex-wrap:wrap; flex-basis: 100%; padding:10px;  }
+#grid .grid-item:hover { background: #f8f8f8; }
+
+.grid-item { margin:7px; background-color:#F0F0F0; overflow:hidden; position:relative; }
+.grid-item .item-img { position:relative; }
+.grid-item .item-img img { display:block; width:100%; max-width:100%; margin:0 auto; position:relative; }
+
+.grid-item .main { padding:10px; }
+.list .grid-item .main { padding:0; display:flex; flex-flow:column; align-content: flex-start; }
+
+.grid-item .stars { padding-top:10px; height:27px; }
+.grid-item .star { font-size:14px; }
+.grid-item .main { padding-top:10px; padding-bottom:10px; }
+
+.grid-item .text-block { padding-top:10px; }
+.grid-item .time { color:#73777B; font-size:11px; padding:5px 0 0; height:20px; }
+.grid-item .rating { height: 27px; }
+.grid-item .title { font-weight:bold; font-size:16px; display: flex; align-items: center; }
+.grid-item .owner { margin-top:4px; font-weight: normal; display: flex; align-items: center; }
+
+.grid-item .translation-disclaimer-container { display:flex; color:#73777B; font-size: 11px; font-style: normal; font-weight: 400; line-height: normal; margin-top:10px }
+.grid-item .translation-disclaimer-text-container {color:#73777B; font-size: 11px; font-style: normal; font-weight: 400; line-height: normal}
+.grid-item .translation-disclaimer-text-container a {color:#73777B; font-size: 11px; font-style: normal; font-weight: 400; line-height: normal;text-decoration-line: underline;cursor:pointer}
+
+.grid-item .product-thumbnail-container { 
+	display: flex;
+	margin-top: 10px;
+	gap: 8px;
+	padding-bottom: 0px !important; 
+
+	@media (min-width: 600px) {
+		gap: 12px;
+	}
+}
+
+.grid-item .product-thumbnail-wrapper { display: flex; flex-direction: column; }
+.grid-item .product-thumbnail-purchased-item { color:  #000000; font-size: 11px; font-weight: 600; line-height: 16px; }
+.grid-item .product-thumbnail-product-name { color: #000000; font-size: 14px; font-weight: 400; line-height: normal; }
+.grid-item .product-thumbnail-quote { text-decoration: underline; color: #73777B; font-size: 14px; font-weight: 400; line-height: normal; }
+.grid-item .product-thumbnail-product-image { border-radius: 4px; }
+
+.grid-item .item-type-block { margin-top:10px; }
+.grid-item .item-type-block .item-type-title { font-size:11px; }
+.grid-item .item-type-block .item-type-value { font-size:13px; }
+
+#grid .item-reply { color: #73777B; background-color: rgba(224, 224, 224, 0.7); border-top: solid 1px #c3c3c3; margin-top:5px; padding-top:8px; }
+#grid .item-reply { background:inherit; border-top:solid 1px #e2e2e2; color: #73777B }
+
+@media (max-width:480px) { .grid.grid-col-1 .grid-item-wrap { width:100%; } }
+@media (min-width:320px) { .grid .grid-item-wrap { width:50%; } }
+@media (min-width:480px) { .grid .grid-item-wrap { width:33.3333333333333%; } }
+@media (min-width:920px) { .grid .grid-item-wrap { width:25%; } }
+</style><style>.grid-wrap { min-height: 335px; }
+@media (max-width: 600px) { .grid-wrap { min-height: 315px; } } /* Widget header breaking point */
+</style><style>#grid .product-box { padding:10px; border-top:solid 1px #e2e2e2; cursor:pointer; min-height:70px; }
+#grid .product-box img { float:left; height: 50px;width: 50px;object-fit: contain;object-position: center; }
+</style><style>.gallery .has-img .main .text-block { display:none; }
+.gallery .grid-item.no-img .main { display:flex; flex-flow:column; }
+.gallery .no-img .main .text-block { order:1; }
+</style><style>.list #grid .grid-item-wrap { width:50%; min-width:310px; max-width:unset; }
+@media (max-width: 620px) {
+	.list #grid .grid-item-wrap { width:100%; }
+}
+.list #grid .grid-item-wrap .main { order:1; }
+.list #grid .grid-item-wrap.has-img .item-img { width:30%; order:2; }
+.list #grid .grid-item-wrap.has-img .main { width:70%; order:1; padding:0 32px 0 0; }
+.is-rtl .list #grid .grid-item-wrap.has-img .main { padding:0 0 0 32px; }
+.list #grid .grid-item-wrap .product-box { width:100%; order:3; margin-top:10px; padding:10px 0 0; }
+.list #grid .grid-item-wrap.has-img .product-box { width:calc(70% - 32px); }
+.list #grid .grid-item-wrap .brand { width:100%; order:4; }
+
+.list #grid .grid-item-wrap.store-review-item .product-box { width: 100% !important; }
+</style><style>.share-icon {
+	width:24px; height:24px; cursor:pointer; resize: both; background-size: contain; display:inline-block;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABUklEQVRIS9XVzSoHURjH8c8fC9nLhmQpLytbO1koJeICuADFxgaxk5eFK2CpFIW4DsK1SF56ak5N0/i/jLEwu+mc+X2f53ee85uGP34aNen3YBFjeMQ1PkK7DkCI32E2V+wNFvBZB2AFFyVOzOO2DsA+tksAWzj4DaAbyzjEYAlgDvdVAEl4B6N4whumcpBLhHVfnQCKwjEte9nEhHZUnKboIcR/mqKuOP1cNc2E8/tKJz7fwQxOs7afsY5+JCvyFbcUTrQEGMELenNlRIuxXkm4CNjEUUmPZ1grWNbR5U8dbOC45MtzrNYBGM4s6stBwuc48LAupiVGr23vixbF+zROMJH5HrYNYBfjVUHt3IPoIpKyEqgdQOq2GSit1RLXRdAr3jFZd1wnUJzb0L+M61T0UjbCxSYqx3VRKMLwCvEHS0+luG4WEXEebcd1R1nTavM3Jj1TGTWaGhQAAAAASUVORK5CYII=')
+}
+</style><style>@media (min-width:1150px) { .grid .grid-item-wrap { width:20%; } }
+@media (min-width:1380px) { .grid.grid-col-6 .grid-item-wrap { width:16.6666666666667%; } }
+
+.modal #grid { margin:0; }
+</style><svg xmlns="http://www.w3.org/2000/svg" style="display: none" id="loox-rating-icon-svg-store">
+	<defs />
+	<symbol id="looxicons-rating-icon-fill" viewBox="0 0 24 24" fill="currentcolor">
+		<path
+			d="M24 9.425c0 .212-.125.443-.375.693l-5.236 5.105 1.24 7.212c.01.067.015.164.015.289a.85.85 0 0 1-.151.511.51.51 0 0 1-.44.21c-.183 0-.375-.058-.577-.174L12 19.869l-6.476 3.404c-.212.115-.404.173-.577.173-.202 0-.353-.07-.454-.21a.85.85 0 0 1-.152-.511c0-.058.01-.154.03-.289l1.24-7.211-5.25-5.106C.12 9.858 0 9.628 0 9.425c0-.355.27-.577.808-.663l7.24-1.053 3.245-6.562c.183-.395.418-.592.707-.592s.524.197.707.592l3.245 6.562 7.24 1.053c.539.086.808.308.808.663Z"
+		/>
+	</symbol>
+	<symbol id="looxicons-rating-icon-line" viewBox="0 0 24 24" fill="currentcolor">
+		<path
+			d="m16.399 14.574 4.413-4.283-6.086-.894L12 3.887l-2.726 5.51-6.086.894L7.6 14.574l-1.053 6.072L12 17.776l5.438 2.87-1.039-6.072ZM24 9.425c0 .212-.125.443-.375.693l-5.236 5.105 1.24 7.212c.01.067.015.164.015.289 0 .48-.197.72-.591.72-.183 0-.375-.057-.577-.172L12 19.867l-6.476 3.404c-.212.115-.404.173-.577.173-.202 0-.353-.07-.454-.21a.85.85 0 0 1-.152-.511c0-.058.01-.154.03-.289l1.24-7.211-5.25-5.106C.12 9.858 0 9.628 0 9.425c0-.355.27-.577.808-.663l7.24-1.053 3.245-6.562c.183-.395.418-.592.707-.592s.524.197.707.592l3.245 6.562 7.24 1.053c.539.086.808.308.808.663Z"
+		/>
+	</symbol>
+	<defs>
+		<style>
+			.lx-icon-fill {
+				--lx-fill-width: calc(100% - var(--lx-rating-percent, 0%));
+				clip-path: inset(0 var(--lx-fill-width, 0) 0 0);
+			}
+			.lx-icon-line {
+				clip-path: inset(0 0 0 var(--lx-rating-percent, 0%));
+			}
+			[data-lx-fill='empty'] {
+				--lx-rating-percent: 0%;
+			}
+			[data-lx-fill='half'] {
+				--lx-rating-percent: 50%;
+			}
+			[data-lx-fill='full'] {
+				--lx-rating-percent: 100%;
+			}
+		</style>
+
+		<g id="looxicons-rating-icon">
+			<use href="#looxicons-rating-icon-line" class="lx-icon-line"></use>
+			<use href="#looxicons-rating-icon-fill" class="lx-icon-fill"></use>
+		</g>
+	</defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none" id="loox-ic-verified-icon-svg-store">
+	<defs />
+	<symbol id="loox-ic-verified-icon" viewBox="0 0 24 24" fill="currentcolor">
+		<path
+			d="m10.6 16.6 7.05-7.05-1.4-1.4-5.65 5.65-2.85-2.85-1.4 1.4 4.25 4.25ZM12 22a9.738 9.738 0 0 1-3.9-.788 10.099 10.099 0 0 1-3.175-2.137c-.9-.9-1.612-1.958-2.137-3.175A9.738 9.738 0 0 1 2 12a9.74 9.74 0 0 1 .788-3.9 10.099 10.099 0 0 1 2.137-3.175c.9-.9 1.958-1.612 3.175-2.137A9.738 9.738 0 0 1 12 2a9.74 9.74 0 0 1 3.9.788 10.098 10.098 0 0 1 3.175 2.137c.9.9 1.613 1.958 2.137 3.175A9.738 9.738 0 0 1 22 12a9.738 9.738 0 0 1-.788 3.9 10.098 10.098 0 0 1-2.137 3.175c-.9.9-1.958 1.613-3.175 2.137A9.738 9.738 0 0 1 12 22Z"
+		/>
+	</symbol>
+</svg>
+<title>reviews widget</title><meta name="robots" content="noindex, nofollow"><style>body, html { overflow:hidden; }
+body { visibility:hidden; }
+body.grid-active { visibility:visible; }
+
+.grid-item .item-img .action { cursor:zoom-in; }
+.grid-item .item-img img { opacity: 1; }
+.grid-item:hover .item-img img { opacity:0.9; }
+.grid-item:hover { background:#E8E8E8; }
+
+.loox-inline-branding{display:inline-block;width:36px;height:11px;background-image:url('data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3My43IDI4LjM1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzE5MTkxOTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPkFydGJvYXJkIDM8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsMjQuNTJWMy44OEgzLjM4VjIxLjQ3aDguMjNsMS41NiwzLjA1Wm01My4zNy0yLjc4YTEwLjg4LDEwLjg4LDAsMCwxLTE1LDAsOS40Miw5LjQyLDAsMCwxLTEuMTYtMS4zNWwtNi44Mi04LjU1LTIuNi0zdi4wNmwtLjEyLS4xM2E2Ljc5LDYuNzksMCwwLDAtNS4wOS0yLDYuNzksNi43OSwwLDAsMC01LjEsMiw3LjUyLDcuNTIsMCwwLDAtMiw1LjQyLDcuNTcsNy41NywwLDAsMCwyLDUuNDQsNi43Nyw2Ljc3LDAsMCwwLDUuMSwyLjA2YzUuNDQsMCw4LjItNS43Nyw4LjItNS43N2wyLjI1LDIuNjdzLTMuMjIsMy40Mi0zLDMuMjFhMTAuMzEsMTAuMzEsMCwwLDEtNy40NSwyLjk1LDEwLjM0LDEwLjM0LDAsMCwxLTcuNS0zLDEwLjEsMTAuMSwwLDAsMS0zLjA2LTcuNTdBMTAuMTQsMTAuMTQsMCwwLDEsMTUuMTEsNi42YTEwLjMzLDEwLjMzLDAsMCwxLDcuNS0zLDEwLjI2LDEwLjI2LDAsMCwxLDcuNDgsMywxMC42NCwxMC42NCwwLDAsMSwxLjI4LDEuNTJsOS40LDExLjU1YTcuMzEsNy4zMSwwLDAsMCw1LjEsMkE2LjgxLDYuODEsMCwwLDAsNTEsMTkuNjFhNy41Nyw3LjU3LDAsMCwwLDItNS40NCw3LjUyLDcuNTIsMCwwLDAtMi01LjQyLDYuNzksNi43OSwwLDAsMC01LjEtMiw2Ljc5LDYuNzksMCwwLDAtNS4wOSwybC0uMDUuMDZ2MGwtMywzLjY5LTItMi40OVMzNy44OCw3LjEsMzguMzksNi42YTEwLjMzLDEwLjMzLDAsMCwxLDcuNS0zQTEwLjMsMTAuMywwLDAsMSw1Ni40MiwxNC4xN2ExMC4xMywxMC4xMywwLDAsMS0zLjA1LDcuNTdabS0yMy4zMSwwLDAsMCwwLDBabTM3LjItNy41Niw2LjQxLDEwLjNoLTMuOEw2NS4yMSwxN2wtNC4zNyw3LjQ4SDU3bDYuNDItMTAuM0w1NywzLjg4aDMuOGw0LjY3LDcuNTJMNjkuOSwzLjg4aDMuOEw2Ny4yNiwxNC4yMloiLz48L3N2Zz4=');background-position:center center;background-repeat:no-repeat;background-size:cover;margin:0 0 0 2px;}
+
+.chevron::before { border-style: solid;border-width: 0.10em 0.10em 0 0;content: '';display: inline-block;height: 0.65em;position: relative;top: 0.50em;transform: rotate(-45deg);vertical-align: top;width: 0.65em; }
+
+.display-modes button { padding:0 5px;font-size:18px;margin:3px;width:30px; }
+.grid-item .product-box .name.name-with-img { padding-left: 60px }		
+@keyframes highlight-sweep {
+	from { background-position: 100% 0; }
+	to   { background-position:   0% 0; }
+}
+@keyframes highlight-sweep-rtl {
+	from { background-position: 0% 0; }
+	to   { background-position: 100% 0; }
+}
+
+mark.invisible-marker {
+	background-color: transparent;
+	color: inherit;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	border-radius: 0;
+	position: relative;
+}
+.highlighted-text {
+	position: relative;
+	font-weight: 400; 
+	font-style: normal; 
+	border-radius: 0px;
+	padding: 0 4px;
+	white-space: pre-line;
+}
+.highlighted-text.is-animated {
+	background-image: 
+		linear-gradient(90deg, #091218 50%, #000000 50%),
+		linear-gradient(90deg, #FFF2D3 50%, #FFFFFF 50%);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 100% 0, 100% 0;
+	background-size: 200% 100%, 200% 100%;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	animation: highlight-sweep 3.5s cubic-bezier(0.25, 1, 0.5, 1) 0.5s forwards;
+	text-decoration: none;
+	text-decoration-color: #091218;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+
+.highlighted-text-static { 
+	color: #091218; 
+	font-weight: 400; 
+	font-style: normal; 
+	text-decoration: none;
+	border-radius: 0px;
+	background-color: #FFF2D3;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	padding: 0 2px;
+	white-space: pre-line;
+}
+.highlighted-text-static .emoji-char { color: initial !important; font-size: inherit; line-height: inherit; }
+.highlighted-text.is-animated .emoji-char {
+	-webkit-text-fill-color: initial !important;
+	-webkit-background-clip: initial !important;
+	background-clip: initial !important;
+	background-image: none !important;
+	color: initial !important;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+@keyframes firefox-text-color-fade {
+	0% {
+		color: #000000;
+	}
+	100% {
+		color: #091218;
+	}
+}
+
+@supports (-moz-appearance: none) {
+	.highlighted-text.is-animated {
+		background-image: 
+			linear-gradient(90deg, #FFF2D3 50%, #FFFFFF 50%);				
+		background-repeat: no-repeat;
+		background-size: 200% 100%; 
+		background-clip: initial;
+		-webkit-background-clip: initial;
+		-webkit-text-fill-color: initial;
+		color: #000000;
+		background-color: #FFFFFF;
+
+		animation: 
+			highlight-sweep 3.5s cubic-bezier(0.25, 1, 0.5, 1) 0.5s forwards,
+			firefox-text-color-fade 3.5s linear 0.15s forwards;
+	}
+	.highlighted-text.is-animated .emoji-char { color: initial !important; }
+}
+
+.is-rtl .highlighted-text.is-animated {
+	background-image:
+		linear-gradient(270deg, #091218 50%, #000000 50%),
+		linear-gradient(270deg, #FFF2D3 50%, #FFFFFF 50%);
+	background-position: 0% 0, 0% 0;
+	animation-name: highlight-sweep-rtl;
+}
+@supports (-moz-appearance: none) {
+	.is-rtl .highlighted-text.is-animated {
+		background-image:
+			linear-gradient(270deg, #FFF2D3 50%, #FFFFFF 50%);
+		animation-name: highlight-sweep-rtl, firefox-text-color-fade;
+	}
+}
+</style><style>.star { color:#ffce07; }
+</style><style>@media (max-width:550px) {
+	#header .text-large { font-size: 19px; }
+	#header #write { font-size:16px; padding:4px 10px;margin-top:8px; }
+}
+</style><style>.list #grid .grid-item-wrap .item-img img { max-height: 215px; object-fit: cover; }
+
+@media (min-width: 620px) {
+	.list #grid .grid-item-wrap { width:100%; }
+	.list #grid .grid-item-wrap.has-img .item-img { width:15%; }
+	.list #grid .grid-item-wrap.has-img .main { width:85%; padding:0 32px 0 0;  }
+	.is-rtl .list #grid .grid-item-wrap.has-img .main { padding:0 0 0 32px; }
+	.list #grid .grid-item-wrap.has-img .product-box { width: calc(85% - 32px); }
+}
+</style><style>#header {display:flex;  justify-content: stretch; align-items: center; border-bottom:solid 0px;}
+#header #write { height:38px; }
+#header .summary { flex: 1; display: flex;}
+button.summary-content { background-color: unset; display: inline-flex; color: inherit; }
+.summary-content { cursor: pointer; display: inline-flex; align-items: center; flex-wrap:wrap; white-space: nowrap; overflow: hidden;}
+.summary-content.b { -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.empty-state-height {min-height:380px;}
+.summary-text span { margin-right:8px;font-size:16px;font-weight:400;overflow: hidden;text-overflow: ellipsis;}
+.summary-text {display: inline-flex; overflow: hidden;}
+#header.rtl .summary-text {direction: rtl; flex-direction: row-reverse;}
+nav.menu { margin-left:7px; }
+.lx-btn:hover { background:#282828; color:#000000;}
+#menu-btn:hover #menu-btn-path, #menu-btn:focus #menu-btn-path  {fill:#000000;}
+.menu-icon { background:none;padding:8px 6px 2px; width:37px;}
+.menu a { text-decoration: none;}
+.menu ul { list-style: none;}
+.menu li { display: flex; position: relative;	text-decoration: none; transition-duration: 0.5s;}
+.loox-dropdown {display:none;z-index:1;width:275px;margin-top:4px; right: 7px; text-align:left; position: absolute; float: left; padding: 20px 20px 8px; font-size: 14px; list-style: none; background-color: #fff;box-shadow: 0px 6px 14px -4px rgba(0,0,0,0.14); border-radius: 4px; -webkit-box-shadow: 0px 6px 14px -4px rgba(0,0,0,0.14); animation: growOut .2s ease-in-out forwards;transform-origin: 100% 0px;}
+.loox-dropdown button {display: flex;align-items: center;justify-content: space-between;cursor: pointer;background: none;width: 100%;padding-bottom: 20px; color: #000000;}
+.shown { visibility: visible; opacity: 1; display: block; z-index:1;}
+.btn { display: inline-block; padding: 6px 12px; cursor:pointer; }
+.hr {border-top: 1px solid #E8E8E8;padding-top: 20px;}
+.header-btn {font-size:16px;border: 1px solid #E8E8E8;border-radius: 4px;height:40px !important;cursor: pointer;color:#000000}
+.lx-btn {border: 1px solid #E8E8E8;}
+.header-btn:hover, .lx-btn:hover {background: #E8E8E8;color:#000000;}
+.header-btn:focus, .lx-btn:focus {color:#000000;}
+.header-chevron {background:none;}
+.header-chevron:focus {outline: 2px solid black;}
+.header-chevron.dialog-open:focus, .header-chevron:active {outline: none;}
+.header-btn:focus, .lx-btn:focus {outline: 0;background: #E8E8E8;}
+.loox-dropdown li button .sorting-option, .menu li a {cursor:pointer;font-weight: 400;font-size: 14px;margin-bottom:4px;}
+.loox-dropdown li .sorting-title {font-weight: 600;font-size: 18px;margin-bottom: 20px;}
+.loox-dropdown li {font-size:14px;font-weight:400;justify-content: space-between;}
+.loox-dropdown li span {visibility: hidden;}
+.chosen-option {visibility: visible !important;}
+.stars, .summary-text, .summary-text svg {cursor:pointer;}
+.reviews-dist {left:6px;top:40px;width:403px;padding:20px 20px 24px 20px;animation: growOut .2s ease-in-out forwards;transform-origin: top center;box-shadow: 0px 6px 14px -4px rgba(0,0,0,0.14)}
+.reviews-dist.no-animation { animation: unset; }
+.review-dist-content { animation: fadeContent 350ms ease-in-out forwards }
+.close-dialog-animation { animation: dissolveAnimation 20ms ease-in-out forwards;transform-origin: top center; }
+
+@keyframes progressBarGrowAnimation {0% {width: 0;} 100% {opacity: 1;}}
+@keyframes fadeContent {0% {opacity: 0;}100% {opacity: 1;}}
+@keyframes growOut {0% {opacity: 0;transform: scale(0.7) translateY(-20px);}100% {opacity: 1;transform: scale(1);}}
+@keyframes mobileGrowOut {0% {opacity: 0;max-height: 0px;margin: 0px auto;}100% {opacity: 1;max-height: 500px;margin: 20px auto 24px auto;}}
+@keyframes dissolveAnimation {0% {opacity: 0;}100% {opacity: 0;}}
+@keyframes mobileShrinkAnimation {0% {max-height: 500px;opacity: 1;margin: 20px auto 24px auto;}100% {max-height: 0px;opacity: 0;margin: 0px auto;}}
+
+.chevron-hide {display:none;}
+.reviews-dist span {display: flex;align-items: center;font-size:40px;font-weight:600;margin: 0 auto;width:100px;}
+.progress-section table {width:100%;text-align: center;}
+.progress-section table tr {height: 30px;}
+.reviews-num {text-align:left;font-size:14px;max-width: 100%;white-space: nowrap;}
+.each-progress {display:flex;align-items: center;margin-bottom:5px;}
+.each-progress span {width:20px;font-size:14px;}
+.loox-progress {width:100%;height:10px;border-radius: 2px;background: rgba(0, 0, 0, 0.04);}
+.loox-progress-value {background: #7B7B7B;border-radius: 2px;height:10px; animation: progressBarGrowAnimation .6s ease forwards}
+.branding {text-align:right;font-weight:400;font-size:12px;display: flex;justify-content: flex-end;align-items: center;color:#999999 !important;margin-bottom:5px;}
+.widget-header-actions {display: flex; flex-grow: 0; flex-shrink: 0;}
+
+.expanded-widget-header .summary-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-width: fit-content;
+}
+
+.expanded-widget-header .expanded-summary-avg {
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+}
+
+.expanded-widget-header .expanded-summary-avg i {
+	display: flex;
+	line-height: 1;
+}
+
+.expanded-summary-count span {
+	font-size: 22px;
+	line-height: 32px;
+	margin: 0;
+}
+
+.expanded-widget-header .expanded-summary-count {
+	margin-top: 20px;
+	font-weight: 400;
+}
+
+.expanded-widget-header .stars,
+.expanded-widget-header .summary-text,
+.expanded-widget-header .summary-content,
+.expanded-widget-header .summary-text svg {
+	cursor: default;
+}
+
+.expanded-widget-header .summary-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.expanded-widget-header .reviews-dist {
+	max-width: 403px;
+	width: 100%;
+}
+
+.expanded-widget-header .expanded-summary-avg span {
+	font-size: 45px;
+	line-height: 1;
+	/* without overflow: visible, some fonts get cut-off at the top */
+	overflow: visible;
+	margin: 0;
+	margin-inline-start: 12px;
+}
+
+.expanded-widget-header table {
+	width: initial;
+	top: 0;
+	left: 0;
+}
+
+.expanded-widget-header .reviews-dist {
+	padding: 0;
+	box-shadow: none;
+	margin-inline-start: 43px;
+}
+
+.compact-widget-header .summary-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#header.is-compact {
+	display: flex;
+	flex-direction: column;
+	width:100%;
+}
+
+#header.is-compact .summary {
+	display: flex;
+	flex-direction: column;
+	max-width: 340px;
+	width: 100%;
+}
+
+#header.is-compact .wrapper {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-width: 340px;
+}
+
+#header.expanded-widget-header.only-sort-button .wrapper {
+	width: 100%;
+}
+
+#header.is-compact .reviews-dist {
+	animation: none;
+	margin-inline-start: 0;
+	margin-block-start: 25px;
+	max-width: initial;
+}
+
+#header.is-compact #write {
+	margin-top: 0;
+	flex-grow: 1;
+}
+
+#header.is-compact .widget-header-actions {
+	margin-block-start: 25px
+}
+
+#header .menu {
+	position: relative;
+}
+
+#header.is-compact .menu {
+	order: 0;
+}
+
+#header.expanded-widget-header.is-compact .widget-header-actions {
+	width: 100%;
+	justify-content: flex-end;
+}
+
+#header.expanded-widget-header.no-buttons .widget-header-actions {
+	display: none;
+}
+
+#header.expanded-widget-header.is-compact .summary,
+#header.expanded-widget-header.no-buttons .summary {
+	flex-grow: 0;
+}
+
+#header.expanded-widget-header.is-compact,
+#header.expanded-widget-header.no-buttons {
+	justify-content: center;
+}
+
+.only-mobile {
+	display: none;
+}
+
+@media (max-width:600px) {
+	#header{flex-wrap:wrap;}
+	.reviews-dist{margin:0px auto;position:static;border:0px;box-shadow:unset;padding:0px;animation:mobileGrowOut 300ms ease-in-out forwards;}
+	.summary{order:1;flex-grow:1;min-width:80%;}
+	.menu{order:2;}
+	.loox-dropdown.reviews-dist{order:3 }
+	.close-dialog-animation{animation:mobileShrinkAnimation 200ms ease-in-out forwards;}
+	#write{flex-grow:1;order:4;width:100%;font-size:16px;margin-top:8px;}
+	.only-mobile { display: block; }
+	#header.expanded-widget-header.is-compact .widget-header-actions { justify-content: flex-start; }
+
+	#header.expanded-widget-header .wrapper,
+	#header.expanded-widget-header {
+		display: flex;
+		flex-direction: column-reverse;
+		min-width: 100%;
+	}
+
+	#header.expanded-widget-header.is-compact .summary,
+	#header.expanded-widget-header .summary {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#header.expanded-widget-header .reviews-dist { animation: none; margin-inline-start: 0; margin-block-start: 25px; max-width: none; }
+	#header.expanded-widget-header #write { margin-top: 0 }
+	#header.expanded-widget-header .widget-header-actions { flex-direction: row-reverse; margin-block-start: 25px }
+	#header.expanded-widget-header .menu { order: 0; }
+	#header.expanded-widget-header .widget-header-actions { width: 100% }
+}
+</style><style>.header-btn, #loadMore { border-radius: 16px}
+</style><style>#menu-icon-svg:hover path, .menu-icon:hover path  {fill:black;}
+#menu-btn:hover #menu-btn-path  {fill:black;}
+.header-btn:hover, .lx-btn:hover { color:black; }
+a, a:visited { color:black; }</style><style>.item-img {
+  position: relative;
+}
+
+.item-img .multi-photo-badge {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 90px;
+  opacity: 0.8;
+  background: #FFF;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  pointer-events: none;
+  color: #000;
+}
+
+.item-img .multi-photo-badge svg {
+  width: 20px;
+  height: 20px;
+}
+
+.item-img {
+  gap: 8px;
+}
+
+.item-img.item-img-grid {
+  flex-wrap: wrap;
+}
+
+.image-aspect-ratio-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.grid-item .item-img .image-aspect-ratio-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.01);
+}
+
+.image-aspect-ratio {
+  width: 100%;
+}</style><style>.reviews-widget-font-size-small.list .grid-item, .reviews-widget-font-size-medium.list .grid-item, .reviews-widget-font-size-large.list .grid-item {
+	 padding: 16px;
+}
+ .reviews-widget-font-size-small .grid-item .time, .reviews-widget-font-size-medium .grid-item .time, .reviews-widget-font-size-large .grid-item .time {
+	 height: unset;
+}
+ .reviews-widget-font-size-small:not(.list) #grid .grid-item-wrap > .grid-item > .main, .reviews-widget-font-size-medium:not(.list) #grid .grid-item-wrap > .grid-item > .main, .reviews-widget-font-size-large:not(.list) #grid .grid-item-wrap > .grid-item > .main {
+	 padding: 16px;
+}
+ .reviews-widget-font-size-small #grid .grid-item .box, .reviews-widget-font-size-medium #grid .grid-item .box, .reviews-widget-font-size-large #grid .grid-item .box {
+	 padding-top: 0;
+	 padding-bottom: 0;
+}
+ .reviews-widget-font-size-small .grid-item .block, .reviews-widget-font-size-medium .grid-item .block, .reviews-widget-font-size-large .grid-item .block {
+	 padding: 0;
+}
+ .reviews-widget-font-size-small .grid-item .block.title, .reviews-widget-font-size-medium .grid-item .block.title, .reviews-widget-font-size-large .grid-item .block.title {
+	 padding: 0;
+}
+ .reviews-widget-font-size-small .grid-item .block.title .verified-badge-and-text, .reviews-widget-font-size-medium .grid-item .block.title .verified-badge-and-text, .reviews-widget-font-size-large .grid-item .block.title .verified-badge-and-text {
+	 display: inline-flex;
+	 align-items: center;
+}
+ .reviews-widget-font-size-small.list:not(.large-thumbnails) #grid .grid-item-wrap.has-img .grid-item .item-img, .reviews-widget-font-size-medium.list:not(.large-thumbnails) #grid .grid-item-wrap.has-img .grid-item .item-img, .reviews-widget-font-size-large.list:not(.large-thumbnails) #grid .grid-item-wrap.has-img .grid-item .item-img {
+	 margin-top: 12px;
+}
+ .reviews-widget-font-size-small.list #grid .grid-item-wrap .product-box, .reviews-widget-font-size-medium.list #grid .grid-item-wrap .product-box, .reviews-widget-font-size-large.list #grid .grid-item-wrap .product-box {
+	 margin-top: 12px;
+	 padding-top: 12px;
+}
+ .reviews-widget-font-size-small.list .grid-item .title, .reviews-widget-font-size-medium.list .grid-item .title, .reviews-widget-font-size-large.list .grid-item .title {
+	 flex-wrap: wrap;
+	 gap: 4px 8px;
+}
+ .reviews-widget-font-size-small.list .grid-item .title .loox-icon.loox-verified-badge, .reviews-widget-font-size-medium.list .grid-item .title .loox-icon.loox-verified-badge, .reviews-widget-font-size-large.list .grid-item .title .loox-icon.loox-verified-badge {
+	 margin: 0 !important;
+}
+ .reviews-widget-font-size-small.list .grid-item .title .sample-review-name-banner, .reviews-widget-font-size-medium.list .grid-item .title .sample-review-name-banner, .reviews-widget-font-size-large.list .grid-item .title .sample-review-name-banner {
+	 margin: 0 !important;
+}
+ .reviews-widget-font-size-small .sample-top-label, .reviews-widget-font-size-medium .sample-top-label, .reviews-widget-font-size-large .sample-top-label {
+	 display: none !important;
+}
+ .reviews-widget-font-size-small #grid .product-box, .reviews-widget-font-size-medium #grid .product-box, .reviews-widget-font-size-large #grid .product-box {
+	 min-height: 50px;
+}
+ .reviews-widget-font-size-small #grid .grid-item .box.item-img, .reviews-widget-font-size-medium #grid .grid-item .box.item-img, .reviews-widget-font-size-large #grid .grid-item .box.item-img {
+	 padding: 0;
+	 position: relative;
+}
+ .reviews-widget-font-size-small .grid-item .translation-disclaimer-container, .reviews-widget-font-size-medium .grid-item .translation-disclaimer-container, .reviews-widget-font-size-large .grid-item .translation-disclaimer-container {
+	 margin-top: 4px;
+	 padding: 0;
+}
+ .reviews-widget-font-size-small #grid .grid-item .box.item-reply, .reviews-widget-font-size-medium #grid .grid-item .box.item-reply, .reviews-widget-font-size-large #grid .grid-item .box.item-reply {
+	 padding: 12px 0 0 0;
+	 margin-top: 12px;
+}
+ .reviews-widget-font-size-small #grid .item-reply .item-reply-title, .reviews-widget-font-size-medium #grid .item-reply .item-reply-title, .reviews-widget-font-size-large #grid .item-reply .item-reply-title {
+	 padding: 0;
+	 margin-bottom: 4px;
+}
+ .reviews-widget-font-size-small #grid .block.product-box, .reviews-widget-font-size-medium #grid .block.product-box, .reviews-widget-font-size-large #grid .block.product-box {
+	 padding-top: 12px;
+	 margin-top: 12px;
+	 min-height: unset;
+}
+ .reviews-widget-font-size-small #grid .item-reply, .reviews-widget-font-size-medium #grid .item-reply, .reviews-widget-font-size-large #grid .item-reply {
+	 padding-top: 12px;
+	 margin-top: 12px;
+}
+ .reviews-widget-font-size-small .block.product-box .name.name-with-img, .reviews-widget-font-size-medium .block.product-box .name.name-with-img, .reviews-widget-font-size-large .block.product-box .name.name-with-img {
+	 padding-left: 68px;
+}
+ .reviews-widget-font-size-small .block.product-box img, .reviews-widget-font-size-medium .block.product-box img, .reviews-widget-font-size-large .block.product-box img {
+	 width: 56px;
+	 height: 56px;
+}
+ .reviews-widget-font-size-small .grid-item .text-block, .reviews-widget-font-size-medium .grid-item .text-block, .reviews-widget-font-size-large .grid-item .text-block {
+	 padding-top: 0;
+}
+ .reviews-widget-font-size-small .grid-item .title {
+	 font-size: 14px;
+	 line-height: 20px;
+}
+ .reviews-widget-font-size-small .grid-item .title span {
+	 font-size: 12px !important;
+	 line-height: 16px !important;
+}
+ .reviews-widget-font-size-small .grid-item .title svg {
+	 display: block;
+	 width: 14px !important;
+	 height: 14px !important;
+}
+ .reviews-widget-font-size-small .grid-item .time {
+	 font-size: 11px;
+	 line-height: 16px;
+	 padding: 4px 0 0;
+	 height: auto;
+}
+ .reviews-widget-font-size-small .grid-item .stars {
+	 padding: 12px 0 8px;
+	 height: unset;
+	 line-height: 0;
+}
+ .reviews-widget-font-size-small .grid-item .stars ul li {
+	 display: flex;
+}
+ .reviews-widget-font-size-small .grid-item .stars ul li svg {
+	 display: block;
+	 width: 12px !important;
+	 height: 12px !important;
+	 line-height: 0;
+}
+ .reviews-widget-font-size-small .main-text {
+	 font-size: 14px;
+	 line-height: 20px;
+}
+ .reviews-widget-font-size-small .grid-item .translation-disclaimer-text-container, .reviews-widget-font-size-small .grid-item .translation-disclaimer-text-container a {
+	 font-size: 11px;
+	 line-height: 16px;
+}
+ .reviews-widget-font-size-small #grid .item-reply .item-reply-title, .reviews-widget-font-size-small #grid .item-reply .item-reply-title strong {
+	 font-size: 14px;
+	 line-height: 20px;
+	 font-weight: 400;
+}
+ .reviews-widget-font-size-small .main-text.reply-text {
+	 font-size: 11px;
+	 line-height: 16px;
+}
+ .reviews-widget-font-size-small #grid .block.product-box {
+	 padding-top: 12px;
+	 margin-top: 12px;
+	 min-height: unset;
+}
+ .reviews-widget-font-size-small .product-box .name {
+	 font-size: 11px;
+	 line-height: 16px;
+}
+ .reviews-widget-font-size-small .sample-img-label {
+	 padding: 6px;
+	 font-size: 12px;
+	 font-weight: 600;
+	 line-height: normal;
+}
+ .reviews-widget-font-size-small .grid-item .product-thumbnail-purchased-item {
+	 font-size: 11px;
+	 font-weight: 600;
+	 line-height: 16px;
+}
+ .reviews-widget-font-size-small .grid-item .product-thumbnail-product-name {
+	 font-size: 14px;
+	 font-weight: 400;
+	 line-height: 20px;
+}
+ .reviews-widget-font-size-small .grid-item .product-thumbnail-quote {
+	 font-size: 14px;
+	 font-weight: 400;
+	 line-height: 20px;
+	/* 142.857% */
+	 text-decoration-line: underline;
+	 text-decoration-style: solid;
+	 text-decoration-skip-ink: none;
+	 text-decoration-thickness: auto;
+	 text-underline-offset: auto;
+	 text-underline-position: from-font;
+}
+ .reviews-widget-font-size-small .sample-review-name-banner {
+	 font-size: 11px !important;
+	 font-weight: 400 !important;
+	 line-height: 16px !important;
+	 padding: 2px 4px !important;
+	 border-radius: 4px;
+	 opacity: 0.8;
+	 background: #000 !important;
+	 color: #fff !important;
+	 white-space: nowrap;
+}
+ .reviews-widget-font-size-small .grid-item .incentivized-badge-container {
+	 font-size: 10px !important;
+}
+ .reviews-widget-font-size-small .grid-item .incentivized-badge-container > span {
+	 font-size: 10px !important;
+}
+ .reviews-widget-font-size-small .grid-item .incentivized-badge-container > svg {
+	 width: 12px !important;
+	 height: 12px !important;
+}
+ .reviews-widget-font-size-medium:not(.list) #grid .grid-item-wrap {
+	 width: 100%;
+}
+ @media screen and (min-width: 420px) {
+	 .reviews-widget-font-size-medium:not(.list) #grid .grid-item-wrap {
+		 width: 50%;
+	}
+}
+ @media screen and (min-width: 650px) {
+	 .reviews-widget-font-size-medium:not(.list) #grid .grid-item-wrap {
+		 width: 33.3333333333%;
+	}
+}
+ @media screen and (min-width: 1150px) {
+	 .reviews-widget-font-size-medium:not(.list) #grid .grid-item-wrap {
+		 width: 25%;
+	}
+}
+ @media screen and (min-width: 1380px) {
+	 .reviews-widget-font-size-medium:not(.list) #grid .grid-item-wrap {
+		 width: 20%;
+	}
+}
+ .reviews-widget-font-size-medium .grid-item .title {
+	 font-size: 16px;
+	 line-height: 24px;
+}
+ .reviews-widget-font-size-medium .grid-item .title span {
+	 font-size: 12px !important;
+	 line-height: 16px !important;
+}
+ .reviews-widget-font-size-medium .grid-item .title svg {
+	 display: block;
+	 width: 14px !important;
+	 height: 14px !important;
+}
+ .reviews-widget-font-size-medium .sample-img-label {
+	 padding: 6px;
+	 font-size: 14px;
+	 font-weight: 600;
+	 line-height: normal;
+}
+ .reviews-widget-font-size-medium .sample-review-name-banner {
+	 font-size: 11px !important;
+	 font-weight: 400 !important;
+	 line-height: 16px !important;
+	 padding: 2px 4px !important;
+	 border-radius: 4px;
+	 opacity: 0.8;
+	 background: #000 !important;
+	 color: #fff !important;
+	 white-space: nowrap;
+}
+ .reviews-widget-font-size-medium .grid-item .block.title svg {
+	 width: 14px !important;
+	 height: 14px !important;
+}
+ .reviews-widget-font-size-medium .grid-item .block.title span {
+	 font-size: 12px !important;
+	 line-height: 16px !important;
+}
+ .reviews-widget-font-size-medium .grid-item .time {
+	 font-size: 11px;
+	 font-weight: 400;
+	 line-height: 16px;
+	 padding: 4px 0 0;
+}
+ .reviews-widget-font-size-medium .grid-item .stars {
+	 padding: 12px 0 8px;
+	 height: unset;
+	 line-height: 0;
+}
+ .reviews-widget-font-size-medium .grid-item .stars ul li {
+	 display: flex;
+}
+ .reviews-widget-font-size-medium .grid-item .stars ul li svg {
+	 display: block;
+	 width: 12px !important;
+	 height: 12px !important;
+	 line-height: 0;
+}
+ .reviews-widget-font-size-medium .main-text {
+	 font-size: 16px;
+	 font-weight: 400;
+	 line-height: 24px;
+}
+ .reviews-widget-font-size-medium .grid-item .translation-disclaimer-text-container, .reviews-widget-font-size-medium .grid-item .translation-disclaimer-text-container a {
+	 font-size: 11px;
+	 line-height: 16px;
+}
+ .reviews-widget-font-size-medium #grid .item-reply .item-reply-title, .reviews-widget-font-size-medium #grid .item-reply .item-reply-title strong {
+	 font-size: 16px;
+	 font-weight: 400;
+	 line-height: 24px;
+}
+ .reviews-widget-font-size-medium .main-text.reply-text {
+	 font-size: 11px;
+	 font-weight: 400;
+	 line-height: 16px;
+}
+ .reviews-widget-font-size-medium .product-box .name {
+	 font-size: 11px;
+	 font-weight: 400;
+	 line-height: 16px;
+}
+ @media screen and (min-width: 1150px) {
+	 .reviews-widget-font-size-medium .product-box .name #grid .grid-item-wrap {
+		 width: 25%;
+	}
+}
+ .reviews-widget-font-size-medium .grid-item .product-thumbnail-purchased-item {
+	 font-size: 11px;
+	 font-weight: 600;
+	 line-height: 16px;
+}
+ .reviews-widget-font-size-medium .grid-item .product-thumbnail-product-name {
+	 font-size: 16px;
+	 font-weight: 400;
+	 line-height: 24px;
+}
+ .reviews-widget-font-size-medium .grid-item .product-thumbnail-quote {
+	 font-size: 16px;
+	 font-weight: 400;
+	 line-height: 24px;
+	 text-decoration-line: underline;
+	 text-decoration-style: solid;
+	 text-decoration-skip-ink: none;
+	 text-decoration-thickness: auto;
+	 text-underline-offset: auto;
+	 text-underline-position: from-font;
+}
+ .reviews-widget-font-size-medium .grid-item .incentivized-badge-container {
+	 font-size: 11px !important;
+}
+ .reviews-widget-font-size-medium .grid-item .incentivized-badge-container > span {
+	 font-size: 11px !important;
+}
+ .reviews-widget-font-size-medium .grid-item .incentivized-badge-container > svg {
+	 width: 12px !important;
+	 height: 12px !important;
+}
+ .reviews-widget-font-size-large:not(.list) #grid .grid-item-wrap {
+	 width: 100%;
+}
+ @media screen and (min-width: 520px) {
+	 .reviews-widget-font-size-large:not(.list) #grid .grid-item-wrap {
+		 width: 50%;
+	}
+}
+ @media screen and (min-width: 750px) {
+	 .reviews-widget-font-size-large:not(.list) #grid .grid-item-wrap {
+		 width: 33.3333333333%;
+	}
+}
+ @media screen and (min-width: 1250px) {
+	 .reviews-widget-font-size-large:not(.list) #grid .grid-item-wrap {
+		 width: 25%;
+	}
+}
+ @media screen and (min-width: 1380px) {
+	 .reviews-widget-font-size-large:not(.list) #grid .grid-item-wrap {
+		 width: 20%;
+	}
+}
+ .reviews-widget-font-size-large .grid-item .title {
+	 font-size: 18px;
+	 line-height: 26px;
+}
+ .reviews-widget-font-size-large .grid-item .title span {
+	 font-size: 14px !important;
+	 line-height: 20px !important;
+}
+ .reviews-widget-font-size-large .grid-item .title svg {
+	 display: block;
+	 width: 14px !important;
+	 height: 14px !important;
+}
+ .reviews-widget-font-size-large .sample-img-label {
+	 padding: 6px;
+	 font-size: 16px;
+	 font-weight: 600;
+	 line-height: normal;
+}
+ .reviews-widget-font-size-large .sample-review-name-banner {
+	 font-size: 13px !important;
+	 font-weight: 400 !important;
+	 line-height: 20px !important;
+	 padding: 2px 6px !important;
+	 border-radius: 4px;
+	 opacity: 0.8;
+	 background: #000 !important;
+	 color: #fff !important;
+	 white-space: nowrap;
+}
+ .reviews-widget-font-size-large .grid-item .block.title {
+	 font-size: 18px;
+	 line-height: 26px;
+}
+ .reviews-widget-font-size-large .grid-item .block.title span {
+	 font-size: 14px !important;
+	 line-height: 20px !important;
+}
+ .reviews-widget-font-size-large .grid-item .block.title svg {
+	 display: block;
+	 width: 14px !important;
+	 height: 14px !important;
+}
+ .reviews-widget-font-size-large .grid-item .time {
+	 font-size: 13px;
+	 line-height: 20px;
+	 padding: 4px 0 0;
+}
+ .reviews-widget-font-size-large .grid-item .stars {
+	 padding: 12px 0 8px;
+	 height: unset;
+	 line-height: 0;
+}
+ .reviews-widget-font-size-large .grid-item .stars ul li {
+	 display: flex;
+}
+ .reviews-widget-font-size-large .grid-item .stars ul li svg {
+	 display: block;
+	 width: 14px !important;
+	 height: 14px !important;
+	 line-height: 0;
+}
+ .reviews-widget-font-size-large .main-text {
+	 font-size: 18px;
+	 line-height: 26px;
+}
+ .reviews-widget-font-size-large .grid-item .translation-disclaimer-text-container, .reviews-widget-font-size-large .grid-item .translation-disclaimer-text-container a {
+	 font-size: 13px;
+	 line-height: 20px;
+}
+ .reviews-widget-font-size-large #grid .item-reply .item-reply-title, .reviews-widget-font-size-large #grid .item-reply .item-reply-title strong {
+	 font-size: 18px;
+	 line-height: 26px;
+}
+ .reviews-widget-font-size-large .main-text.reply-text {
+	 font-size: 13px;
+	 line-height: 20px;
+}
+ .reviews-widget-font-size-large .product-box .name {
+	 font-size: 13px;
+	 line-height: 20px;
+}
+ .reviews-widget-font-size-large .grid-item .product-thumbnail-purchased-item {
+	 font-size: 13px;
+	 font-weight: 600;
+	 line-height: 20px;
+}
+ .reviews-widget-font-size-large .grid-item .product-thumbnail-product-name {
+	 font-size: 18px;
+	 font-weight: 400;
+	 line-height: 26px;
+}
+ .reviews-widget-font-size-large .grid-item .product-thumbnail-quote {
+	 font-size: 18px;
+	 font-weight: 400;
+	 line-height: 26px;
+	 text-decoration-line: underline;
+	 text-decoration-style: solid;
+	 text-decoration-skip-ink: none;
+	 text-decoration-thickness: auto;
+	 text-underline-offset: auto;
+	 text-underline-position: from-font;
+}
+ .reviews-widget-font-size-large .grid-item .incentivized-badge-container {
+	 font-size: 12px !important;
+}
+ .reviews-widget-font-size-large .grid-item .incentivized-badge-container > span {
+	 font-size: 12px !important;
+}
+ .reviews-widget-font-size-large .grid-item .incentivized-badge-container > svg {
+	 width: 14px !important;
+	 height: 14px !important;
+}
+ .load-more-button.preview-visible {
+	 display: initial !important;
+}
+ .load-more-button.load-more-button-size-small {
+	 padding: 5px 12px;
+	 font-size: 12px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 20px;
+}
+ .load-more-button.load-more-button-size-medium {
+	 padding: 9px 14px;
+	 font-size: 14px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 20px;
+}
+ .load-more-button.load-more-button-size-large {
+	 padding: 11px 16px;
+	 font-size: 16px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 24px;
+}
+ </style><style>.glow-stroke-effect {
+	animation: glowingBorderSmooth 1.5s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+@keyframes glowingBorderSmooth {
+	0% {
+		box-shadow: 0 0 0 #ffce0700;
+	}
+	30% {
+		box-shadow: 0 0 0 2px #ffce0780;
+	}
+	100% {
+		box-shadow: 0 0 0 #ffce0700;
+	}
+}
+</style><style>.list .item-img img, .list .grid-item { border-radius:4px; } .list .item-img img, .list .grid-item .incentivized-badge-container { border-radius:4px; } .grid .item-img img { border-radius:4px 4px 0 0; } .grid .grid-item { border-radius:4px 4px; } .grid .grid-item .incentivized-badge-container { border-radius:4px; } .list .item-img img, .list .grid-item { border-radius:16px; } .list .item-img img, .list .grid-item .incentivized-badge-container { border-radius:16px; } .grid .item-img img { border-radius:16px 16px 0 0; } .grid .grid-item { border-radius:16px 16px; } .grid .grid-item .incentivized-badge-container { border-radius:16px; }</style></head><body><div class="grid-wrap list reviews-widget-font-size-old large-thumbnails"><style>.sample-notification {
+	display: flex;
+	border-radius: 24px;
+	align-items: center;
+	padding: 2px 8px 2px 4px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	width: fit-content;
+	margin: 4px auto 0 auto;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.sample-notification-close-btn {
+	all: unset;
+	cursor: pointer;
+	-webkit-appearance: none;
+	display: contents;
+}</style><div id="header" class="minimal-header"><div class="summary"><button data-panel="dist" aria-expanded="false" class="summary-content b"><span data-testid="rating-summary-avg" style="margin-right: 10px; display:inline-flex; align-items: center;" aria-label="Average rating: 4.5 / 5 star review" role="figure" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  4.5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star text-large" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star text-large" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star text-large" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star text-large" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="half" role="presentation" aria-hidden="true" class="loox-icon star text-large" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></span><div data-testid="rating-summary-count" class="summary-text"><span>899 Reviews</span><div tabindex="-1" style="align-self: center" class="header-chevron"><svg width="14" height="8" viewbox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="chevron open" role="img" class="chevron-open"><path d="M7.11098 5.15691L2.16098 0.206909L0.746979 1.62091L7.11098 7.98491L13.475 1.62091L12.061 0.206911L7.11098 5.15691Z" fill="black"></path></svg><svg width="14" height="8" viewbox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="chevron closed" role="img" class="chevron-closed chevron-hide"><path d="M6.88902 3.03498L11.839 7.98499L13.253 6.57099L6.88902 0.206985L0.525021 6.57098L1.93902 7.98498L6.88902 3.03498Z" fill="black"></path></svg></div></div></button></div><div role="dialog" aria-modal="true" tabindex="0" aria-label="reviews distribution" class="loox-dropdown reviews-dist"><div class="review-dist-content"><span style="gap: 12px; font-size: 32px" aria-label="Average rating: 4.5 / 5 star review" tabIndex="0" role="figure"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star loox-star" style="display: block; width: 1em; height: 1em; font-size: inherit;"><use href="#looxicons-rating-icon"></use></svg>4.5</span><style>.rating-dist-row {
+	cursor: pointer;
+	align-items: center;
+	border-radius: 4px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.rating-dist-row:hover {
+		background-color: rgba(255,206,7,0.08);
+	}
+
+	.rating-dist-row:hover .rating-filter-selected {
+		background-color: rgba(255,206,7,0.18);
+	}
+}
+
+.rating-dist-row:active {
+	background-color: rgba(255,206,7,0.12);
+}
+
+.rating-filter-selected .rating-dist-row:active {
+	background-color: rgba(255,206,7,0.22);
+}
+
+.rating-filter-selected {
+	background-color: rgba(255,206,7,0.1);
+}
+
+.no-reviews, .rating-dist-row[data-disable-filter-review-rating="true"] {
+	pointer-events: none;
+}</style><div role="region" aria-label="Rating distribution - filter reviews by star rating" tabIndex="0" class="progress-section"><table style="border-spacing: 0 6px;"><tr data-rating="5" data-testid="rating-filter-button-stars_5" class="rating-dist-row" onclick="onRatingClick(5)" role="button" aria-label="Filter by 5 stars, 564 reviews" aria-pressed="false" onkeydown="onRatingRowKeyDown(event, 5)"><td style="padding-left: 4px" aria-hidden="true"><div><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg></span></div></td><td style="padding:6px 10px;width:100%;" aria-hidden="true"><div class="loox-progress"><div style="width:62.736373748609566%" class="loox-progress-value"></div></div></td><td style="padding-right: 4px" aria-hidden="true" class="reviews-num">(564)</td></tr><tr data-rating="4" data-testid="rating-filter-button-stars_4" class="rating-dist-row" onclick="onRatingClick(4)" role="button" aria-label="Filter by 4 stars, 275 reviews" aria-pressed="false" onkeydown="onRatingRowKeyDown(event, 4)"><td style="padding-left: 4px" aria-hidden="true"><div><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  4 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg></span></div></td><td style="padding:6px 10px;width:100%;" aria-hidden="true"><div class="loox-progress"><div style="width:30.589543937708562%" class="loox-progress-value"></div></div></td><td style="padding-right: 4px" aria-hidden="true" class="reviews-num">(275)</td></tr><tr data-rating="3" data-testid="rating-filter-button-stars_3" class="rating-dist-row" onclick="onRatingClick(3)" role="button" aria-label="Filter by 3 stars, 50 reviews" aria-pressed="false" onkeydown="onRatingRowKeyDown(event, 3)"><td style="padding-left: 4px" aria-hidden="true"><div><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  3 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg></span></div></td><td style="padding:6px 10px;width:100%;" aria-hidden="true"><div class="loox-progress"><div style="width:5.561735261401557%" class="loox-progress-value"></div></div></td><td style="padding-right: 4px" aria-hidden="true" class="reviews-num">(50)</td></tr><tr data-rating="2" data-testid="rating-filter-button-stars_2" class="rating-dist-row" onclick="onRatingClick(2)" role="button" aria-label="Filter by 2 stars, 3 reviews" aria-pressed="false" onkeydown="onRatingRowKeyDown(event, 2)"><td style="padding-left: 4px" aria-hidden="true"><div><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  2 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg></span></div></td><td style="padding:6px 10px;width:100%;" aria-hidden="true"><div class="loox-progress"><div style="width:0.33370411568409347%" class="loox-progress-value"></div></div></td><td style="padding-right: 4px" aria-hidden="true" class="reviews-num">(3)</td></tr><tr data-rating="1" data-testid="rating-filter-button-stars_1" class="rating-dist-row" onclick="onRatingClick(1)" role="button" aria-label="Filter by 1 stars, 7 reviews" aria-pressed="false" onkeydown="onRatingRowKeyDown(event, 1)"><td style="padding-left: 4px" aria-hidden="true"><div><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  1 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 18px; height: 18px;"><use href="#looxicons-rating-icon"></use></svg></span></div></td><td style="padding:6px 10px;width:100%;" aria-hidden="true"><div class="loox-progress"><div style="width:0.778642936596218%" class="loox-progress-value"></div></div></td><td style="padding-right: 4px" aria-hidden="true" class="reviews-num">(7)</td></tr></table></div><script>function onRatingRowKeyDown(event, stars) {
+	if(loadMoreInProgress) return;
+
+	if (event.key === 'Enter') onRatingClick(stars);
+}
+
+function onRatingClick(stars) {
+	if(loadMoreInProgress) return;
+
+	const currentSelectedRow = document.querySelector('.rating-filter-selected');
+	const selectedRow = document.querySelector(`.rating-dist-row[data-rating="${stars}"]`);
+
+	window.parent.postMessage(JSON.stringify({
+			type: 'set-ref-interaction',
+			ref: 'loox-widget-header-rating-filter',
+			frame: frameId
+	}), "*");
+
+
+
+	const [loadMoreButton] = document.getElementsByClassName('#loadMore');
+
+	if (loadMoreButton) {
+		const url = new URL(loadMoreButton.dataset.url);
+
+		if (selectedRow && currentSelectedRow !== selectedRow) {
+			url.searchParams.set('rating', stars);
+
+		} else {
+			url.searchParams.delete('rating');
+		}
+
+		loadMoreButton.dataset.url = url.toString();
+	}
+
+	if (currentSelectedRow) currentSelectedRow.classList.remove('rating-filter-selected');
+	if (selectedRow && currentSelectedRow !== selectedRow) selectedRow.classList.add('rating-filter-selected');
+
+	if (currentSelectedRow) {
+		currentSelectedRow.ariaPressed = false;
+	}
+
+	if (selectedRow && currentSelectedRow !== selectedRow) {
+		selectedRow.ariaPressed = true;
+	}
+
+	// Update progress-section aria-label with active filter
+	const progressSection = document.querySelector('.progress-section');
+	if (progressSection) {
+		if (selectedRow && currentSelectedRow !== selectedRow) {
+			progressSection.setAttribute('aria-label', `Rating distribution - filtering by ${stars} stars`);
+		} else {
+			progressSection.setAttribute('aria-label', 'Rating distribution - filter reviews by star rating');
+		}
+	}
+
+	window.dispatchEvent(new Event('blur'));
+	window.loadMore(event, selectedRow)
+}</script></div></div><button id="write" data-testid="write-review-button" class="btn lx-btn lx-primary header-btn">Write a review</button></div><div style="text-align:center;font-size:16px;display:none;" class="bk-text">Be the first to&nbsp;<a id="bethefirst" style="font-size:16px;text-decoration:underline;cursor:pointer;" class="bk-text">write a review</a></div><div class="grid-container"><div id="grid" class="grid-col-6"><style>﻿.sample-inner-label {
+	display: none;
+}
+
+.reply-text {
+	font-size: 12px;
+}
+
+.sample-top-label {
+	background: rgba(0 , 0, 0, 0.8);
+	padding: 2px;
+	font-weight: 600;
+	font-size: 14px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	color: white;
+	text-align: center;
+}
+
+.grid-item.large-padding {
+	padding-top: 34px;
+}
+
+@media (min-width: 395px) {
+	.grid-item.large-padding {
+		padding-top: 10px;
+	}
+
+	.sample-inner-label {
+		display: block;
+	}
+
+	.sample-top-label {
+		display: none;
+	}
+}
+</style><div data-id="ZUhSL36YP3" class="grid-item-wrap has-img"><div data-id="ZUhSL36YP3" tabindex="0" class="grid-item"><div data-testid="review-ZUhSL36YP3-media" class="item-img action"><img src="//images.loox.io/uploads/2023/9/13/eUS13yB4jc.jpg" alt="Customer photo review of Treatmedy™ Bunion Fix - Natural At-Home Bunion Relief" data-img-ratio='1' style="background:rgb(34,30,27);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-ZUhSL36YP3-title" class="feed-item-title-wrapper"><div class="title">Sandy T.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-ZUhSL36YP3-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-ZUhSL36YP3-text" class="main-text">I've been using these for about 6 weeks now and am amazed at the difference they have made. I'm now wearing them while I sleep and have almost full range of motion in my first toe joint and much improved in the 2nd joint. The pain has subsided to the point of being able to walk and function pretty much as normal now, and my toes seem to be pretty much straight again.</div></div></div></div></div><div data-id="jFHokWdv1E" class="grid-item-wrap has-img"><div data-id="jFHokWdv1E" tabindex="0" class="grid-item"><div data-testid="review-jFHokWdv1E-media" class="item-img action"><img src="//images.loox.io/uploads/2023/9/13/z22Exmf796.jpg" alt="Customer photo review of Treatmedy™ Bunion Fix - Natural At-Home Bunion Relief" data-img-ratio='1.33' style="background:rgb(235,156,79);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-jFHokWdv1E-title" class="feed-item-title-wrapper"><div class="title">Brooke T.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-jFHokWdv1E-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-jFHokWdv1E-text" aria-label="Over the years I've used many bunion correctors of various sorts, and nothing compares to this. It' has comfortable padding and velcro straps, especially the wide one around the foot. What really sets it apart is fine adjustment control. Seriously, I'll never buy a different type of bunion corrector. After two weeks using this, my foot is much less painful, and I have used other designs nightly for many years." role="img" aria-roledescription="selectable text" class="main-text">Over the years I've used many bunion correctors of various sorts, and nothing compares to this. It' has comfortable padding and velcro straps, especially the wide one around the foot. What really sets it apart is fine adjustment control. Seriously, I'll never buy a different type of bunion corrector. <mark class="main-text highlighted-text invisible-marker">After two weeks using this, my foot is much less painful, and I have used other designs nightly for many years.</mark></div></div></div></div></div><div data-id="-ZW_WIS_L" class="grid-item-wrap has-img"><div data-id="-ZW_WIS_L" tabindex="0" class="grid-item"><div data-testid="review--ZW_WIS_L-media" class="item-img action"><img src="//images.loox.io/uploads/2023/9/13/21Ry2VhOoD.jpg" alt="Customer photo review of Treatmedy™ Bunion Fix - Natural At-Home Bunion Relief" data-img-ratio='0.58' style="background:rgb(100,41,45);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main trimmed-text action"><div style="display:flex;column-gap:4px;" data-testid="review--ZW_WIS_L-title" class="feed-item-title-wrapper"><div class="title">Jenny H.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review--ZW_WIS_L-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review--ZW_WIS_L-text" aria-label="Bunions SUCK!!! So is how we treat out feet! Wearing styles of shoes that cause this make them worse. Correcting the issue can also be uncomfortable, but NOT as uncomfortable as surgery! For me personally, this is BY FAR THE BEST TOE CORRECTION ON THE MARKET! My feet feel so much better with consistent use! Changing my footwear has also been vital to this correction. These really work and well! This process may initially feel uncomfortable, but undoing damage can be painful. It’s temporary and t..." role="img" aria-roledescription="selectable text" class="main-text">Bunions SUCK!!! So is how we treat out feet! Wearing styles of shoes that cause this make them worse. Correcting the issue can also be uncomfortable, but NOT as uncomfortable as surgery! <mark class="main-text highlighted-text invisible-marker">For me personally, this is BY FAR THE BEST TOE CORRECTION ON THE MARKET!</mark> My feet feel so much better with consistent use! Changing my footwear has also been vital to this correction. These really work and well! This process may initially feel uncomfortable, but undoing damage can be painful. It’s temporary and t...</div></div></div></div></div><div data-id="GpIwRQXlX2" class="grid-item-wrap has-img"><div data-id="GpIwRQXlX2" tabindex="0" class="grid-item"><div data-testid="review-GpIwRQXlX2-media" class="item-img action"><img src="//images.loox.io/uploads/2023/9/13/Slz7ugxg2.jpg" alt="Customer photo review of Treatmedy™ Bunion Fix - Natural At-Home Bunion Relief" data-img-ratio='0.89' style="background:rgb(100,103,94);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-GpIwRQXlX2-title" class="feed-item-title-wrapper"><div class="title">Cathy E.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-GpIwRQXlX2-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-GpIwRQXlX2-text" aria-label="Without surgery, I never thought I would experience this much positive change. I've had mine for about 4 weeks. I try to wear it at least an hour a day (more on the weekends). My bunion is down about a 1/3 of what it was. There is even a little space between my toes for the first time in years. I am definitely noticing that I have a lot less stiffness and can even push up to tip toe a lot more comfortably. So happy that I ordered mine!!!" role="img" aria-roledescription="selectable text" class="main-text">Without surgery, I never thought I would experience this much positive change. I've had mine for about 4 weeks. I try to wear it at least an hour a day (more on the weekends). My bunion is down about a 1/3 of what it was. <mark class="main-text highlighted-text invisible-marker">There is even a little space between my toes for the first time in years.</mark> I am definitely noticing that I have a lot less stiffness and can even push up to tip toe a lot more comfortably. So happy that I ordered mine!!!</div></div></div></div></div><div data-id="Ve8De69HQv" class="grid-item-wrap has-img"><div data-id="Ve8De69HQv" tabindex="0" class="grid-item"><div data-testid="review-Ve8De69HQv-media" class="item-img action"><img src="//images.loox.io/uploads/2023/9/13/enIazbF4n.jpg" alt="Customer photo review of Treatmedy™ Bunion Fix - Natural At-Home Bunion Relief" data-img-ratio='0.54' style="background:rgb(176,174,162);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-Ve8De69HQv-title" class="feed-item-title-wrapper"><div class="title">Stephanie R.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-Ve8De69HQv-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-Ve8De69HQv-text" class="main-text">I'm a nurse and on my feet for 12 hours a day. I wasn't looking for a miracle but I was hoping for partial relief of my throbbing and tenderness. I wear them every evening for 2-4 hours and have been for 2 months. I can honestly say I was pleasantly surprised by the results. My great toes have made a slight shift to a normal position, I have little to no throbbing unless it is a particularly busy day. Suffice to say - I'm a believer! Very effective in relieving pain!</div></div></div></div></div><div data-id="MtJjjRUIK" class="grid-item-wrap has-img"><div data-id="MtJjjRUIK" tabindex="0" class="grid-item"><div data-testid="review-MtJjjRUIK-media" class="item-img action"><img src="//images.loox.io/uploads/2026/3/29/UVX8N1EIb.jpg" alt="Customer wearing the grey Treatmedy™ Bunion Fix on their foot, positioned over the big toe." data-img-ratio='1.33' style="background:rgb(40, 40, 40);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-MtJjjRUIK-title" class="feed-item-title-wrapper"><div class="title">Lisa S.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-MtJjjRUIK-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-MtJjjRUIK-text" class="main-text">Wearing for 3 weeks 30 minutes at a time. I see improvement</div></div><style>.incentivized-badge-container {display: flex; gap: 4px; width: fit-content; background-color: #F0F1F1; padding: 2px 8px; margin-top: 8px; border-radius: 8px;}
+</style></div></div></div><div data-id="M0tYe_WR7" class="grid-item-wrap has-img"><div data-id="M0tYe_WR7" tabindex="0" class="grid-item"><div data-testid="review-M0tYe_WR7-media" class="item-img action"><img src="//images.loox.io/uploads/2026/4/1/PzeZnUoA6.jpg" alt="Customer's feet with visible bunions, as discussed in their review of the Treatmedy™ Bunion Fix." data-img-ratio='1.33' style="background:rgb(184, 200, 200);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-M0tYe_WR7-title" class="feed-item-title-wrapper"><div class="title">Sng Seok Khim J.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-M0tYe_WR7-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-M0tYe_WR7-text" aria-label="After using for 1 month, I find that the swellings below both big toes have gone down &amp; pain diminishing.
+I wear them to sleep 😴 daily about 6-7 hours.
+And had just a pair to my younger sister &amp; sister-in-law recently. Their bunions were worse than mine, literally 45%.
+My sister has planned to purchase from Germany.
+I am thankful that yours are featured on Facebook. 
+We are from Singapore &amp; are in our 60s &amp; 70.
+Over here our doctors does recommend surgery at all." role="img" aria-roledescription="selectable text" class="main-text">After using for 1 month, <mark class="main-text highlighted-text invisible-marker">I find that the swellings below both big toes have gone down &amp; pain diminishing.</mark>
+I wear them to sleep 😴 daily about 6-7 hours.
+And had just a pair to my younger sister &amp; sister-in-law recently. Their bunions were worse than mine, literally 45%.
+My sister has planned to purchase from Germany.
+I am thankful that yours are featured on Facebook. 
+We are from Singapore &amp; are in our 60s &amp; 70.
+Over here our doctors does recommend surgery at all.</div></div><style>.incentivized-badge-container {display: flex; gap: 4px; width: fit-content; background-color: #F0F1F1; padding: 2px 8px; margin-top: 8px; border-radius: 8px;}
+</style></div></div></div><div data-id="9wY4yYwBg" class="grid-item-wrap has-img"><div data-id="9wY4yYwBg" tabindex="0" class="grid-item"><div data-testid="review-9wY4yYwBg-media" class="item-img action"><img src="//images.loox.io/uploads/2026/3/12/scd1ItJVt.jpg" alt="Close-up of a customer's foot showing a bunion before using the Treatmedy™ Bunion Fix." data-img-ratio='1.33' style="background:rgb(56, 56, 56);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/><span data-testid="review-9wY4yYwBg-multi-photo-badge" class="multi-photo-badge"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="m3.122 11.13 1.455-1.455 4.002 4.002 2.547-2.547 2.183 2.183V6.69H3.122v4.439Zm-.728-5.894h11.642a.727.727 0 0 1 .728.728v11.642a.727.727 0 0 1-.728.727H2.394a.727.727 0 0 1-.727-.727V5.964a.728.728 0 0 1 .727-.728Zm8.368 5.093a1.091 1.091 0 1 1 0-2.182 1.091 1.091 0 0 1 0 2.182Z"></path><path d="m15.492 9.364 1.17 1.43.658-6.59L7.184 3.192l-.132 1.317H5.59l.219-2.186a.728.728 0 0 1 .796-.652l11.584 1.16a.728.728 0 0 1 .652.796L17.682 15.21a.728.728 0 0 1-.796.651l-1.394-.139V9.364Z"></path></svg>+1</span></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-9wY4yYwBg-title" class="feed-item-title-wrapper"><div class="title">Tatyana S.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-9wY4yYwBg-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-9wY4yYwBg-text" aria-label="This one is exactly what I was looking for. Easy to put on, doesn't bother me when I'm sitting. I even wear it at night(then take it off). I hope this one help to fix my bunion may be in one year." role="img" aria-roledescription="selectable text" class="main-text">This one is exactly what I was looking for. <mark class="main-text highlighted-text invisible-marker">Easy to put on, doesn't bother me when I'm sitting.</mark> I even wear it at night(then take it off). I hope this one help to fix my bunion may be in one year.</div></div></div></div></div><div data-id="ixGd6BKwU" class="grid-item-wrap has-img"><div data-id="ixGd6BKwU" tabindex="0" class="grid-item"><div data-testid="review-ixGd6BKwU-media" class="item-img action"><img src="//images.loox.io/uploads/2026/4/23/Uzy6tjhXvO.jpg" alt="Reviewer showing the result on their foot with a bunion after using the Treatmedy™ Bunion Fix." data-img-ratio='1.33' style="background:rgb(120, 120, 120);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-ixGd6BKwU-title" class="feed-item-title-wrapper"><div class="title">Kathy C.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-ixGd6BKwU-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-ixGd6BKwU-text" class="main-text">Bump is smaller, pain has lessened.</div></div></div></div></div><div data-id="HgSt2PlLy" class="grid-item-wrap has-img"><div data-id="HgSt2PlLy" tabindex="0" class="grid-item"><div data-testid="review-HgSt2PlLy-media" class="item-img action"><img src="//images.loox.io/uploads/2026/2/3/RiTUmfBB4p.jpg" alt="Customer's foot wearing the gray Treatmedy™ Bunion Fix while resting on a soft, white blanket." data-img-ratio='1.33' style="background:rgb(88, 56, 40);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/><span data-testid="review-HgSt2PlLy-multi-photo-badge" class="multi-photo-badge"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="m3.122 11.13 1.455-1.455 4.002 4.002 2.547-2.547 2.183 2.183V6.69H3.122v4.439Zm-.728-5.894h11.642a.727.727 0 0 1 .728.728v11.642a.727.727 0 0 1-.728.727H2.394a.727.727 0 0 1-.727-.727V5.964a.728.728 0 0 1 .727-.728Zm8.368 5.093a1.091 1.091 0 1 1 0-2.182 1.091 1.091 0 0 1 0 2.182Z"></path><path d="m15.492 9.364 1.17 1.43.658-6.59L7.184 3.192l-.132 1.317H5.59l.219-2.186a.728.728 0 0 1 .796-.652l11.584 1.16a.728.728 0 0 1 .652.796L17.682 15.21a.728.728 0 0 1-.796.651l-1.394-.139V9.364Z"></path></svg>+1</span></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-HgSt2PlLy-title" class="feed-item-title-wrapper"><div class="title">Mechelle D.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-HgSt2PlLy-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  4 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-HgSt2PlLy-text" class="main-text">I was hoping to be able to wear this device with slippers or shoes.  It is very comfortable.  I almost got in the shower with it on.  I have to hide it, because it scares the cats.</div></div></div></div></div><div data-id="-dmnbLiRb" class="grid-item-wrap has-img"><div data-id="-dmnbLiRb" tabindex="0" class="grid-item"><div data-testid="review--dmnbLiRb-media" class="item-img action"><img src="//images.loox.io/uploads/2026/2/23/S-5DiKPvh.jpg" alt="Customer wearing the grey Treatmedy™ Bunion Fix on their foot against a carpeted background." data-img-ratio='1.33' style="background:rgb(168, 152, 136);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review--dmnbLiRb-title" class="feed-item-title-wrapper"><div class="title">Brandon M.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review--dmnbLiRb-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  4 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review--dmnbLiRb-text" class="main-text">I wore it all night, about three an a half weeks ago!  My toe looked and felt like it was going to straighten out.   Then, I wore a pair of shoes that were too narrow and my toe lost it's treatment.  I am going to wear it tonight and see if I can gain some mending again.</div></div></div></div></div><div data-id="uQ_NxfVLk5" class="grid-item-wrap has-img"><div data-id="uQ_NxfVLk5" tabindex="0" class="grid-item"><div data-testid="review-uQ_NxfVLk5-media" class="item-img action"><img src="//images.loox.io/uploads/2026/3/10/KYqX2YxpAQ.jpg" alt="Customer's foot wearing the gray Treatmedy™ Bunion Fix on a wood floor." data-img-ratio='1.33' style="background:rgb(24, 24, 24);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-uQ_NxfVLk5-title" class="feed-item-title-wrapper"><div class="title">Alice J.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-uQ_NxfVLk5-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-uQ_NxfVLk5-text" class="main-text">The apparatus does help with aligning your toes and feet.
+Many thanks.
+I would recommend for anyone with Bunions.</div></div><style>.incentivized-badge-container {display: flex; gap: 4px; width: fit-content; background-color: #F0F1F1; padding: 2px 8px; margin-top: 8px; border-radius: 8px;}
+</style></div></div></div><div data-id="xCfbOWv_y" class="grid-item-wrap has-img"><div data-id="xCfbOWv_y" tabindex="0" class="grid-item"><div data-testid="review-xCfbOWv_y-media" class="item-img action"><img src="//images.loox.io/uploads/2026/2/5/mpwjGaqn1.jpg" alt="Customer wearing the Treatmedy™ Bunion Fix on one foot while relaxing with their feet on a comfortable pillow." data-img-ratio='1.33' style="background:rgb(8, 8, 8);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-xCfbOWv_y-title" class="feed-item-title-wrapper"><div class="title">Kimberly J.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-xCfbOWv_y-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-xCfbOWv_y-text" class="main-text">I sit in my favorite comfort chair 
+While wearing the bunion brace
+And I watch for the great change 
+It is wonderful</div></div></div></div></div><div data-id="l4OaQzNgk" class="grid-item-wrap has-img"><div data-id="l4OaQzNgk" tabindex="0" class="grid-item"><div data-testid="review-l4OaQzNgk-media" class="item-img action"><img src="//images.loox.io/uploads/2025/12/23/YpwruzW9-I.jpg" alt="Customer wearing the grey Treatmedy™ Bunion Fix correctors on both feet while resting them under a wooden stool." data-img-ratio='1.33' style="background:rgb(24, 24, 24);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-l4OaQzNgk-title" class="feed-item-title-wrapper"><div class="title">Cindy K.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-l4OaQzNgk-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-l4OaQzNgk-text" aria-label="I have been using these as much as I can. I can see some improvement, I definitely have less pain which is great!! I am hoping my progress will continue the more I use them." role="img" aria-roledescription="selectable text" class="main-text">I have been using these as much as I can. I can see some improvement, <mark class="main-text highlighted-text invisible-marker">I definitely have less pain which is great!!</mark> I am hoping my progress will continue the more I use them.</div></div></div></div></div><div data-id="-E66c-M_u" class="grid-item-wrap has-img"><div data-id="-E66c-M_u" tabindex="0" class="grid-item"><div data-testid="review--E66c-M_u-media" class="item-img action"><img src="//images.loox.io/uploads/2026/2/21/koVTeX7yWe.jpg" alt="Customer wearing the grey Treatmedy™ Bunion Fix correctors on both feet." data-img-ratio='1.33' style="background:rgb(24, 24, 24);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review--E66c-M_u-title" class="feed-item-title-wrapper"><div class="title">Richard C.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review--E66c-M_u-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review--E66c-M_u-text" class="main-text">Getting better every day</div></div></div></div></div><div data-id="itypyOUc3" class="grid-item-wrap has-img"><div data-id="itypyOUc3" tabindex="0" class="grid-item"><div data-testid="review-itypyOUc3-media" class="item-img action"><img src="//images.loox.io/uploads/2026/1/14/xi7BqW_N6.jpg" alt="Customer relaxing on a couch wearing the Treatmedy™ Bunion Fix on both feet." data-img-ratio='1.33' style="background:rgb(8, 8, 8);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-itypyOUc3-title" class="feed-item-title-wrapper"><div class="title">Alvin M.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-itypyOUc3-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  4 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-itypyOUc3-text" class="main-text">They work</div></div><style>.incentivized-badge-container {display: flex; gap: 4px; width: fit-content; background-color: #F0F1F1; padding: 2px 8px; margin-top: 8px; border-radius: 8px;}
+</style></div></div></div><div data-id="uCjAhrBvC" class="grid-item-wrap has-img"><div data-id="uCjAhrBvC" tabindex="0" class="grid-item"><div data-testid="review-uCjAhrBvC-media" class="item-img action"><img src="//images.loox.io/uploads/2025/12/20/Qywh0uN-1.jpg" alt="Customer's foot with a bunion on a carpet, showing the condition treated by the Treatmedy™ Bunion Fix." data-img-ratio='1.33' style="background:rgb(88, 72, 72);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-uCjAhrBvC-title" class="feed-item-title-wrapper"><div class="title">Marjorie B.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-uCjAhrBvC-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  4 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-uCjAhrBvC-text" aria-label="I'm not giving up. I have been using it every night for a hour now and it seems to be getting smaller.  I haven't had pain so it doesn't bother me.  It wasn't that big. Mi will keep using it so I can wear shoes that I haven't been able to wear.   I have oneon the other foot do I will try it as well.It isn't as big.  Thanks" role="img" aria-roledescription="selectable text" class="main-text">I'm not giving up. I have been using it every night for a hour now and it seems to be getting smaller.  <mark class="main-text highlighted-text invisible-marker">I haven't had pain so it doesn't bother me.</mark>  It wasn't that big. Mi will keep using it so I can wear shoes that I haven't been able to wear.   I have oneon the other foot do I will try it as well.It isn't as big.  Thanks</div></div></div></div></div><div data-id="ZmecOEVEL" class="grid-item-wrap has-img"><div data-id="ZmecOEVEL" tabindex="0" class="grid-item"><div data-testid="review-ZmecOEVEL-media" class="item-img action"><img src="//images.loox.io/uploads/2025/12/12/YSG5_i-K_.jpg" alt="Reviewer wearing a grey adjustable toe brace on their foot." data-img-ratio='1.33' style="background:rgb(152, 120, 88);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-ZmecOEVEL-title" class="feed-item-title-wrapper"><div class="title">Gregory G.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-ZmecOEVEL-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-ZmecOEVEL-text" class="main-text">It works great 👍🏿,and I'm using it right now.</div></div></div></div></div><div data-id="yW7V3bFfQ" class="grid-item-wrap has-img"><div data-id="yW7V3bFfQ" tabindex="0" class="grid-item"><div data-testid="review-yW7V3bFfQ-media" class="item-img action"><img src="//images.loox.io/uploads/2025/11/19/TgXFiGVSg.jpg" alt="Customer photo review of Treatmedy™ Bunion Fix" data-img-ratio='1.33' style="background:rgb(8, 8, 8);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-yW7V3bFfQ-title" class="feed-item-title-wrapper"><div class="title">Cincie B.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-yW7V3bFfQ-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  5 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-yW7V3bFfQ-text" class="main-text">This is easy to use, comfy, and I'm hoping it will help me with my bunions.</div></div></div></div></div><div data-id="G3DOQuOtv" class="grid-item-wrap has-img"><div data-id="G3DOQuOtv" tabindex="0" class="grid-item"><div data-testid="review-G3DOQuOtv-media" class="item-img action"><img src="//images.loox.io/uploads/2025/11/15/SPgI8--Wb.jpg" alt="Customer photo review of Treatmedy™ Bunion Fix" data-img-ratio='1.33' style="background:rgb(200, 184, 168);" onerror="this.parentElement.removeChild(this)" onload="this.loaded = true;"/></div><div style="" class="main action"><div style="display:flex;column-gap:4px;" data-testid="review-G3DOQuOtv-title" class="feed-item-title-wrapper"><div class="title">Giselle M.<span style="display: flex; align-items: center; gap: 4px" class="verified-badge-and-text"><svg viewBox="0 0 24 24" aria-label="verified-icon" role="img" class="loox-icon loox-verified-badge" style="width: 14px; height: 14px; vertical-align: middle; flex-shrink: 0; overflow: visible; margin:0 0 0 8px;"><use href="#loox-ic-verified-icon"></use></svg><span style="font-style: normal; font-weight: 400; font-size: 12px; line-height: 18px; white-space: nowrap;">Verified</span></span></div></div><div data-testid="review-G3DOQuOtv-stars" class="stars"><span style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;" aria-label="Rating icons:  4 / 5 star review" role="img"><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="full" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg><svg viewBox="0 0 24 24" data-lx-fill="empty" role="presentation" aria-hidden="true" class="loox-icon star" style="display: block; width: 1em; height: 1em;"><use href="#looxicons-rating-icon"></use></svg></span></div><div class="text-block"><div data-testid="review-G3DOQuOtv-text" aria-label="It has now been
+A month and a few weeks! I could absolutely feel the difference in between the toes, but also I could see how it's pulling my toe back in place. So i'm hoping with me constantly wearing it, I would have another progress report. 
+
+Thank you!" role="img" aria-roledescription="selectable text" class="main-text">It has now been
+A month and a few weeks! <mark class="main-text highlighted-text invisible-marker">I could absolutely feel the difference in between the toes, but also I could see how it's pulling my toe back in place.</mark> So i'm hoping with me constantly wearing it, I would have another progress report. 
+
+Thank you!</div></div></div></div></div></div></div><div style="text-align:center;padding:20px 0 10px;"><button id="loadMore" style="" data-url="h=1781018408566&amp;total=899&amp;variant=visible&amp;limit=20&amp;language=en&amp;page=2" tabindex="0" data-testid="load-more-button" class="btn lx-btn lx-primary load-more-button load-more-button-size-undefined">Show more reviews</button><div id="goTop" style="float:right;margin-right:8px;display:none;" class="btn lx-btn lx-primary"><span class="chevron top"></span></div></div></div><script>(function () {
+	var prettyDates = function() {
+		var elements = document.getElementsByClassName("time");
+		var	updated = false;
+
+		for (var i = 0; i < elements.length; i++) {
+			var e = elements[i];
+
+			var upgraded = e.getAttribute("data-upgraded");
+			if (upgraded) continue;
+			e.setAttribute('data-upgraded', 'true');
+
+			var time = e.getAttribute("data-time");
+			if (!time)
+				continue;
+
+			var text = new Date(Number(time)).toLocaleDateString();
+			if (!text)
+				continue;
+
+			elements[i].innerHTML = text;
+			updated = true;
+		}
+
+		if (updated) {
+			setTimeout(() => {
+				if(grid && grid.masonry && grid.masonry.layout) {
+					grid.masonry.layout();
+				}
+			}, 0);
+		}
+	};
+	prettyDates();
+	setInterval(prettyDates, 1000);
+})();
+</script><script>(function(){function l(a,b){document.addEventListener?a.addEventListener("scroll",b,!1):a.attachEvent("scroll",b)}function m(a){document.body?a():document.addEventListener?document.addEventListener("DOMContentLoaded",function c(){document.removeEventListener("DOMContentLoaded",c);a()}):document.attachEvent("onreadystatechange",function k(){if("interactive"==document.readyState||"complete"==document.readyState)document.detachEvent("onreadystatechange",k),a()})};function r(a){this.a=document.createElement("div");this.a.setAttribute("aria-hidden","true");this.a.appendChild(document.createTextNode(a));this.b=document.createElement("span");this.c=document.createElement("span");this.h=document.createElement("span");this.f=document.createElement("span");this.g=-1;this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;";this.b.appendChild(this.h);this.c.appendChild(this.f);this.a.appendChild(this.b);this.a.appendChild(this.c)}
+function t(a,b){a.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font-synthesis:none;font:"+b+";"}function y(a){var b=a.a.offsetWidth,c=b+100;a.f.style.width=c+"px";a.c.scrollLeft=c;a.b.scrollLeft=a.b.scrollWidth+100;return a.g!==b?(a.g=b,!0):!1}function z(a,b){function c(){var a=k;y(a)&&a.a.parentNode&&b(a.g)}var k=a;l(a.b,c);l(a.c,c);y(a)};function A(a,b){var c=b||{};this.family=a;this.style=c.style||"normal";this.weight=c.weight||"normal";this.stretch=c.stretch||"normal"}var B=null,C=null,E=null,F=null;function G(){if(null===C)if(J()&&/Apple/.test(window.navigator.vendor)){var a=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/.exec(window.navigator.userAgent);C=!!a&&603>parseInt(a[1],10)}else C=!1;return C}function J(){null===F&&(F=!!document.fonts);return F}
+function K(){if(null===E){var a=document.createElement("div");try{a.style.font="condensed 100px sans-serif"}catch(b){}E=""!==a.style.font}return E}function L(a,b){return[a.style,a.weight,K()?a.stretch:"","100px",b].join(" ")}
+A.prototype.load=function(a,b){var c=this,k=a||"BESbswy",q=0,D=b||3E3,H=(new Date).getTime();return new Promise(function(a,b){if(J()&&!G()){var M=new Promise(function(a,b){function e(){(new Date).getTime()-H>=D?b():document.fonts.load(L(c,'"'+c.family+'"'),k).then(function(c){1<=c.length?a():setTimeout(e,25)},function(){b()})}e()}),N=new Promise(function(a,c){q=setTimeout(c,D)});Promise.race([N,M]).then(function(){clearTimeout(q);a(c)},function(){b(c)})}else m(function(){function u(){var b;if(b=-1!=
+f&&-1!=g||-1!=f&&-1!=h||-1!=g&&-1!=h)(b=f!=g&&f!=h&&g!=h)||(null===B&&(b=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),B=!!b&&(536>parseInt(b[1],10)||536===parseInt(b[1],10)&&11>=parseInt(b[2],10))),b=B&&(f==v&&g==v&&h==v||f==w&&g==w&&h==w||f==x&&g==x&&h==x)),b=!b;b&&(d.parentNode&&d.parentNode.removeChild(d),clearTimeout(q),a(c))}function I(){if((new Date).getTime()-H>=D)d.parentNode&&d.parentNode.removeChild(d),b(c);else{var a=document.hidden;if(!0===a||void 0===a)f=e.a.offsetWidth,
+g=n.a.offsetWidth,h=p.a.offsetWidth,u();q=setTimeout(I,50)}}var e=new r(k),n=new r(k),p=new r(k),f=-1,g=-1,h=-1,v=-1,w=-1,x=-1,d=document.createElement("div");d.dir="ltr";t(e,L(c,"sans-serif"));t(n,L(c,"serif"));t(p,L(c,"monospace"));d.appendChild(e.a);d.appendChild(n.a);d.appendChild(p.a);document.body.appendChild(d);v=e.a.offsetWidth;w=n.a.offsetWidth;x=p.a.offsetWidth;I();z(e,function(a){f=a;u()});t(e,L(c,'"'+c.family+'",sans-serif'));z(n,function(a){g=a;u()});t(n,L(c,'"'+c.family+'",serif'));
+z(p,function(a){h=a;u()});t(p,L(c,'"'+c.family+'",monospace'))})})};"undefined"!==typeof module?module.exports=A:(window.FontFaceObserver=A,window.FontFaceObserver.prototype.load=A.prototype.load);}());
+</script><script>window.LOOX = window.LOOX || {};
+window.LOOX.createReportEngagement = function (options) {
+	var config = options && typeof options === 'object' ? options : {};
+	var widgetType = config.widgetType;
+	var productId = config.productId;
+
+	return function reportEngagement(action, data) {
+		var targetOrigin = '*';
+		if (document.referrer) {
+			try {
+				targetOrigin = new URL(document.referrer).origin;
+			} catch (e) {
+				targetOrigin = '*';
+			}
+		}
+
+		var payload = {
+			widgetType: widgetType,
+			productId: productId,
+		};
+
+		if (data && typeof data === 'object') {
+			for (var key in data) {
+				if (Object.prototype.hasOwnProperty.call(data, key)) payload[key] = data[key];
+			}
+		}
+
+		window.parent.postMessage(
+			{
+				type: 'loox:' + action,
+				payload: payload,
+			},
+			targetOrigin,
+		);
+	};
+};</script><script src="/js/feed/masonry-4-2-2.pkgd.min.js"></script><script>var isReviewsSummariesScriptLoaded = false;
+var productHeader = document.querySelector("#header");
+var storeHeader = null;
+var loadMoreInProgress = false;
+</script><script>var frameId = 'looxReviewsFrame';
+(function(exports) {
+	function looxImageLoaded(img) {
+		if (currentTab === 'product') img.style.height = 'auto';
+		msnry.layout();
+	}
+
+	function images(items) {
+		let outerWidth;
+
+		const selector = currentTab === 'product' ? '.item-img img' : '.product-thumbnail-container img';
+		const imgs = Array.from(items).flatMap(item => Array.from(item.querySelectorAll(selector)));
+
+		const firstImgEl = imgs?.[0];
+		if(firstImgEl) {
+			const width = firstImgEl.getBoundingClientRect(firstImgEl).width;
+			const style = window.getComputedStyle(firstImgEl);
+			const marginLeft = parseFloat(style.marginLeft);
+			const marginRight = parseFloat(style.marginRight);
+			outerWidth = width + marginLeft + marginRight;
+		}
+
+		imgs.forEach(function (img) {
+			if (img.loaded) return;
+
+			img.onload = function() {
+				looxImageLoaded(img)
+			};
+
+			const ratio = Number(img.dataset.imgRatio);
+			if (isNaN(ratio)) return;
+
+			img.style.height = Math.ceil(outerWidth * ratio) + 'px';
+		});
+
+		items.forEach(item => {
+			item.querySelectorAll('img[thesrc]').forEach(img => {
+				img.setAttribute('src', img.getAttribute('thesrc'));
+				img.removeAttribute('thesrc');
+			});
+		});
+
+		if (exports.preprocess) exports.preprocess(items);
+	}
+
+	function findAndObserveHighlightedElements(){
+		if (!true) {
+			return;
+		}
+
+		var grid = document.getElementById('grid');
+		if (!grid) return;
+
+		var elements = grid.querySelectorAll(".highlighted-text");
+		elements.forEach(function(el) {
+			if (el.dataset.animated !== "true") {
+				window.observeHighlightedTextElement(el);
+			}
+		});
+	}
+
+	var gridMutationObserver;
+	document.addEventListener('DOMContentLoaded', function() {
+		var grid = document.getElementById('grid');
+		if (!grid || !('MutationObserver' in window)) {
+			return;
+		}
+
+		if (!gridMutationObserver) {
+			gridMutationObserver = new MutationObserver(function(){
+				findAndObserveHighlightedElements(); 
+			})
+		}
+		gridMutationObserver.observe(grid, { childList: true });
+	})
+
+	var highlightsIntersectionObserver; 
+	function observeHighlightedTextElement(el) {
+		if (!('IntersectionObserver' in window)) {
+			return;
+		}
+
+		if (!highlightsIntersectionObserver) {
+			highlightsIntersectionObserver = new IntersectionObserver(function(entries, obs){
+				entries.forEach(function(entry){
+					if (entry.isIntersecting) {
+						entry.target.classList.remove('invisible-marker');
+						entry.target.classList.add('is-animated'); 
+						entry.target.dataset.animated = "true";
+						obs.unobserve(entry.target);               
+					}
+				});
+			}, {
+				root: null,
+				threshold: 0.2,           
+				rootMargin: '0px 0px -10% 0px' 
+			});
+		}
+
+		highlightsIntersectionObserver.observe(el);
+	}
+	window.observeHighlightedTextElement = observeHighlightedTextElement;
+
+	findAndObserveHighlightedElements();
+	
+	function reRenderHeader() {
+		const oldStats = document.querySelector('#header');
+		const newStats = currentTab === 'product' ? productHeader : storeHeader;
+
+		if (oldStats && newStats) oldStats.replaceWith(newStats);
+	}
+
+	var loaded = false;
+	document.addEventListener('font-loaded', function() {
+		if (loaded) return;
+		loaded = true;
+
+		const gridItemListEl = document.querySelectorAll('.grid-item');
+		if(gridItemListEl.length) {
+			images(gridItemListEl);
+			if(window.grid) {
+				msnry = new Masonry(grid, { itemSelector: '.grid-item-wrap', originLeft: true});
+				grid.masonry = msnry;
+			} else {
+				const tabsElement = document.querySelector('.tabs');
+				if (tabsElement) tabsElement.style.display = 'none';
+			}
+		}
+	});
+
+	var page = 1;
+	if(window.grid) {
+		var msnry = new Masonry(grid, { itemSelector: '.grid-item-wrap', originLeft: true});
+		grid.masonry = msnry;
+	} else {
+		const tabsElement = document.querySelector('.tabs');
+		if (tabsElement) tabsElement.style.display = 'none';
+	}
+
+	var currentFilter = {};
+	var currentTab = 'product' || 'product';
+
+	exports.loadReviewItem = function(id, showOriginal) {
+		const allParams = new URLSearchParams();
+		const locationSearchParams = new URLSearchParams(window.location.search);
+		const baseUrlParams = new URLSearchParams('h=1781018408566&total=899&variant=visible&limit=20&language=en');
+
+		for (const [key, value] of baseUrlParams) {
+			if (!allParams.has(key)) allParams.set(key, value);
+		}
+
+		for (const [key, value] of locationSearchParams) {
+			if (!allParams.has(key)) allParams.set(key, value);
+		}
+
+		const { origin } = window.location;
+		const url = `${origin}/widget/Nkxv62I8Ba/review/${currentTab}/${id}?${allParams.toString()}&showOriginal=${showOriginal}&thumbnails=`;
+
+		fetch(url)
+			.then(response => response.text())
+			.then(data => {
+				const parser = new DOMParser();
+				const html = parser.parseFromString(data, 'text/html');
+				const item = html.querySelector('.grid-item-wrap');
+
+				const oldEl = document.querySelector(`.grid-item-wrap[data-id='${id}']`);
+				oldEl.innerHTML = item.innerHTML;
+
+				images([oldEl]);
+				msnry.layout();
+
+				const gridItemEl = oldEl.querySelector('.grid-item');
+				gridItemEl.classList.add('glow-stroke-effect');
+				setTimeout(() => gridItemEl.classList.remove('glow-stroke-effect'), 1500);
+			});
+	}
+
+	exports.loadMore = function(e, el) {
+		if (loadMoreInProgress) return;
+		loadMoreInProgress = true;
+
+		var self = document.querySelector('#loadMore');
+		var next = self?.dataset.url;
+		var eventTargetId = el.id;
+		var { sort: sorting, rating, tab } = el.dataset;
+		const isSample = false;
+		const isLivePreview = false;
+
+		if (sorting) currentFilter.sorting = sorting;
+
+		if (rating) {
+			const currentClickIsSelecting = el.classList.contains('rating-filter-selected')
+			currentFilter.rating = currentClickIsSelecting && rating;
+		}
+
+		if (tab) {
+			currentFilter = {};
+			currentTab = tab;
+		}
+
+		var reset = (el.reset || e.reset) || (page++ % 10 === 0 && window.innerWidth > 600);
+
+		if (eventTargetId === 'goTop' || sorting || rating || tab) {
+			reset = true;
+			page = 1;
+
+			let allParams = new URLSearchParams();
+			let locationSearchParams = new URLSearchParams(window.location.search);
+			let baseUrlParams = new URLSearchParams('h=1781018408566&total=899&variant=visible&limit=20&language=en');
+
+			if (currentFilter.sorting) allParams.set('sort', currentFilter.sorting);
+			if (currentFilter.rating) allParams.set('rating', currentFilter.rating);
+			if (isSample) allParams.set('sample', 'true');
+			if (isLivePreview) allParams.set('isLivePreview', 'true');
+			if (window.location.search.includes('shopify_editor_preview=true')) allParams.set('shopify_editor_preview', 'true');
+
+			const total = (currentTab === 'store') ? '1027' : '899';
+			allParams.set('total', total);
+
+			for (const [key, value] of baseUrlParams) {
+				if (!allParams.has(key)) allParams.set(key, value);
+			}
+
+			for (const [key, value] of locationSearchParams) {
+				if (!allParams.has(key)) allParams.set(key, value);
+			}
+
+			allParams.set('currentTab', currentTab);
+
+			next = `${allParams.toString()}`;
+
+			const goTopElement = document.querySelector('#goTop');
+			if (goTopElement) goTopElement.style.display = 'none';
+		}
+
+		if (reset) {
+			const itemsToRemove = document.querySelectorAll('.grid-item-wrap')
+			msnry.remove(itemsToRemove);
+
+			if (tab) {
+				const existingSummariesWidget = document.querySelector('loox-reviews-summaries-widget');
+				if (existingSummariesWidget) {
+					existingSummariesWidget.classList.add('leaving');
+					setTimeout(() => existingSummariesWidget.remove(), 400);
+				}
+			}
+
+			if (!sorting && !rating && !tab) {
+				window.parent.postMessage(JSON.stringify({ type: 'scroll_to_view', frame: frameId }), "*");
+			}
+		}
+
+		const { origin, pathname } = window.location;
+
+		fetch(`${origin}${pathname}?${next}`)
+			.then(response => response.text())
+			.then(data => {
+				const parser = new DOMParser();
+				const html = parser.parseFromString(data, 'text/html');
+				const items = html.querySelectorAll('.grid-item-wrap');
+				const newSummariesWidget = html.querySelector('loox-reviews-summaries-widget');
+
+				items.forEach(item => grid.appendChild(item));
+
+				images(items);
+
+				if (reset) msnry.prepended(items);
+				else msnry.appended(items);
+
+				msnry.layout();
+
+				setTimeout(function () {
+					const firstItem = items[0];
+					if (firstItem) {
+						const gridItem = firstItem.querySelector('.grid-item');
+
+						const isFirstPageTabChange = tab && page === 1;
+
+						if (gridItem) {
+							if (isFirstPageTabChange && newSummariesWidget) {
+								newSummariesWidget.focus()
+							} else {
+								gridItem.focus();
+							}
+						}
+					}
+				}, 0);
+
+				if (reset) document.dispatchEvent(new CustomEvent('iframe-resize'));
+
+				const nextButton = html.querySelector('#loadMore');
+				if (!nextButton) {
+					if (self) self.style.display = 'none';
+				} else {
+					if (self) {
+						if (!items.length) {
+							self.style.display = 'none';
+						} else {
+							const dataUrl = nextButton.getAttribute('data-url');
+							if(dataUrl) {
+								self.style.display = '';
+								self.setAttribute('data-url', dataUrl);
+							} else {
+								self.style.display = 'none';
+							}
+						}
+					}
+				}
+
+				if (page > 10 && window.innerWidth > 600) {
+					const goTopElement = document.querySelector('#goTop');
+					if (goTopElement) goTopElement.style.display = '';
+				}
+
+				if (self) self.blur();
+
+				if (tab) {
+					const header = html.querySelector('#header');
+
+					if (header) {
+						if (tab === 'product') {
+							productHeader = header;
+						}
+
+						if (tab === 'store') {
+							storeHeader = header;
+						}
+					}
+
+					const beTheFirstEl = document.querySelector('.bk-text');
+					const newBeTheFirstEl = html.querySelector('.bk-text');
+
+					if (beTheFirstEl) {
+						beTheFirstEl.replaceWith(newBeTheFirstEl);
+					}
+
+
+					reRenderHeader();
+
+					// Handle reviews-summaries widget visibility based on response
+					const existingSummariesWidget = document.querySelector('loox-reviews-summaries-widget');
+
+					if (newSummariesWidget && !existingSummariesWidget) {
+						// Load script if not already loaded
+						if (!isReviewsSummariesScriptLoaded) {
+							const dataScript = html.querySelector('#loox-reviews-summaries-data');
+							if (dataScript) {
+								const newDataScript = document.createElement('script');
+								newDataScript.textContent = dataScript.textContent;
+								document.head.appendChild(newDataScript);
+							}
+
+							const widgetScript = html.querySelector('#loox-reviews-summaries-script');
+							if (widgetScript) {
+								const newWidgetScript = document.createElement('script');
+								newWidgetScript.textContent = widgetScript.textContent;
+								document.head.appendChild(newWidgetScript);
+							}
+
+							isReviewsSummariesScriptLoaded = true;
+						}
+						newSummariesWidget.classList.add('entering');
+						grid.parentNode.insertBefore(newSummariesWidget, grid);
+						setTimeout(() => newSummariesWidget.classList.remove('entering'), 400);
+					} else if (!newSummariesWidget && existingSummariesWidget) {
+						existingSummariesWidget.remove();
+					}
+				}
+
+				if (typeof resetBadgesTooltip === "function") {
+					resetBadgesTooltip()
+				}
+
+				loadMoreInProgress = false;
+			});
+	};
+})(window);
+</script><script>function getUrlParameter(name) {
+	name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+	var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+	var results = regex.exec(location.search);
+
+	return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+(function () {
+	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+	var event_name = iOS ? 'touchend' : 'click';
+
+	var reportEngagement = window.LOOX.createReportEngagement({
+		widgetType: 'product-reviews',
+		productId: '14956190990684',
+	});
+
+	if (iOS) document.addEventListener('touchstart', {});
+
+	document.addEventListener(event_name, function (e) {
+		const loadMoreElement = e.target.closest('#loadMore');
+
+		if(loadMoreElement && loadMoreElement.classList.contains('preview-visible')) {
+			return;
+		}
+
+		if (loadMoreElement) {
+			reportEngagement('load_more_clicked');
+			loadMore(e, loadMoreElement);
+		}
+	});
+
+	document.addEventListener(event_name, function (e) {
+		const dropdownButtonElement = e.target.closest('.loox-dropdown li button');
+		if (dropdownButtonElement) {
+			const { sort: sorting, rating, tab } = dropdownButtonElement.dataset;
+			if (sorting) reportEngagement('sort_clicked', { sorting });
+			if (rating) reportEngagement('rating_filter_clicked', { rating });
+			if (tab) reportEngagement('tab_clicked', { tab });
+			if (!sorting && !rating && !tab) reportEngagement('load_more_dropdown_clicked');
+			loadMore(e, dropdownButtonElement);
+		}
+	});
+
+	document.addEventListener(event_name, function (e) {
+		const goTopElement = e.target.closest('#goTop');
+		if (goTopElement) {
+			reportEngagement('go_top_clicked');
+			loadMore(e, goTopElement);
+		}
+	});
+
+	document.addEventListener(event_name, function (e) {
+		const target = e.target.closest('#write, #bethefirst, .write-review-trigger');
+		if (target) {
+			const language = getUrlParameter('language');
+
+			window.parent.postMessage(JSON.stringify({ type: "write", frame: frameId, language }), "*");
+			reportEngagement('write_review_clicked');
+		}
+	});
+
+	document.addEventListener('keydown', function (e) {
+		const gridItem = e.target.closest('.grid-item');
+		const id = gridItem.getAttribute('data-id');
+
+		if (gridItem && (e.keyCode === 13 || e.keyCode === 32)) {
+			if (getActiveTab() === 'store') {
+				openStoreQuickview(id);
+				return;
+			}
+
+			const language = getUrlParameter('language');
+
+			window.parent.postMessage(
+				JSON.stringify({
+					type: "quickview",
+					postId: id,
+					frame: frameId,
+					ref: "product",
+					language: language,
+					thumbnails: "",
+					markHighlight: true
+				}),
+				"*"
+			);
+		}
+	});
+
+	function getActiveTab() {
+		const tabs = document.querySelector('.tabs');
+
+		if (tabs) {
+			return tabs.getAttribute('data-active');
+		}
+
+		return 'product'
+	}
+
+	function reportClick(e) {
+		const gridItem = e.target.closest('.grid-item');
+		const postId = gridItem ? gridItem.getAttribute('data-id') : "";
+		
+		window.parent.postMessage(JSON.stringify({
+		type: 'reportShowOriginalClick',
+		frame: frameId,
+		url: "https://fujin.loox.io/e",
+		postId,
+		data: [
+			'cat=widget-event',
+			'sub=product-reviews-widget',
+			'el_cat=auto-translations-button',
+			'a=click',
+			'el=translated_reviews',
+			's=show-original-button',
+			'country=EE',
+			'lang=',
+			'd=treatmedy.com',
+			'c=Nkxv62I8Ba',
+			'pid=14956190990684',
+			],
+		}), "*");
+	}
+
+	function onShowOriginalClick(el, e) {
+		if(false) return;
+
+		const id = el.getAttribute('data-review-id');
+		const showOriginal = el.getAttribute('data-show-original') === 'true';
+
+		loadReviewItem(id, showOriginal);
+
+		reportClick(e);
+		reportEngagement('show_original_clicked', { postId: id });
+		e.stopImmediatePropagation();
+	}
+
+	function onProductThumbnailContainerClick(el) {
+		const postId = el ? el.getAttribute('data-product-review-id') : null;
+		if (postId) {
+			const showOriginal = el ? el.getAttribute('data-show-original') : null;
+			const language = getUrlParameter('language');
+
+			reportEngagement('review_clicked', { postId });
+			window.parent.postMessage(JSON.stringify({
+				type: "quickview",
+				postId,
+				frame: frameId,
+				ref: "product",
+				language,
+				thumbnails: "",
+				showOriginal: showOriginal === 'true',
+				markHighlight: true
+			}), "*");
+		}
+	}
+
+	document.addEventListener('click', function (e) {
+		const showOriginalCtaEl = e.target.closest('.show-original-cta');
+		if (showOriginalCtaEl) {
+			onShowOriginalClick(showOriginalCtaEl, e);
+			return;
+		}
+
+		const productThumbnailContainerEl = e.target.closest('.product-thumbnail-container');
+		if (productThumbnailContainerEl && getActiveTab() !== 'store') {
+			onProductThumbnailContainerClick(productThumbnailContainerEl);
+			return;
+		}
+
+		const gridItem = e.target.closest('.grid-item');
+		if (gridItem) {
+			var id = gridItem.getAttribute('data-id');
+			var language = getUrlParameter('language');
+			const selector = 'data-show-original';
+			const dataShowOriginalEl = gridItem.querySelector(`[${selector}]`);
+			const showOriginal = dataShowOriginalEl?.getAttribute(`${selector}`) === 'false';
+
+			if (getActiveTab() === 'store') {
+				reportEngagement('store_review_clicked', { postId: id });
+				openStoreQuickview(id, showOriginal);
+				return;
+			};
+
+			reportEngagement('review_clicked', { postId: id });
+			window.parent.postMessage(JSON.stringify({
+				type: "quickview",
+				postId: id,
+				frame: frameId,
+				ref: "product",
+				language,
+				thumbnails: "",
+				showOriginal,
+				markHighlight: true
+			}), "*");
+
+			return;
+		}
+	});
+})();
+</script><script>(function () {
+	var loaded = false;
+	document.addEventListener('iframe-has-height', function () {
+		var widgetFont = 'Poppins';
+
+		var init = function () {
+			loaded = true;
+			document.dispatchEvent(new CustomEvent('font-loaded'));
+			document.body.className = "grid-active";
+		};
+
+		var delayedInit = function() {
+			setTimeout(function() {
+				init();
+			}, 0);
+		}
+
+		if (typeof Promise === "function") {
+			if(document.fonts && document.fonts.ready) {
+				return document.fonts.ready.then(delayedInit, delayedInit);
+			}
+
+			return new FontFaceObserver(widgetFont).load().then(delayedInit, delayedInit);
+		}
+
+		setTimeout(function () {
+			if (loaded) return;
+			init();
+		}, 1000);
+	});
+
+	document.addEventListener('iframe-resize', function () {
+		var height = document.getElementsByTagName('html')[0].offsetHeight;
+		window.parent.postMessage(JSON.stringify({
+			type: 'resize',
+			height: height,
+			frame: frameId
+		}), "*");
+	});
+
+	document.onreadystatechange = function () {
+		if (document.readyState !== 'complete') return;
+		var h = 0;
+		var has_height = false;
+
+		setInterval(function () {
+			var { offsetHeight } = document.getElementsByTagName('html')[0];
+
+			if (offsetHeight > 0 && !has_height) {
+				has_height = true;
+				document.dispatchEvent(new CustomEvent('iframe-has-height'));
+			}
+
+			if ((h < offsetHeight || Math.abs(offsetHeight - h) >= 50) && !LOOX.inHcpModalMode) {
+				h = offsetHeight;
+				window.parent.postMessage(JSON.stringify({ type: 'resize', height: h, frame: frameId }), "*");
+			}
+		}, 100);
+	};
+})();
+
+function openStoreQuickview(storeReviewId, showOriginal = false) {
+	const language = getUrlParameter('language');
+
+	window.parent.postMessage(JSON.stringify({
+		type: "store-review-quickview",
+		storeReviewId,
+		frame: frameId,
+		ref: "product_widget",
+		language,
+		showOriginal
+	}), "*");
+}
+</script><script>(function() {
+    var dist_open = null;
+    var current_tab = document.querySelector('.tabs')?.getAttribute('data-active');
+
+    function handleChevron() {
+        const headerChevron = document.querySelector('.header-chevron');
+        if (headerChevron) {
+            Array.from(headerChevron.children).forEach(child => {
+                if (child.classList.contains('chevron-hide')) child.classList.remove('chevron-hide');
+                else child.classList.add('chevron-hide');
+            });
+        }
+    }
+
+    function openDist() {
+        const headerChevron = document.querySelector('.header-chevron');
+        window.focus();
+
+        const reviewsDist = document.querySelector('.reviews-dist');
+        if (reviewsDist) reviewsDist.style.display = 'block';
+
+        if (headerChevron) headerChevron.classList.add('dialog-open');
+
+        const summaryContent = document.querySelector('.summary-content.b');
+        if (summaryContent) summaryContent.ariaExpanded = "true";
+
+        dist_open = true;
+        handleChevron();
+
+        window.parent.postMessage(JSON.stringify({
+            type: 'set-ref-interaction',
+            ref: 'loox-header-dist',
+            frame: frameId
+        }), "*");
+    }
+
+    function closeDist() {
+        const headerChevron = document.querySelector('.header-chevron');
+        if (distributionDropdown) distributionDropdown.classList.add('close-dialog-animation');
+
+        dist_open = null;
+
+        const summaryContent = document.querySelector('.summary-content.b');
+        if (summaryContent) summaryContent.ariaExpanded = "true";
+
+        if (headerChevron) {
+            headerChevron.classList.remove('dialog-open');
+            headerChevron.blur();
+        }
+
+        handleChevron();
+    }
+
+    addAnimationendEventListener();
+
+    function closeDistributionOnClickOutside(e) {
+        if (window.innerWidth <= 480 || !dist_open) {
+            return;
+        }
+
+        const parentElementWithPanelDist = e.target.closest('[data-panel="dist"]');
+
+        if (!parentElementWithPanelDist) { 
+            closeDist();
+        }
+    }
+
+    function closeDistributionDialogOnEscButton(e) {
+        if (e.keyCode != 27) return;
+
+        if (dist_open)
+            closeDist();
+    };
+
+    function addAnimationendEventListener() {
+        distributionDropdown = document.getElementsByClassName('reviews-dist')[0];
+        if (distributionDropdown) {
+            distributionDropdown.addEventListener('animationend', function () {
+                if (distributionDropdown.classList.contains('close-dialog-animation')) {
+                    distributionDropdown.classList.remove('close-dialog-animation');
+
+                    const reviewsDist = document.querySelector('.reviews-dist');
+                    if (reviewsDist) reviewsDist.style.display = 'none';
+                }
+            })
+        }
+    }
+
+    window.addEventListener('click', closeDistributionOnClickOutside);
+    window.addEventListener('keyup', closeDistributionDialogOnEscButton);
+
+    document.addEventListener('click', function (e) {
+        addAnimationendEventListener();
+
+        const tabEl = e.target.closest('.tabs__tab');
+        if(tabEl) {
+            const dataTab = tabEl.getAttribute('data-tab');
+            if(dataTab !== current_tab) {
+                dist_open = null;
+                current_tab = dataTab;
+            }
+
+            return;
+        }
+        
+
+        const summaryContent = e.target.closest('.summary-content.b');
+
+        if(!summaryContent || !distributionDropdown) return;
+
+        if(!dist_open) distributionDropdown.classList.remove('close-dialog-animation');
+
+        if(!dist_open) openDist();
+        else closeDist();
+    });
+
+    document.querySelector('.loox-dropdown.reviews-dist')?.addEventListener('click', function (e) {
+        e.stopPropagation();
+    });
+
+    window.addEventListener('blur', function () {
+        if (window.innerWidth > 480 && dist_open) closeDist();
+    })
+})()</script><script>(function() {
+    var menu_open = null
+
+    function openDropDown() {
+        window.focus();
+        menu_open = true;
+        const dropdown = document.querySelector('ul.loox-dropdown');
+        if (dropdown) dropdown.style.display = 'block';
+        window.parent.postMessage(JSON.stringify({
+            type: 'set-ref-interaction',
+            ref: 'loox-header-menu',
+            frame: frameId
+        }), "*");
+    }
+
+    function closeDropDown() {
+        const menuIcon = document.querySelector('.menu-icon');
+        if (menuIcon) menuIcon.blur();
+
+        const dropdown = document.querySelector('ul.loox-dropdown');
+        if (dropdown) dropdown.style.display = 'none';
+
+        menu_open = null;
+    }
+
+    document.addEventListener('click', function (e) {
+        const looxDropdownItem = e.target.closest('.loox-dropdown li:has(button)');
+        if (looxDropdownItem) {
+            document.querySelectorAll('.chosen-option').forEach(option => {
+                option.classList.remove('chosen-option');
+
+                const wrapper = option.closest('button');
+                if (wrapper) {
+                    wrapper.ariaPressed = "false";
+                }
+            });
+
+            const button = looxDropdownItem.querySelector('button')
+            if (button) button.ariaPressed = "true";
+
+            const span = looxDropdownItem.querySelector('span');
+            if (span) span.classList.add('chosen-option');
+
+            closeDropDown();
+
+            return;
+        }
+
+        const menuIcon = e.target.closest('.menu-icon');
+        if (!menuIcon) return;
+
+        if (!menu_open) openDropDown();
+        else closeDropDown();
+    });
+
+    function closeDialogOnClickOutside(e) {
+        if (e.target.dataset.panel != "dropdown" && menu_open) closeDropDown();
+    }
+
+    function closeDialogOnEscButton(e) {
+        if (e.keyCode != 27) return;
+        if (menu_open) closeDropDown();
+    };
+
+    window.addEventListener('click', closeDialogOnClickOutside);
+    window.addEventListener('keyup', closeDialogOnEscButton);
+    window.addEventListener('blur', closeDropDown);
+})()</script></body></html>
