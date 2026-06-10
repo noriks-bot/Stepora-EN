@@ -7,7 +7,7 @@
 
 $clone_dir   = get_template_directory()     . '/assets/stepora-clone';
 $clone_uri   = get_template_directory_uri() . '/assets/stepora-clone';
-$source_file = $clone_dir . '/site/products/bunionfix.html';
+$source_file = $clone_dir . '/site/products/bunionfix-v2.html';
 
 if ( ! file_exists( $source_file ) ) {
     status_header( 500 );
@@ -28,6 +28,27 @@ $replacements = array(
 );
 
 $html = strtr( $html, $replacements );
+// Fix broken brand-replaced domains
+$brand_domain_map = array(
+    "//restora-paris.com/cdn/" => $clone_uri . "/site/cdn/",
+    "//soya-paris.com/cdn/"    => $clone_uri . "/site/cdn/",
+    "//puralux.local/cdn/"     => $clone_uri . "/site/cdn/",
+    "//zimadental.nl/cdn/"     => $clone_uri . "/site/cdn/",
+    "//stepora.local/cdn/"     => $clone_uri . "/site/cdn/",
+    "//treatmedy.com/cdn/"     => $clone_uri . "/site/cdn/",
+    "//calmara.local/cdn/"     => $clone_uri . "/site/cdn/",
+    "//callixe.com/cdn/"       => $clone_uri . "/site/cdn/",
+    "https://restora-paris.com/cdn/" => $clone_uri . "/site/cdn/",
+    "https://soya-paris.com/cdn/"    => $clone_uri . "/site/cdn/",
+    "https://puralux.local/cdn/"     => $clone_uri . "/site/cdn/",
+    "https://zimadental.nl/cdn/"     => $clone_uri . "/site/cdn/",
+    "https://stepora.local/cdn/"     => $clone_uri . "/site/cdn/",
+    "https://treatmedy.com/cdn/"     => $clone_uri . "/site/cdn/",
+    "https://calmara.local/cdn/"     => $clone_uri . "/site/cdn/",
+    "https://callixe.com/cdn/"       => $clone_uri . "/site/cdn/",
+);
+$html = strtr( $html, $brand_domain_map );
+
 
 // Strip Shrine theme protection + suspicious shopify.jsdeliver.cloud loader.
 $html = preg_replace(
