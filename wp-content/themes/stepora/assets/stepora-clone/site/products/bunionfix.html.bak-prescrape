@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
 <head><script data-source-attribution="shopify.event_observer.bootstrap">
-(function(){let e=navigator,t=`prototype`,n=`sendBeacon`,r=e[n],i=fetch,a=XMLHttpRequest[t],{open:o,send:s}=a,c=`EventListener`,l=`add${c}`,u=`remove${c}`,d=EventTarget[t],f=d[l],p=d[u],m=e=>Error((e=document.currentScript)&&[e?.src,e?.id||e?.dataset?.sourceAttribution]),h=(e=[],t=0)=>(e.p=n=>e[t++%1e3]=n,[e,t=>(e.forEach(e.p=t),e.length=0)]),[g,_]=h(),[v,y]=h(),b,x=new WeakMap,S=e=>e&&g.p([e,b||[m()]]);d[l]=function(e,t,n){let r=this,i=t?.handleEvent||t,a=x.get(t),o=m();i?.call&&!a&&x.set(t,a=function(e){b=[o,e.type];try{i.call(t==i?this:t,e)}finally{b=null}}),v.p([e,o,a,r?.tagName||r+``,r?.id]),f.call(r,e,a||t,n)},d[u]=function(e,t,n){p.call(this,e,x.get(t)||t,n)},a.open=function(e,t){x.set(this,[t+``,e]),o.apply(this,arguments)},a.send=function(e){S(x.get(this)),s.call(this,e)},fetch=(e,t)=>(S([(e?.url||e)+``,t?.method]),i(e,t)),e[n]=(t,n)=>(S([t+``,``]),r.call(e,t,n)),setTimeout(()=>import("https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/storefront/assets/storefront/event_observer_reporter-de731130.js").then(e=>e.$(_,y,f,i,`60583772343`)))})();
+(function(){let e=navigator,t=`prototype`,n=`sendBeacon`,r=e[n],i=fetch,a=XMLHttpRequest[t],{open:o,send:s}=a,c=`EventListener`,l=`add${c}`,u=`remove${c}`,d=EventTarget[t],f=d[l],p=d[u],m=e=>Error((e=document.currentScript)&&[e?.src,e?.id||e?.dataset?.sourceAttribution]),h=(e=[],t=0)=>(e.p=n=>e[t++%1e3]=n,[e,t=>(e.forEach(e.p=t),e.length=0)]),[g,_]=h(),[v,y]=h(),b,x=new WeakMap,S=e=>e&&g.p([e,b||[m()]]);d[l]=function(e,t,n){let r=this,i=t?.handleEvent||t,a=x.get(t),o=m();i?.call&&!a&&x.set(t,a=function(e){b=[o,e.type];try{i.call(t==i?this:t,e)}finally{b=null}}),v.p([e,o,a,r?.tagName||r+``,r?.id]),f.call(r,e,a||t,n)},d[u]=function(e,t,n){p.call(this,e,x.get(t)||t,n)},a.open=function(e,t){x.set(this,[t+``,e]),o.apply(this,arguments)},a.send=function(e){S(x.get(this)),s.call(this,e)},fetch=(e,t)=>(S([(e?.url||e)+``,t?.method]),i(e,t)),e[n]=(t,n)=>(S([t+``,``]),r.call(e,t,n)),setTimeout(()=>import("https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/storefront/assets/storefront/event_observer_reporter-de731130.js").then(e=>e.$(_,y,f,i,`60583772343`)))})();
 //# sourceURL=event-observer-collector.js
 </script>
 
@@ -31,11 +31,11 @@
 <link rel="shortcut icon" href="../cdn/shop/files/Stepora_LogoMark_32x32.png" type="image/png" /><title>Stepora Corrector, Night Splint &amp; Toe Straightener | Stepora®
 </title>
 <meta name="description" content="Relieve stepora pain without surgery. Our adjustable stepora corrector uses a patented hinge to realign toes. Fits all sizes. 90-day guarantee."><meta property="og:site_name" content="Stepora">
-  <meta property="og:url" content="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/products/stepora">
+  <meta property="og:url" content="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/products/stepora">
   <meta property="og:title" content="Stepora™ Stepora - Natural At-Home Stepora Relief">
   <meta property="og:type" content="product">
-  <meta property="og:description" content="Relieve stepora pain without surgery. Our adjustable stepora corrector uses a patented hinge to realign toes. Fits all sizes. 90-day guarantee."><meta property="og:image" content="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4.png">
-    <meta property="og:image:secure_url" content="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4.png">
+  <meta property="og:description" content="Relieve stepora pain without surgery. Our adjustable stepora corrector uses a patented hinge to realign toes. Fits all sizes. 90-day guarantee."><meta property="og:image" content="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4.png">
+    <meta property="og:image:secure_url" content="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4.png">
     <meta property="og:image:width" content="1080">
     <meta property="og:image:height" content="1080"><meta name="twitter:site" content="@">
   <meta name="twitter:card" content="summary_large_image">
@@ -205,7 +205,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script id="shop-js-analytics" type="application/json">{"pageType":"product"}</script>
 <script defer="defer" async type="module" src="../cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js"></script>
 <script type="module">
-  await import("https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js");
+  await import("https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js");
 
   window.Shopify.SignInWithShop?.initShopCartSync?.({"fedCMEnabled":true,"windoidEnabled":true});
 
@@ -241,7 +241,7 @@ Shopify.SignInWithShop.User.recognized = false;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn-assets/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script data-source-attribution="shopify.loadfeatures" defer="defer" src="../cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js"></script>
 <script defer="defer" src="../cdn/shopifycloud/storefront/assets/shopify_pay/storefront-bf1cdb70.js"></script>
-<script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
+<script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
 </script>
 <script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
   function portableWalletsHideBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.add("hidden"),t.setAttribute("aria-hidden","true"),n.removeEventListener("click",e))}function portableWalletsShowBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.remove("hidden"),t.removeAttribute("aria-hidden"),n.addEventListener("click",e))}window.Shopify?.PaymentButton&&(window.Shopify.PaymentButton.hideBuyerConsent=portableWalletsHideBuyerConsent,window.Shopify.PaymentButton.showBuyerConsent=portableWalletsShowBuyerConsent);
@@ -416,8 +416,8 @@ jdgm.loadCSS(jdgm.CDN_HOST+"widget/base.css"):jdgm.loadCSS(jdgm.CDN_HOST+"shopif
           Name: "Stepora™ Stepora - Natural At-Home Stepora Relief",
           ProductID: 8509997220188,
           Categories: [],
-          ImageURL: "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_grande.png",
-          URL: "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/products/stepora",
+          ImageURL: "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_grande.png",
+          URL: "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/products/stepora",
           Brand: "Stepora",
           Price: "$49.90",
           Value: "49.90",
@@ -743,7 +743,7 @@ jdgm.loadCSS(jdgm.CDN_HOST+"widget/base.css"):jdgm.loadCSS(jdgm.CDN_HOST+"shopif
       "url": "\/products\/stepora",
       "availableForSale": true,
       "title": "Stepora™ Stepora - Natural At-Home Stepora Relief",
-      "image": "https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/Stepora_Fix_Main_Image_V4.png?height=200\u0026v=1752823634",
+      "image": "https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/Stepora_Fix_Main_Image_V4.png?height=200\u0026v=1752823634",
       "collectionIds": [],
       "options": [
         
@@ -871,7 +871,7 @@ jdgm.loadCSS(jdgm.CDN_HOST+"widget/base.css"):jdgm.loadCSS(jdgm.CDN_HOST+"shopif
       "url": "\/products\/stepora%C2%AE-toe-alignment-socks",
       "availableForSale": true,
       "title": "Stepora™ Toe Alignment Socks",
-      "image": "https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/ChatGPT_Image_Jul_16_2025_06_03_24_PM.png?height=200\u0026v=1752678306",
+      "image": "https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/ChatGPT_Image_Jul_16_2025_06_03_24_PM.png?height=200\u0026v=1752678306",
       "collectionIds": [],
       "options": [
         
@@ -1084,9 +1084,9 @@ window.vtlsLiquidData.apiHosts = {
 	...window.vtlsLiquidData.apiHosts,
 	"1": "https://appsolve.io"
 };
-	window.vtlsLiquidData.moduleSettings = {"5":[],"7":[],"9":[],"10":{"66":"circle","67":"ffffff","68":"pop_fade","69":"left","70":2,"71":"01a4ff"},"11":{"19":"Learn More","20":"I understand","21":"fixed","22":"https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/policies\/privacy-policy","23":"We use cookies to improve your experience and track website usage.","379":true,"511":"f6f6f6","512":"040404","513":"00c5f5","514":"ffffff","536":"a2a2a2","859":"hidden","860":"visible","864":"We use cookies to improve your experience and track website usage.","865":"Accept","866":"929292","867":"929292","868":"Decline","871":"outline","875":"dddddd"},"12":{"29":true,"30":true,"31":false,"32":true,"108":true},"13":{"34":"Sale Ending Shortly... 👈"},"30":{"128":false,"129":true,"134":"1,3,5,4,2,105,131,73,43,140,63,141,152","136":false,"138":"Prices shown here are calculated in {{ visible_currency }}, but the final order will be paid in {{ default_currency }}.","139":true,"140":true,"141":true,"150":true,"151":"bottom_left","152":"bottom_left","168":95,"191":"ffffff","249":true,"298":false,"337":"ffffff","338":"f4f4f4","339":"111111","415":false,"459":true,"524":true,"609":14,"852":"f6f6f6"},"48":{"469":true,"491":true,"588":true,"595":false,"603":"","605":"","606":"@media (max-width: 769px) {\n    .vtl-pr-review-stars-snippet {\n        text-align: center !important;\n        justify-content: center !important;\n    }\n}\n\n.vitals-currency-converter .vitals-nice-select .list {\n    bottom: 45px !important;\n}","781":true,"783":1,"876":0,"1076":false,"1105":0,"1198":false}};
+	window.vtlsLiquidData.moduleSettings = {"5":[],"7":[],"9":[],"10":{"66":"circle","67":"ffffff","68":"pop_fade","69":"left","70":2,"71":"01a4ff"},"11":{"19":"Learn More","20":"I understand","21":"fixed","22":"https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/policies\/privacy-policy","23":"We use cookies to improve your experience and track website usage.","379":true,"511":"f6f6f6","512":"040404","513":"00c5f5","514":"ffffff","536":"a2a2a2","859":"hidden","860":"visible","864":"We use cookies to improve your experience and track website usage.","865":"Accept","866":"929292","867":"929292","868":"Decline","871":"outline","875":"dddddd"},"12":{"29":true,"30":true,"31":false,"32":true,"108":true},"13":{"34":"Sale Ending Shortly... 👈"},"30":{"128":false,"129":true,"134":"1,3,5,4,2,105,131,73,43,140,63,141,152","136":false,"138":"Prices shown here are calculated in {{ visible_currency }}, but the final order will be paid in {{ default_currency }}.","139":true,"140":true,"141":true,"150":true,"151":"bottom_left","152":"bottom_left","168":95,"191":"ffffff","249":true,"298":false,"337":"ffffff","338":"f4f4f4","339":"111111","415":false,"459":true,"524":true,"609":14,"852":"f6f6f6"},"48":{"469":true,"491":true,"588":true,"595":false,"603":"","605":"","606":"@media (max-width: 769px) {\n    .vtl-pr-review-stars-snippet {\n        text-align: center !important;\n        justify-content: center !important;\n    }\n}\n\n.vitals-currency-converter .vitals-nice-select .list {\n    bottom: 45px !important;\n}","781":true,"783":1,"876":0,"1076":false,"1105":0,"1198":false}};
 
-window.vtlsLiquidData.shopThemeName = "Impulse";window.vtlsLiquidData.settingTranslation = {"11":{"19":{"en":"Learn More"},"20":{"en":"I understand"},"23":{"en":"We use cookies to improve your experience and track website usage."},"864":{"en":"We use cookies to improve your experience and track website usage."},"865":{"en":"Accept"},"868":{"en":"Decline"}},"13":{"34":{"en":"Sale Ending Shortly... 👈"}},"30":{"138":{"en":"Prices shown here are calculated in {{ visible_currency }}, but the final order will be paid in {{ default_currency }}."}}};window.vtlsLiquidData.shopSettings={};window.vtlsLiquidData.shopSettings.cartType="drawer";window.vtlsLiquidData.spat="6f433ee0acbf1ef534fada20a5e6c78d";window.vtlsLiquidData.storefrontAccessTokens={"1":"6f433ee0acbf1ef534fada20a5e6c78d"};window.vtlsLiquidData.shopInfo={id:60583772343,domain:"stepora.com",shopifyDomain:"stepora.myshopify.com",primaryLocaleIsoCode: "en",defaultCurrency:"USD",enabledCurrencies:["AED","AUD","CAD","CHF","CZK","DKK","EUR","GBP","HKD","HUF","INR","ISK","JPY","KRW","MYR","NZD","PHP","PLN","RON","RSD","SAR","SEK","SGD","THB","TWD","UAH","USD"],moneyFormat:"\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e",moneyWithCurrencyFormat:"\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e",appId:"1",appName:"Vitals",};window.vtlsLiquidData.acceptedScopes = {"1":[26,25,27,28,29,30,31,32,33,34,35,36,37,38,22,2,8,14,20,24,16,18,10,13,21,4,11,1,7,3,19,23,15,17,9,12,47,48,49,51,46,53,50,52]};window.vtlsLiquidData.product = {"id": 8509997220188,"available": true,"title": "Stepora™ Stepora - Natural At-Home Stepora Relief","handle": "stepora","vendor": "Stepora","type": "","tags": [],"description": "1","featured_image":{"src": "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4.png","aspect_ratio": "1.0"},"collectionIds": [],"variants": [{"id": 47134168121692,"title": "Default Title","option1": "Default Title","option2": null,"option3": null,"price": 4990,"compare_at_price": 8995,"available": true,"image":null,"featured_media_id":null,"is_preorderable":0}],"options": [{"name": "Title"}],"metafields": {"reviews": {"rating_count": 894,"rating": 4.5}}};window.vtlsLiquidData.localization = [{"co": "AU","cu": "AUD"},{"co": "AT","cu": "EUR"},{"co": "BE","cu": "EUR"},{"co": "BR","cu": "USD"},{"co": "BG","cu": "EUR"},{"co": "CA","cu": "CAD"},{"co": "CL","cu": "USD"},{"co": "CO","cu": "USD"},{"co": "HR","cu": "EUR"},{"co": "CY","cu": "EUR"},{"co": "CZ","cu": "CZK"},{"co": "DK","cu": "DKK"},{"co": "EE","cu": "EUR"},{"co": "FI","cu": "EUR"},{"co": "FR","cu": "EUR"},{"co": "DE","cu": "EUR"},{"co": "GR","cu": "EUR"},{"co": "HK","cu": "HKD"},{"co": "HU","cu": "HUF"},{"co": "IS","cu": "ISK"},{"co": "IN","cu": "INR"},{"co": "IE","cu": "EUR"},{"co": "IT","cu": "EUR"},{"co": "JP","cu": "JPY"},{"co": "LV","cu": "EUR"},{"co": "LT","cu": "EUR"},{"co": "LU","cu": "EUR"},{"co": "MY","cu": "MYR"},{"co": "MT","cu": "EUR"},{"co": "NL","cu": "EUR"},{"co": "NZ","cu": "NZD"},{"co": "NO","cu": "USD"},{"co": "PH","cu": "PHP"},{"co": "PL","cu": "PLN"},{"co": "PT","cu": "EUR"},{"co": "RO","cu": "RON"},{"co": "SA","cu": "SAR"},{"co": "RS","cu": "RSD"},{"co": "SG","cu": "SGD"},{"co": "SK","cu": "EUR"},{"co": "SI","cu": "EUR"},{"co": "KR","cu": "KRW"},{"co": "ES","cu": "EUR"},{"co": "SE","cu": "SEK"},{"co": "CH","cu": "CHF"},{"co": "TW","cu": "TWD"},{"co": "TH","cu": "THB"},{"co": "UA","cu": "UAH"},{"co": "AE","cu": "AED"},{"co": "GB","cu": "GBP"},{"co": "US","cu": "USD"}];window.vtlsLiquidData.cacheKeys = [1676930517,1663684452,0,1663684452,1676930517,0,0 ];</script><script id="vtlsAebDynamicFunctions" class="notranslate">window.vtlsLiquidData = window.vtlsLiquidData || {};window.vtlsLiquidData.dynamicFunctions = ({$,vitalsGet,vitalsSet,VITALS_GET_$_DESCRIPTION,VITALS_GET_$_END_SECTION,VITALS_GET_$_ATC_FORM,VITALS_GET_$_ATC_BUTTON,submit_button,form_add_to_cart,cartItemVariantId,VITALS_EVENT_CART_UPDATED,VITALS_EVENT_DISCOUNTS_LOADED,VITALS_EVENT_RENDER_CAROUSEL_STARS,VITALS_EVENT_RENDER_COLLECTION_STARS,VITALS_EVENT_SMART_BAR_RENDERED,VITALS_EVENT_SMART_BAR_CLOSED,VITALS_EVENT_TABS_RENDERED,VITALS_EVENT_VARIANT_CHANGED,VITALS_EVENT_ATC_BUTTON_FOUND,VITALS_IS_MOBILE,VITALS_PAGE_TYPE,VITALS_APPEND_CSS,VITALS_HOOK__CAN_EXECUTE_CHECKOUT,VITALS_HOOK__GET_CUSTOM_CHECKOUT_URL_PARAMETERS,VITALS_HOOK__GET_CUSTOM_VARIANT_SELECTOR,VITALS_HOOK__GET_IMAGES_DEFAULT_SIZE,VITALS_HOOK__ON_CLICK_CHECKOUT_BUTTON,VITALS_HOOK__DONT_ACCELERATE_CHECKOUT,VITALS_HOOK__ON_ATC_STAY_ON_THE_SAME_PAGE,VITALS_FLAG__IGNORE_VARIANT_ID_FROM_URL,VITALS_FLAG__UPDATE_ATC_BUTTON_REFERENCE,VITALS_FLAG__UPDATE_CART_ON_CHECKOUT,VITALS_FLAG__USE_CAPTURE_FOR_ATC_BUTTON,VITALS_FLAG__USE_FIRST_ATC_SPAN_FOR_PRE_ORDER,VITALS_FLAG__USE_HTML_FOR_STICKY_ATC_BUTTON,VITALS_FLAG__STOP_EXECUTION,VITALS_FLAG__USE_CUSTOM_COLLECTION_FILTER_DROPDOWN,VITALS_FLAG__PRE_ORDER_START_WITH_OBSERVER,VITALS_FLAG__PRE_ORDER_OBSERVER_DELAY,VITALS_FLAG__ON_CHECKOUT_CLICK_USE_CAPTURE_EVENT,handle,}) => {return {"147": {"location":"form","locator":"after"},"607": (html) => {
+window.vtlsLiquidData.shopThemeName = "Impulse";window.vtlsLiquidData.settingTranslation = {"11":{"19":{"en":"Learn More"},"20":{"en":"I understand"},"23":{"en":"We use cookies to improve your experience and track website usage."},"864":{"en":"We use cookies to improve your experience and track website usage."},"865":{"en":"Accept"},"868":{"en":"Decline"}},"13":{"34":{"en":"Sale Ending Shortly... 👈"}},"30":{"138":{"en":"Prices shown here are calculated in {{ visible_currency }}, but the final order will be paid in {{ default_currency }}."}}};window.vtlsLiquidData.shopSettings={};window.vtlsLiquidData.shopSettings.cartType="drawer";window.vtlsLiquidData.spat="6f433ee0acbf1ef534fada20a5e6c78d";window.vtlsLiquidData.storefrontAccessTokens={"1":"6f433ee0acbf1ef534fada20a5e6c78d"};window.vtlsLiquidData.shopInfo={id:60583772343,domain:"stepora.com",shopifyDomain:"stepora.myshopify.com",primaryLocaleIsoCode: "en",defaultCurrency:"USD",enabledCurrencies:["AED","AUD","CAD","CHF","CZK","DKK","EUR","GBP","HKD","HUF","INR","ISK","JPY","KRW","MYR","NZD","PHP","PLN","RON","RSD","SAR","SEK","SGD","THB","TWD","UAH","USD"],moneyFormat:"\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e",moneyWithCurrencyFormat:"\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e",appId:"1",appName:"Vitals",};window.vtlsLiquidData.acceptedScopes = {"1":[26,25,27,28,29,30,31,32,33,34,35,36,37,38,22,2,8,14,20,24,16,18,10,13,21,4,11,1,7,3,19,23,15,17,9,12,47,48,49,51,46,53,50,52]};window.vtlsLiquidData.product = {"id": 8509997220188,"available": true,"title": "Stepora™ Stepora - Natural At-Home Stepora Relief","handle": "stepora","vendor": "Stepora","type": "","tags": [],"description": "1","featured_image":{"src": "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4.png","aspect_ratio": "1.0"},"collectionIds": [],"variants": [{"id": 47134168121692,"title": "Default Title","option1": "Default Title","option2": null,"option3": null,"price": 4990,"compare_at_price": 8995,"available": true,"image":null,"featured_media_id":null,"is_preorderable":0}],"options": [{"name": "Title"}],"metafields": {"reviews": {"rating_count": 894,"rating": 4.5}}};window.vtlsLiquidData.localization = [{"co": "AU","cu": "AUD"},{"co": "AT","cu": "EUR"},{"co": "BE","cu": "EUR"},{"co": "BR","cu": "USD"},{"co": "BG","cu": "EUR"},{"co": "CA","cu": "CAD"},{"co": "CL","cu": "USD"},{"co": "CO","cu": "USD"},{"co": "HR","cu": "EUR"},{"co": "CY","cu": "EUR"},{"co": "CZ","cu": "CZK"},{"co": "DK","cu": "DKK"},{"co": "EE","cu": "EUR"},{"co": "FI","cu": "EUR"},{"co": "FR","cu": "EUR"},{"co": "DE","cu": "EUR"},{"co": "GR","cu": "EUR"},{"co": "HK","cu": "HKD"},{"co": "HU","cu": "HUF"},{"co": "IS","cu": "ISK"},{"co": "IN","cu": "INR"},{"co": "IE","cu": "EUR"},{"co": "IT","cu": "EUR"},{"co": "JP","cu": "JPY"},{"co": "LV","cu": "EUR"},{"co": "LT","cu": "EUR"},{"co": "LU","cu": "EUR"},{"co": "MY","cu": "MYR"},{"co": "MT","cu": "EUR"},{"co": "NL","cu": "EUR"},{"co": "NZ","cu": "NZD"},{"co": "NO","cu": "USD"},{"co": "PH","cu": "PHP"},{"co": "PL","cu": "PLN"},{"co": "PT","cu": "EUR"},{"co": "RO","cu": "RON"},{"co": "SA","cu": "SAR"},{"co": "RS","cu": "RSD"},{"co": "SG","cu": "SGD"},{"co": "SK","cu": "EUR"},{"co": "SI","cu": "EUR"},{"co": "KR","cu": "KRW"},{"co": "ES","cu": "EUR"},{"co": "SE","cu": "SEK"},{"co": "CH","cu": "CHF"},{"co": "TW","cu": "TWD"},{"co": "TH","cu": "THB"},{"co": "UA","cu": "UAH"},{"co": "AE","cu": "AED"},{"co": "GB","cu": "GBP"},{"co": "US","cu": "USD"}];window.vtlsLiquidData.cacheKeys = [1676930517,1663684452,0,1663684452,1676930517,0,0 ];</script><script id="vtlsAebDynamicFunctions" class="notranslate">window.vtlsLiquidData = window.vtlsLiquidData || {};window.vtlsLiquidData.dynamicFunctions = ({$,vitalsGet,vitalsSet,VITALS_GET_$_DESCRIPTION,VITALS_GET_$_END_SECTION,VITALS_GET_$_ATC_FORM,VITALS_GET_$_ATC_BUTTON,submit_button,form_add_to_cart,cartItemVariantId,VITALS_EVENT_CART_UPDATED,VITALS_EVENT_DISCOUNTS_LOADED,VITALS_EVENT_RENDER_CAROUSEL_STARS,VITALS_EVENT_RENDER_COLLECTION_STARS,VITALS_EVENT_SMART_BAR_RENDERED,VITALS_EVENT_SMART_BAR_CLOSED,VITALS_EVENT_TABS_RENDERED,VITALS_EVENT_VARIANT_CHANGED,VITALS_EVENT_ATC_BUTTON_FOUND,VITALS_IS_MOBILE,VITALS_PAGE_TYPE,VITALS_APPEND_CSS,VITALS_HOOK__CAN_EXECUTE_CHECKOUT,VITALS_HOOK__GET_CUSTOM_CHECKOUT_URL_PARAMETERS,VITALS_HOOK__GET_CUSTOM_VARIANT_SELECTOR,VITALS_HOOK__GET_IMAGES_DEFAULT_SIZE,VITALS_HOOK__ON_CLICK_CHECKOUT_BUTTON,VITALS_HOOK__DONT_ACCELERATE_CHECKOUT,VITALS_HOOK__ON_ATC_STAY_ON_THE_SAME_PAGE,VITALS_FLAG__IGNORE_VARIANT_ID_FROM_URL,VITALS_FLAG__UPDATE_ATC_BUTTON_REFERENCE,VITALS_FLAG__UPDATE_CART_ON_CHECKOUT,VITALS_FLAG__USE_CAPTURE_FOR_ATC_BUTTON,VITALS_FLAG__USE_FIRST_ATC_SPAN_FOR_PRE_ORDER,VITALS_FLAG__USE_HTML_FOR_STICKY_ATC_BUTTON,VITALS_FLAG__STOP_EXECUTION,VITALS_FLAG__USE_CUSTOM_COLLECTION_FILTER_DROPDOWN,VITALS_FLAG__PRE_ORDER_START_WITH_OBSERVER,VITALS_FLAG__PRE_ORDER_OBSERVER_DELAY,VITALS_FLAG__ON_CHECKOUT_CLICK_USE_CAPTURE_EVENT,handle,}) => {return {"147": {"location":"form","locator":"after"},"607": (html) => {
 							if (vitalsGet('VITALS_PAGE_TYPE') === 'product') { 
     function updateButtonText() {
         const button = $('#bundle-sticky_submit');
@@ -1120,7 +1120,7 @@ window.vtlsLiquidData.shopThemeName = "Impulse";window.vtlsLiquidData.settingTra
 <script>
   window.__TREKKIE_SHIM_QUEUE = window.__TREKKIE_SHIM_QUEUE || [];
 </script>
-<script id="web-pixels-manager-setup">(function(){var wpmLoader=function(){"use strict";return function(e,d,r,n){var o=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};if(!Boolean(null==(i=null==(a=window.Shopify)?void 0:a.analytics)?void 0:i.replayQueue)){var a,i;window.Shopify=window.Shopify||{};var t=window.Shopify;t.analytics=t.analytics||{};var s=t.analytics;s.replayQueue=[],s.publish=function(e,d,r){return s.replayQueue.push([e,d,r]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l,u,c,m,p,f,h,g,y,w,v,b,S,P=(u=(l={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,c=l.legacy,(m=navigator.userAgent).match(u)?"modern":m.match(c)?"legacy":"unknown"),C="modern"===P?"modern":"legacy",_=(null!=n?n:{modern:"",legacy:""})[C],O=[(p={baseUrl:d,hashVersion:r,buildTarget:C}).baseUrl,"/wpm","/b",p.hashVersion,"modern"===p.buildTarget?"m":"l",".js"].join(""),U=(f={version:r,bundleTarget:P,surface:e.surface,pageUrl:self.location.href,monorailEndpoint:e.monorailEndpoint},h=f.version,g=f.bundleTarget,y=f.surface,w=f.pageUrl,v=f.monorailEndpoint,{emit:function(e){var d=e.status,r=e.errorMsg,n=(new Date).getTime(),o=JSON.stringify({metadata:{event_sent_at_ms:n},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:h,bundle_target:g,page_url:w,status:d,surface:y,error_msg:r},metadata:{event_created_at_ms:n}}]});if(!v)return console&&console.warn&&console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."),!1;try{return self.navigator.sendBeacon.bind(self.navigator)(v,o)}catch(e){}var a=new XMLHttpRequest;try{return a.open("POST",v,!0),a.setRequestHeader("Content-Type","text/plain"),a.send(o),!0}catch(e){return console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."),!1}}});try{o.browserTarget=P,function(e){var d=e.src,r=e.async,n=void 0===r||r,o=e.onload,a=e.onerror,i=e.sri,t=e.scriptDataAttributes,s=void 0===t?{}:t,l=document.createElement("script"),u=document.querySelector("head"),c=document.querySelector("body");if(l.async=n,l.src=d,i&&(l.integrity=i,l.crossOrigin="anonymous"),s)for(var m in s)if(Object.prototype.hasOwnProperty.call(s,m))try{l.dataset[m]=s[m]}catch(e){}if(o&&l.addEventListener("load",o),a&&l.addEventListener("error",a),u)u.appendChild(l);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(l)}}({src:O,async:!0,onload:function(){if(!function(){var e,d;return Boolean(null==(d=null==(e=window.Shopify)?void 0:e.analytics)?void 0:d.initialized)}()){var d=window.webPixelsManager.init(e)||void 0;if(d){var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var r=e[0],n=e[1],o=e[2];d.publishCustomEvent(r,n,o)}),r.replayQueue=[],r.publish=d.publishCustomEvent,r.visitor=d.visitor,r.initialized=!0}}},onerror:function(){return U.emit({status:"failed",errorMsg:"".concat(O," has failed to load")})},sri:(b=_,S=/^sha384-[A-Za-z0-9+/=]+$/,"string"==typeof b&&S.test(b)?_:""),scriptDataAttributes:o}),U.emit({status:"loading"})}catch(e){U.emit({status:"failed",errorMsg:(null==e?void 0:e.message)||"Unknown error"})}}}}();wpmLoader({shopId: 60583772343,storefrontBaseUrl: "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["2dca8a86","d5bdd5d0","3209b71c","5acaffe6","86d76263","3b3c7daf","6faea013"],webPixelsConfigList: [{"id":"4401496412","configuration":"{\"projectId\":\"wg7rxbjh66\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"4e27c3dfbb360ace43db5c8bd52813dd","type":"APP","apiClientId":240074326017,"privacyPurposes":[],"capabilities":["advanced_dom_events"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"4345037148","configuration":"{\"accountID\":\"1220658\",\"workspaceId\":\"cfce6f67-54fe-402c-9937-cafdb903dd51\",\"projectId\":\"8814002e-e1bd-44cc-b4e0-944c50bcafeb\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"7f1561d8e89b361a3193f1f545354ae9","type":"APP","apiClientId":5461967,"privacyPurposes":["ANALYTICS"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":[],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"4323901788","configuration":"{\"webPixelName\":\"Judge.me\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"34ad157958823915625854214640f0bf","type":"APP","apiClientId":683015,"privacyPurposes":["ANALYTICS"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"4282515804","configuration":"{\"accountID\":\"2017817\",\"domain\":\"spfy-pxl.archive-digger.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"256e0f107bfa102eabd3cbf632fd11d1","type":"APP","apiClientId":117664743425,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":[],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"3687186780","configuration":"{\"accountID\":\"stepora.myshopify.com\",\"devRefreshedAt\":\"2026-01-09T08:44:04.369Z\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"4176d1264f8b5c57d4e9eb3983374bde","type":"APP","apiClientId":91904704513,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"3007873372","configuration":"{\"eventKey\":\"f04db6a7-e4f0-4b57-aae6-74f7510d878e\",\"name\":\"stepora - Axon Pixel\",\"storefrontToken\":\"c91a15afd1175a9eaa06e547c5dfc7e6\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"52ab378323058414ba06404bb0fa1bca","type":"APP","apiClientId":256560922625,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"2360836444","configuration":"{\"shopId\":\"stepora.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"31536d5a2ef62c1887054e49fd58dba0","type":"APP","apiClientId":4845829,"privacyPurposes":["ANALYTICS"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"2186477916","configuration":"{\"shopId\":\"stepora.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"18c43ac6a9a3d01c03b6328dc08a99e5","type":"APP","apiClientId":2753413,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"2031780188","configuration":"{\"shopifyDomain\":\"stepora.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"37a769b5b668b60cb0291a05db7e9499","type":"APP","apiClientId":2935586817,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"1110573404","configuration":"{\"config\":\"{\\\"google_tag_ids\\\":[\\\"G-23VYNCW91T\\\",\\\"GT-NGS3NZ8\\\"],\\\"target_country\\\":\\\"US\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"search\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"},{\\\"type\\\":\\\"begin_checkout\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"},{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":[\\\"G-23VYNCW91T\\\",\\\"MC-Z4452X94S3\\\"]},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":[\\\"G-23VYNCW91T\\\",\\\"MC-Z4452X94S3\\\"]},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":[\\\"G-23VYNCW91T\\\",\\\"MC-Z4452X94S3\\\"]},{\\\"type\\\":\\\"add_payment_info\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"},{\\\"type\\\":\\\"add_to_cart\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"}],\\\"enable_monitoring_mode\\\":false}\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"f15305aac1e98c5c26a7c80e7bc37bde","type":"APP","apiClientId":1780363,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted","enabledFlags":["9a3ed68a"]},{"id":"304218460","configuration":"{\"shopId\":\"60583772343\",\"pixelEndpoint\":\"https:\/\/wpx.svc.trueprofit.io\/api\/evt\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0c3e1c496a29e1742ccf21c8518d3164","type":"APP","apiClientId":2553263,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"287342940","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Wetracked Google Ads Pixel"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Stepora","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"stepora.myshopify.com","countryCode":"EE","storefrontUrl":"https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site"},"customer":null,"cart":null,"checkout":null,"productVariants":[{"price":{"amount":49.9,"currencyCode":"USD"},"product":{"title":"Stepora™ Stepora - Natural At-Home Stepora Relief","vendor":"Stepora","id":"8509997220188","untranslatedTitle":"Stepora™ Stepora - Natural At-Home Stepora Relief","url":"\/products\/stepora","type":""},"id":"47134168121692","image":{"src":"https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/Stepora_Fix_Main_Image_V4.png"},"sku":"","title":"Default Title","untranslatedTitle":"Default Title"}],"products":null,"purchasingCompany":null,"page":null},},"https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn","a9664f44w6a62cec8p04af10e4mb91e3447",{"modern":"","legacy":""},{"trekkieShim":true,"apiClientId":"580111","pageType":"product","resourceId":"8509997220188","shopId":"60583772343","storefrontBaseUrl":"https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"2dca8a86\", \"d5bdd5d0\", \"3209b71c\", \"5acaffe6\", \"86d76263\", \"3b3c7daf\", \"6faea013\"]","isMerchantRequest":"false","hashVersion":"a9664f44w6a62cec8p04af10e4mb91e3447","publish":"custom","events":"[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":49.9,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Stepora™ Stepora - Natural At-Home Stepora Relief\",\"vendor\":\"Stepora\",\"id\":\"8509997220188\",\"untranslatedTitle\":\"Stepora™ Stepora - Natural At-Home Stepora Relief\",\"url\":\"\/products\/stepora\",\"type\":\"\"},\"id\":\"47134168121692\",\"image\":{\"src\":\"https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/Stepora_Fix_Main_Image_V4.png\"},\"sku\":\"\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"}}]]"});})();</script><script>
+<script id="web-pixels-manager-setup">(function(){var wpmLoader=function(){"use strict";return function(e,d,r,n){var o=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{};if(!Boolean(null==(i=null==(a=window.Shopify)?void 0:a.analytics)?void 0:i.replayQueue)){var a,i;window.Shopify=window.Shopify||{};var t=window.Shopify;t.analytics=t.analytics||{};var s=t.analytics;s.replayQueue=[],s.publish=function(e,d,r){return s.replayQueue.push([e,d,r]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l,u,c,m,p,f,h,g,y,w,v,b,S,P=(u=(l={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/}).modern,c=l.legacy,(m=navigator.userAgent).match(u)?"modern":m.match(c)?"legacy":"unknown"),C="modern"===P?"modern":"legacy",_=(null!=n?n:{modern:"",legacy:""})[C],O=[(p={baseUrl:d,hashVersion:r,buildTarget:C}).baseUrl,"/wpm","/b",p.hashVersion,"modern"===p.buildTarget?"m":"l",".js"].join(""),U=(f={version:r,bundleTarget:P,surface:e.surface,pageUrl:self.location.href,monorailEndpoint:e.monorailEndpoint},h=f.version,g=f.bundleTarget,y=f.surface,w=f.pageUrl,v=f.monorailEndpoint,{emit:function(e){var d=e.status,r=e.errorMsg,n=(new Date).getTime(),o=JSON.stringify({metadata:{event_sent_at_ms:n},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:h,bundle_target:g,page_url:w,status:d,surface:y,error_msg:r},metadata:{event_created_at_ms:n}}]});if(!v)return console&&console.warn&&console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."),!1;try{return self.navigator.sendBeacon.bind(self.navigator)(v,o)}catch(e){}var a=new XMLHttpRequest;try{return a.open("POST",v,!0),a.setRequestHeader("Content-Type","text/plain"),a.send(o),!0}catch(e){return console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."),!1}}});try{o.browserTarget=P,function(e){var d=e.src,r=e.async,n=void 0===r||r,o=e.onload,a=e.onerror,i=e.sri,t=e.scriptDataAttributes,s=void 0===t?{}:t,l=document.createElement("script"),u=document.querySelector("head"),c=document.querySelector("body");if(l.async=n,l.src=d,i&&(l.integrity=i,l.crossOrigin="anonymous"),s)for(var m in s)if(Object.prototype.hasOwnProperty.call(s,m))try{l.dataset[m]=s[m]}catch(e){}if(o&&l.addEventListener("load",o),a&&l.addEventListener("error",a),u)u.appendChild(l);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(l)}}({src:O,async:!0,onload:function(){if(!function(){var e,d;return Boolean(null==(d=null==(e=window.Shopify)?void 0:e.analytics)?void 0:d.initialized)}()){var d=window.webPixelsManager.init(e)||void 0;if(d){var r=window.Shopify.analytics;r.replayQueue.forEach(function(e){var r=e[0],n=e[1],o=e[2];d.publishCustomEvent(r,n,o)}),r.replayQueue=[],r.publish=d.publishCustomEvent,r.visitor=d.visitor,r.initialized=!0}}},onerror:function(){return U.emit({status:"failed",errorMsg:"".concat(O," has failed to load")})},sri:(b=_,S=/^sha384-[A-Za-z0-9+/=]+$/,"string"==typeof b&&S.test(b)?_:""),scriptDataAttributes:o}),U.emit({status:"loading"})}catch(e){U.emit({status:"failed",errorMsg:(null==e?void 0:e.message)||"Unknown error"})}}}}();wpmLoader({shopId: 60583772343,storefrontBaseUrl: "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["2dca8a86","d5bdd5d0","3209b71c","5acaffe6","86d76263","3b3c7daf","6faea013"],webPixelsConfigList: [{"id":"4401496412","configuration":"{\"projectId\":\"wg7rxbjh66\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"4e27c3dfbb360ace43db5c8bd52813dd","type":"APP","apiClientId":240074326017,"privacyPurposes":[],"capabilities":["advanced_dom_events"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"4345037148","configuration":"{\"accountID\":\"1220658\",\"workspaceId\":\"cfce6f67-54fe-402c-9937-cafdb903dd51\",\"projectId\":\"8814002e-e1bd-44cc-b4e0-944c50bcafeb\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"7f1561d8e89b361a3193f1f545354ae9","type":"APP","apiClientId":5461967,"privacyPurposes":["ANALYTICS"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":[],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"4323901788","configuration":"{\"webPixelName\":\"Judge.me\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"34ad157958823915625854214640f0bf","type":"APP","apiClientId":683015,"privacyPurposes":["ANALYTICS"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"4282515804","configuration":"{\"accountID\":\"2017817\",\"domain\":\"spfy-pxl.archive-digger.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"256e0f107bfa102eabd3cbf632fd11d1","type":"APP","apiClientId":117664743425,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":[],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"3687186780","configuration":"{\"accountID\":\"stepora.myshopify.com\",\"devRefreshedAt\":\"2026-01-09T08:44:04.369Z\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"4176d1264f8b5c57d4e9eb3983374bde","type":"APP","apiClientId":91904704513,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"3007873372","configuration":"{\"eventKey\":\"f04db6a7-e4f0-4b57-aae6-74f7510d878e\",\"name\":\"stepora - Axon Pixel\",\"storefrontToken\":\"c91a15afd1175a9eaa06e547c5dfc7e6\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"52ab378323058414ba06404bb0fa1bca","type":"APP","apiClientId":256560922625,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"2360836444","configuration":"{\"shopId\":\"stepora.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"31536d5a2ef62c1887054e49fd58dba0","type":"APP","apiClientId":4845829,"privacyPurposes":["ANALYTICS"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"2186477916","configuration":"{\"shopId\":\"stepora.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"18c43ac6a9a3d01c03b6328dc08a99e5","type":"APP","apiClientId":2753413,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"optimized"},{"id":"2031780188","configuration":"{\"shopifyDomain\":\"stepora.myshopify.com\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"37a769b5b668b60cb0291a05db7e9499","type":"APP","apiClientId":2935586817,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_email","read_customer_personal_data"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"1110573404","configuration":"{\"config\":\"{\\\"google_tag_ids\\\":[\\\"G-23VYNCW91T\\\",\\\"GT-NGS3NZ8\\\"],\\\"target_country\\\":\\\"US\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"search\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"},{\\\"type\\\":\\\"begin_checkout\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"},{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":[\\\"G-23VYNCW91T\\\",\\\"MC-Z4452X94S3\\\"]},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":[\\\"G-23VYNCW91T\\\",\\\"MC-Z4452X94S3\\\"]},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":[\\\"G-23VYNCW91T\\\",\\\"MC-Z4452X94S3\\\"]},{\\\"type\\\":\\\"add_payment_info\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"},{\\\"type\\\":\\\"add_to_cart\\\",\\\"action_label\\\":\\\"G-23VYNCW91T\\\"}],\\\"enable_monitoring_mode\\\":false}\"}","eventPayloadVersion":"v1","runtimeContext":"OPEN","scriptVersion":"f15305aac1e98c5c26a7c80e7bc37bde","type":"APP","apiClientId":1780363,"privacyPurposes":[],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted","enabledFlags":["9a3ed68a"]},{"id":"304218460","configuration":"{\"shopId\":\"60583772343\",\"pixelEndpoint\":\"https:\/\/wpx.svc.trueprofit.io\/api\/evt\"}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0c3e1c496a29e1742ccf21c8518d3164","type":"APP","apiClientId":2553263,"privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"dataSharingAdjustments":{"protectedCustomerApprovalScopes":["read_customer_address","read_customer_email","read_customer_name","read_customer_personal_data","read_customer_phone"],"dataSharingControls":["share_all_events"]},"dataSharingState":"unrestricted"},{"id":"287342940","eventPayloadVersion":"1","runtimeContext":"LAX","scriptVersion":"1","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING","SALE_OF_DATA"],"name":"Wetracked Google Ads Pixel"},{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0460","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Stepora","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"stepora.myshopify.com","countryCode":"EE","storefrontUrl":"https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site"},"customer":null,"cart":null,"checkout":null,"productVariants":[{"price":{"amount":49.9,"currencyCode":"USD"},"product":{"title":"Stepora™ Stepora - Natural At-Home Stepora Relief","vendor":"Stepora","id":"8509997220188","untranslatedTitle":"Stepora™ Stepora - Natural At-Home Stepora Relief","url":"\/products\/stepora","type":""},"id":"47134168121692","image":{"src":"https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/Stepora_Fix_Main_Image_V4.png"},"sku":"","title":"Default Title","untranslatedTitle":"Default Title"}],"products":null,"purchasingCompany":null,"page":null},},"https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn","a9664f44w6a62cec8p04af10e4mb91e3447",{"modern":"","legacy":""},{"trekkieShim":true,"apiClientId":"580111","pageType":"product","resourceId":"8509997220188","shopId":"60583772343","storefrontBaseUrl":"https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"2dca8a86\", \"d5bdd5d0\", \"3209b71c\", \"5acaffe6\", \"86d76263\", \"3b3c7daf\", \"6faea013\"]","isMerchantRequest":"false","hashVersion":"a9664f44w6a62cec8p04af10e4mb91e3447","publish":"custom","events":"[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":49.9,\"currencyCode\":\"USD\"},\"product\":{\"title\":\"Stepora™ Stepora - Natural At-Home Stepora Relief\",\"vendor\":\"Stepora\",\"id\":\"8509997220188\",\"untranslatedTitle\":\"Stepora™ Stepora - Natural At-Home Stepora Relief\",\"url\":\"\/products\/stepora\",\"type\":\"\"},\"id\":\"47134168121692\",\"image\":{\"src\":\"https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/cdn\/shop\/files\/Stepora_Fix_Main_Image_V4.png\"},\"sku\":\"\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"}}]]"});})();</script><script>
   window.ShopifyAnalytics = window.ShopifyAnalytics || {};
   window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
   window.ShopifyAnalytics.meta.currency = 'USD';
@@ -1255,15 +1255,15 @@ script.onerror = function(e) {
       theme_id: 176360915292,
       app_name: "storefront",
       context_url: window.location.href,
-      source_url: "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/s/trekkie.storefront.370ef8ffef154dc56bb5a814fea4666724353464.min.js"});
+      source_url: "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/s/trekkie.storefront.370ef8ffef154dc56bb5a814fea4666724353464.min.js"});
 
   };
   scriptFallback.async = true;
-  scriptFallback.src = 'https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/s/trekkie.storefront.370ef8ffef154dc56bb5a814fea4666724353464.min.js';
+  scriptFallback.src = 'https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/s/trekkie.storefront.370ef8ffef154dc56bb5a814fea4666724353464.min.js';
   first.parentNode.insertBefore(scriptFallback, first);
 };
 script.async = true;
-script.src = 'https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/s/trekkie.storefront.370ef8ffef154dc56bb5a814fea4666724353464.min.js';
+script.src = 'https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/s/trekkie.storefront.370ef8ffef154dc56bb5a814fea4666724353464.min.js';
 first.parentNode.insertBefore(script, first);
 
     };
@@ -1290,13 +1290,13 @@ first.parentNode.insertBefore(script, first);
       if (!hasLoggedConversion(token)) {
         setCookieIfConversion(token);
         window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"USD","variantId":47134168121692,"productId":8509997220188,"productGid":"gid:\/\/shopify\/Product\/8509997220188","name":"Stepora™ Stepora - Natural At-Home Stepora Relief","price":"49.90","sku":"","brand":"Stepora","variant":null,"category":"","nonInteraction":true,"remote":false},undefined,undefined,{"shopifyEmitted":true});
-      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"USD","variantId":47134168121692,"productId":8509997220188,"productGid":"gid:\/\/shopify\/Product\/8509997220188","name":"Stepora™ Stepora - Natural At-Home Stepora Relief","price":"49.90","sku":"","brand":"Stepora","variant":null,"category":"","nonInteraction":true,"remote":false,"referer":"https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/products\/stepora"});
+      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"USD","variantId":47134168121692,"productId":8509997220188,"productGid":"gid:\/\/shopify\/Product\/8509997220188","name":"Stepora™ Stepora - Natural At-Home Stepora Relief","price":"49.90","sku":"","brand":"Stepora","variant":null,"category":"","nonInteraction":true,"remote":false,"referer":"https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/products\/stepora"});
       }
     });
 
     var eventsListenerScript = document.createElement('script');
     eventsListenerScript.async = true;
-    eventsListenerScript.src = "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js";
+    eventsListenerScript.src = "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js";
     document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
 })();</script>
   <script>
@@ -1329,7 +1329,7 @@ first.parentNode.insertBefore(script, first);
   data-shs-beacon="true"
   data-shs-export-with-fetch="true"
   data-shs-logs-sample-rate="1"
-  data-shs-beacon-endpoint="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/api/collect"
+  data-shs-beacon-endpoint="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/api/collect"
 ></script>
 </head>
 
@@ -1507,7 +1507,7 @@ first.parentNode.insertBefore(script, first);
       </div>
     </div>
     <div class="drawer__scrollable">
-      <ul class="mobile-nav" role="navigation" aria-label="Primary"><li class="mobile-nav__item appear-animation appear-delay-2"><div class="mobile-nav__has-sublist"><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/pain-relief-solutions"
+      <ul class="mobile-nav" role="navigation" aria-label="Primary"><li class="mobile-nav__item appear-animation appear-delay-2"><div class="mobile-nav__has-sublist"><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/pain-relief-solutions"
                     class="mobile-nav__link mobile-nav__link--top-level"
                     id="Label-collections-pain-relief-solutions1"
                     >
@@ -1526,7 +1526,7 @@ first.parentNode.insertBefore(script, first);
                 style="height: auto;">
                 <div class="collapsible-content__inner">
                   <ul class="mobile-nav__sublist"><li class="mobile-nav__item">
-                        <div class="mobile-nav__child-item"><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/stepora-relief"
+                        <div class="mobile-nav__child-item"><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/stepora-relief"
                               class="mobile-nav__link"
                               id="Sublabel-collections-stepora-relief1"
                               >
@@ -1562,7 +1562,7 @@ first.parentNode.insertBefore(script, first);
                                   </li></ul>
                             </div>
                           </div></li><li class="mobile-nav__item">
-                        <div class="mobile-nav__child-item"><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/knee-pain"
+                        <div class="mobile-nav__child-item"><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/knee-pain"
                               class="mobile-nav__link"
                               id="Sublabel-collections-knee-pain2"
                               >
@@ -1590,7 +1590,7 @@ first.parentNode.insertBefore(script, first);
                                   </li></ul>
                             </div>
                           </div></li><li class="mobile-nav__item">
-                        <div class="mobile-nav__child-item"><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/neck-pain"
+                        <div class="mobile-nav__child-item"><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/neck-pain"
                               class="mobile-nav__link"
                               id="Sublabel-collections-neck-pain3"
                               >
@@ -1643,13 +1643,13 @@ first.parentNode.insertBefore(script, first);
                             </div>
                           </div></li></ul>
                 </div>
-              </div></li><li class="mobile-nav__item appear-animation appear-delay-3"><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/how-to-use" class="mobile-nav__link mobile-nav__link--top-level">How To Use</a></li><li class="mobile-nav__item appear-animation appear-delay-4"><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/reviews" class="mobile-nav__link mobile-nav__link--top-level">Happy Customers</a></li><li class="mobile-nav__item appear-animation appear-delay-5"><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact" class="mobile-nav__link mobile-nav__link--top-level">Contact Us</a></li><li class="mobile-nav__item mobile-nav__item--secondary">
+              </div></li><li class="mobile-nav__item appear-animation appear-delay-3"><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/how-to-use" class="mobile-nav__link mobile-nav__link--top-level">How To Use</a></li><li class="mobile-nav__item appear-animation appear-delay-4"><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/reviews" class="mobile-nav__link mobile-nav__link--top-level">Happy Customers</a></li><li class="mobile-nav__item appear-animation appear-delay-5"><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact" class="mobile-nav__link mobile-nav__link--top-level">Contact Us</a></li><li class="mobile-nav__item mobile-nav__item--secondary">
             <div class="grid"><div class="grid__item one-half appear-animation appear-delay-6">
-                  <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/account" class="mobile-nav__link">Log in
+                  <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/account" class="mobile-nav__link">Log in
 </a>
                 </div></div>
           </li></ul><ul class="mobile-nav__social appear-animation appear-delay-7"></ul>
-    </div><div class="toolbar__item"><form method="post" action="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/localization" id="mobile_localization_formtoolbar" accept-charset="UTF-8" class="mobile-multi-selectors" enctype="multipart/form-data" data-disclosure-form=""><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/products/stepora" /><div class="mobile-multi-selectors__item">
+    </div><div class="toolbar__item"><form method="post" action="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/localization" id="mobile_localization_formtoolbar" accept-charset="UTF-8" class="mobile-multi-selectors" enctype="multipart/form-data" data-disclosure-form=""><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/products/stepora" /><div class="mobile-multi-selectors__item">
       <h2 class="visually-hidden" id="CurrencyHeading-toolbar">
         Currency
       </h2>
@@ -1960,7 +1960,7 @@ first.parentNode.insertBefore(script, first);
 </div></div>
 </div>
 <div id="CartDrawer" class="drawer drawer--right">
-    <form id="CartDrawerForm" action="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cart" method="post" novalidate class="drawer__contents">
+    <form id="CartDrawerForm" action="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cart" method="post" novalidate class="drawer__contents">
       <div class="drawer__fixed-header">
         <div class="drawer__header appear-animation appear-delay-1">
           <div class="h2 drawer__title">Cart</div>
@@ -2127,7 +2127,7 @@ first.parentNode.insertBefore(script, first);
       }
     }</style><div class="h1 site-header__logo" itemscope itemtype="http://schema.org/Organization" >
       <a
-        href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/"
+        href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/"
         itemprop="url"
         class="site-header__logo-link logo--has-inverted"
         style="padding-top: 25.731930466605675%">
@@ -2143,7 +2143,7 @@ first.parentNode.insertBefore(script, first);
           srcset="../cdn/shop/files/Stepora_Logo_-Black_759a83dc-301d-484b-8020-f652948af3bb_160x.png 1x, ../cdn/shop/files/Stepora_Logo_-Black_759a83dc-301d-484b-8020-f652948af3bb_160x@2x.png 2x"
           alt="Stepora">
       </a><a
-          href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/"
+          href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/"
           itemprop="url"
           class="site-header__logo-link logo--inverted"
           style="padding-top: 25.731930466605675%">
@@ -2166,13 +2166,13 @@ first.parentNode.insertBefore(script, first);
       class="site-nav__item site-nav__expanded-item site-nav--has-dropdown site-nav--is-megamenu"
       aria-haspopup="true">
 
-      <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/pain-relief-solutions" class="site-nav__link site-nav__link--underline site-nav__link--has-dropdown">
+      <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/pain-relief-solutions" class="site-nav__link site-nav__link--underline site-nav__link--has-dropdown">
         Our Products
       </a><div class="site-nav__dropdown megamenu text-left">
           <div class="page-width">
             <div class="grid grid--center">
               <div class="grid__item medium-up--one-fifth appear-animation appear-delay-1"><div class="h5">
-                    <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/stepora-relief" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">For Steporas</a>
+                    <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/stepora-relief" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">For Steporas</a>
                   </div><div>
                       <a href="stepora.html" class="site-nav__dropdown-link">
                         Stepora™ Stepora
@@ -2190,7 +2190,7 @@ first.parentNode.insertBefore(script, first);
                         Tailor's (Pinky Toe) Stepora
                       </a>
                     </div></div><div class="grid__item medium-up--one-fifth appear-animation appear-delay-2"><div class="h5">
-                    <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/knee-pain" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">For Knees</a>
+                    <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/knee-pain" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">For Knees</a>
                   </div><div>
                       <a href="knee-massager.html" class="site-nav__dropdown-link">
                         Stepora™ 4-in-1 Knee Massager
@@ -2200,7 +2200,7 @@ first.parentNode.insertBefore(script, first);
                         Orthopedic Knee Support Sleeve
                       </a>
                     </div></div><div class="grid__item medium-up--one-fifth appear-animation appear-delay-3"><div class="h5">
-                    <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/neck-pain" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">For Neck</a>
+                    <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/neck-pain" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">For Neck</a>
                   </div><div>
                       <a href="neck-massager.html" class="site-nav__dropdown-link">
                         Neckmedy™ - Natural Neck Pain Relief Device
@@ -2222,23 +2222,23 @@ first.parentNode.insertBefore(script, first);
       class="site-nav__item site-nav__expanded-item"
       >
 
-      <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/how-to-use" class="site-nav__link site-nav__link--underline">
+      <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/how-to-use" class="site-nav__link site-nav__link--underline">
         How To Use
       </a></li><li
       class="site-nav__item site-nav__expanded-item"
       >
 
-      <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/reviews" class="site-nav__link site-nav__link--underline">
+      <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/reviews" class="site-nav__link site-nav__link--underline">
         Happy Customers
       </a></li><li
       class="site-nav__item site-nav__expanded-item"
       >
 
-      <a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact" class="site-nav__link site-nav__link--underline">
+      <a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact" class="site-nav__link site-nav__link--underline">
         Contact Us
       </a></li></ul>
 </div><div class="header-item header-item--icons"><div class="site-nav">
-  <div class="site-nav__icons"><div class="toolbar__item"><form method="post" action="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/localization" id="localization_formtoolbar" accept-charset="UTF-8" class="multi-selectors" enctype="multipart/form-data" data-disclosure-form=""><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/products/stepora" /><div class="multi-selectors__item">
+  <div class="site-nav__icons"><div class="toolbar__item"><form method="post" action="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/localization" id="localization_formtoolbar" accept-charset="UTF-8" class="multi-selectors" enctype="multipart/form-data" data-disclosure-form=""><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/products/stepora" /><div class="multi-selectors__item">
       <h2 class="visually-hidden" id="CurrencyHeading-toolbar">
         Currency
       </h2>
@@ -2507,7 +2507,7 @@ first.parentNode.insertBefore(script, first);
             </li></ul>
         <input type="hidden" name="country_code" value="US" data-disclosure-input>
       </div>
-    </div></form></div><a class="site-nav__link site-nav__link--icon small--hide" href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/account">
+    </div></form></div><a class="site-nav__link site-nav__link--icon small--hide" href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/account">
         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-user" viewBox="0 0 64 64"><path d="M35 39.84v-2.53c3.3-1.91 6-6.66 6-11.41 0-7.63 0-13.82-9-13.82s-9 6.19-9 13.82c0 4.75 2.7 9.51 6 11.41v2.53c-10.18.85-18 6-18 12.16h42c0-6.19-7.82-11.31-18-12.16z"/></svg>
         <span class="icon__fallback-text">Log in
 </span>
@@ -2517,7 +2517,7 @@ first.parentNode.insertBefore(script, first);
         aria-controls="NavDrawer">
         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 64 64"><path d="M7 15h51M7 32h43M7 49h51"/></svg>
         <span class="icon__fallback-text">Site navigation</span>
-      </button><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cart" class="site-nav__link site-nav__link--icon js-drawer-open-cart" aria-controls="CartDrawer" data-icon="cart">
+      </button><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cart" class="site-nav__link site-nav__link--icon js-drawer-open-cart" aria-controls="CartDrawer" data-icon="cart">
       <span class="cart-link"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path fill="none" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg><span class="icon__fallback-text">Cart</span>
         <span class="cart-link__bubble"></span>
       </span>
@@ -2529,7 +2529,7 @@ first.parentNode.insertBefore(script, first);
         <div class="site-header__search-container">
           <div class="site-header__search">
             <div class="page-width">
-              <form action="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/search" method="get" role="search"
+              <form action="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/search" method="get" role="search"
                 id="HeaderSearchForm"
                 class="site-header__search-form">
                 <input type="hidden" name="type" value="product,article,page,collection">
@@ -2587,7 +2587,7 @@ first.parentNode.insertBefore(script, first);
 
           <div class="newsletter-popup__content"><h3>Sign up and save</h3><div class="rte">
                 <p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>
-              </div><div class="popup-cta"><form method="post" action="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/contact#newsletter-newsletter-popup" id="newsletter-newsletter-popup" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+              </div><div class="popup-cta"><form method="post" action="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/contact#newsletter-newsletter-popup" id="newsletter-newsletter-popup" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
 <label for="Email-newsletter-popup" class="hidden-label">Enter your email</label>
     <input type="hidden" name="contact[tags]" value="prospect,newsletter">
     <input type="hidden" name="contact[context]" value="popup">
@@ -2640,7 +2640,7 @@ first.parentNode.insertBefore(script, first);
   data-product-title="Stepora™ Stepora - Natural At-Home Stepora Relief"
   data-product-url="/products/stepora"
   data-aspect-ratio="100.0"
-  data-img-url="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_.png"
+  data-img-url="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_.png"
   
     data-history="true"
   
@@ -2654,7 +2654,7 @@ first.parentNode.insertBefore(script, first);
           "price" : 49.9,
           "priceCurrency" : "USD",
           "priceValidUntil": "2026-06-19",
-          "url" : "https:\/\/si-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/products\/stepora?variant=47134168121692"
+          "url" : "https:\/\/en-stepora.noriks.com\/wp-content\/themes\/stepora\/assets\/stepora-clone/site\/products\/stepora?variant=47134168121692"
         }
 ],
     "brand": "Stepora",
@@ -2662,10 +2662,10 @@ first.parentNode.insertBefore(script, first);
     "name": "Stepora™ Stepora - Natural At-Home Stepora Relief",
     "description": "Painful Steporas? Alleviate discomfort, prevent further growth, and shrink the stepora without surgery.\n\n\nAvoid Surgery \u0026amp; Relieve Pain Fast\n\n\nFits All Foot Sizes - Use on Either Foot\n\n\nStrengthens Muscles to Realign Your Toe\n\n\nProven Effective on 150,000+ Customers\n\n",
     "category": "",
-    "url": "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/products/stepora","image": {
+    "url": "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/products/stepora","image": {
       "@type": "ImageObject",
-      "url": "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1024x1024.png",
-      "image": "https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1024x1024.png",
+      "url": "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1024x1024.png",
+      "image": "https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1024x1024.png",
       "name": "Stepora™ Stepora - Natural At-Home Stepora Relief",
       "width": 1024,
       "height": 1024
@@ -2688,11 +2688,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="1"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2714,11 +2714,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="2"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2738,11 +2738,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="3"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2762,11 +2762,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="4"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2786,11 +2786,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="5"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2810,11 +2810,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="6"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2834,11 +2834,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="7"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2858,11 +2858,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="8"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2882,11 +2882,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="9"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2906,11 +2906,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="10"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2930,11 +2930,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="11"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2954,11 +2954,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_1800x1800.png"
           data-photoswipe-width="1080"
           data-photoswipe-height="1080"
           data-index="12"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -2978,11 +2978,11 @@ first.parentNode.insertBefore(script, first);
   >
 
   <div data-product-image-main class="product-image-main"><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class=" lazyload"
-          data-photoswipe-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_1800x1800.png"
+          data-photoswipe-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_1800x1800.png"
           data-photoswipe-width="4000"
           data-photoswipe-height="4000"
           data-index="13"
-          data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_.png"
+          data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_.png"
           data-widths="[360, 540, 720, 900, 1080]"
           data-aspectratio="1.0"
           data-sizes="auto"
@@ -3009,12 +3009,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="0"
                     data-id="65085685694812"><img class="animation-delay-3 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Main_Image_V4_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3034,12 +3034,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="1"
                     data-id="65085685760348"><img class="animation-delay-6 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3057,12 +3057,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="2"
                     data-id="65085685662044"><img class="animation-delay-9 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Recommended_Against_V2_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3080,12 +3080,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="3"
                     data-id="65085685629276"><img class="animation-delay-12 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_List_V4_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3103,12 +3103,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="4"
                     data-id="65085685596508"><img class="animation-delay-15 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Authority_Imagev2_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3126,12 +3126,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="5"
                     data-id="65085685825884"><img class="animation-delay-18 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Customer_Base_V2_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3149,12 +3149,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="6"
                     data-id="65085685727580"><img class="animation-delay-21 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Advanced_Alignment_Therapy_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3172,12 +3172,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="7"
                     data-id="65085685793116"><img class="animation-delay-24 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Tech_Highlight_Patented_Hinge_Joint_Mechanism_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3195,12 +3195,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="8"
                     data-id="65085685530972"><img class="animation-delay-27 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_1_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3218,12 +3218,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="9"
                     data-id="65085685498204"><img class="animation-delay-30 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_2_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3241,12 +3241,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="10"
                     data-id="65085685432668"><img class="animation-delay-33 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_3_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3264,12 +3264,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="11"
                     data-id="65085685465436"><img class="animation-delay-36 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Comparison_Image_4_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3287,12 +3287,12 @@ first.parentNode.insertBefore(script, first);
                 >
                 <div class="image-wrap" style="height: 0; padding-bottom: 100.0%;">
                   <a
-                    href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_1800x1800.png"
+                    href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_1800x1800.png"
                     data-product-thumb
                     class="product__thumb"
                     data-index="12"
                     data-id="46524345450844"><img class="animation-delay-39 lazyload"
-                        data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_.png"
+                        data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_WebsiteImage_.png"
                         data-widths="[120, 360, 540, 720]"
                         data-aspectratio="1.0"
                         data-sizes="auto"
@@ -3355,7 +3355,7 @@ first.parentNode.insertBefore(script, first);
   </div></div>
                   <div class="product-block product-block__variants" ></div>
                   
-                  <div class="product-block ghj" ><div class="product-block hhh"><form method="post" action="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cart/add" id="AddToCartForm-template--26953873555804__main-8509997220188" accept-charset="UTF-8" class="product-single__form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><button
+                  <div class="product-block ghj" ><div class="product-block hhh"><form method="post" action="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cart/add" id="AddToCartForm-template--26953873555804__main-8509997220188" accept-charset="UTF-8" class="product-single__form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><button
       type="submit"
       name="add"
       data-add-to-cart
@@ -4317,7 +4317,7 @@ section#video-content-custom-section .content-column {
 <div class="index-section">
 
   <div class="page-width feature-row-wrapper"><div class="feature-row"><div class="feature-row__item feature-row__text feature-row__text--right text-left" data-aos><div class="h1 appear-delay">8 Reasons Why You Will Love It</div><div class="rte appear-delay-1"><p><strong>Relief from discomfort </strong>while walking, exercising, standing & sleeping</p><p><strong>Prevents</strong> Further Stepora Growth</p><p><strong>Non-Surgical Option </strong>for Relief</p><p>Firm Joint Realignment That <strong>Actually Works </strong>to<strong> Improve Your Condition</strong></p><p><strong>Adjustable </strong>Stretch Intensity</p><p>Designed & Recommended by <strong>Medical Professionals</strong></p><p><strong>Easy to Use</strong> & <strong>Portable</strong></p><p><strong>90-Day "Results or Full Refund" Money Back Guarantee </strong>because we are so confident in our product and know it will help you</p></div></div><div class="feature-row__item" style="max-width: 700px" data-aos><div><div class="image-wrap" style="height: 0; padding-bottom: 100.0%;"><img class="feature-row__image lazyload"
-                    data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_.png"
+                    data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/Stepora_Fix_Features_.png"
                     data-widths="[180, 360, 540, 750, 900, 1080]"
                     data-aspectratio="1.0"
                     data-sizes="auto"
@@ -6044,7 +6044,7 @@ section#video-content-custom-section .content-column {
     >
     <div class="collapsible-content__inner cstm-left-col">
       <div class="footer__collapsible"><div class="image-wrap text-spacing cstm-logo-bg" style="height: 0; padding-bottom: 25.731930466605675%;"><img class="lazyload"
-                data-src="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/502946681520653438-211d0ae6-d933-4c79-a465-6b941b51c82a_bf1e5344-57fb-4131-bd32-300bd4bbf4cb_.webp"
+                data-src="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/cdn/shop/files/502946681520653438-211d0ae6-d933-4c79-a465-6b941b51c82a_bf1e5344-57fb-4131-bd32-300bd4bbf4cb_.webp"
                 data-widths="[360, 540, 720, 900, 1080, 1600]"
                 data-aspectratio="3.886222222222222"
                 data-sizes="auto"
@@ -6078,7 +6078,7 @@ section#video-content-custom-section .content-column {
     >
     <div class="collapsible-content__inner cstm-links-style">
       <div class="footer__collapsible footer_collapsible--disabled">
-        <ul class="no-bullets site-footer__linklist"><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact">Contact Us</a></li><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/shipping-policy">Shipping Information</a></li><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/refund-policy">Returns & Refund Policy</a></li><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/terms-of-service">Terms of Service</a></li><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/privacy-policy">Privacy Policy</a></li></ul>
+        <ul class="no-bullets site-footer__linklist"><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact">Contact Us</a></li><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/shipping-policy">Shipping Information</a></li><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/refund-policy">Returns & Refund Policy</a></li><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/terms-of-service">Terms of Service</a></li><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/policies/privacy-policy">Privacy Policy</a></li></ul>
       </div>
     </div>
   </div></div><div  class="grid__item footer__item--menu_ptJfCj" data-type="menu"><style data-shopify>@media only screen and (min-width: 769px) and (max-width: 959px) {
@@ -6101,7 +6101,7 @@ section#video-content-custom-section .content-column {
     >
     <div class="collapsible-content__inner cstm-links-style">
       <div class="footer__collapsible footer_collapsible--disabled">
-        <ul class="no-bullets site-footer__linklist"><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/pain-relief-solutions">Our Products</a></li><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/how-to-use">How To Use</a></li><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/reviews">Happy Customers</a></li><li><a href="https://si-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact">Contact Us</a></li></ul>
+        <ul class="no-bullets site-footer__linklist"><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/collections/pain-relief-solutions">Our Products</a></li><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/how-to-use">How To Use</a></li><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/reviews">Happy Customers</a></li><li><a href="https://en-stepora.noriks.com/wp-content/themes/stepora/assets/stepora-clone/site/pages/contact">Contact Us</a></li></ul>
       </div>
     </div>
   </div></div></div><div class="bottom-custom-footer"><p class="footer__small-text">

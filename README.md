@@ -2,7 +2,7 @@
 
 WordPress theme + plugins for **Stepora** brand, market **SI**.
 
-- **Subdomain:** `si-stepora.noriks.com` → brand-machine (18.197.40.171)
+- **Subdomain:** `en-stepora.noriks.com` → brand-machine (18.197.40.171)
 - **Theme:** `stepora/` (Shopify-clone served via front-page.php)
 - **Plugins:** `plugins/` (only managed plugins, WP defaults excluded)
 - **Demo product:** BunionFix (created via WooCommerce REST)
@@ -20,7 +20,7 @@ stepora-repo/
 ## Deploy
 On brand-machine:
 ```
-cd /var/www/stepora/si/.stepora-repo
+cd /var/www/stepora/en/.stepora-repo
 GIT_SSH_COMMAND='ssh -i ~/.ssh/github_noriks' git pull
 ```
 
