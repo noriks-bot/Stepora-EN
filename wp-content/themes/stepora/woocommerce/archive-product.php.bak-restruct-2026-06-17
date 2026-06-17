@@ -356,12 +356,12 @@ $shop_filter_fields = get_field("shop_filter_fields", "option");
 // SHOP PAGE (/shop)
 if ( is_shop() ) {
 
-    if(shortcode_exists('yith_wcan_filters')) echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
+    echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
 
 // CATEGORY: /bokserice + ALL CHILD CATEGORIES
 } elseif ( is_product_category_or_child('boksarice') ) {
 
-    if(shortcode_exists('yith_wcan_filters')) echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2-2-2"]');
+    echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2-2-2"]');
 
 // CATEGORY GROUP
 } elseif (
@@ -370,27 +370,27 @@ if ( is_shop() ) {
     is_product_category_or_child('zacetni-paketi')
 ) {
 
-    if(shortcode_exists('yith_wcan_filters')) echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
+    echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
 
 // CATEGORY: /majice + children
 } elseif ( is_product_category_or_child('majice') ) {
 
-    if(shortcode_exists('yith_wcan_filters')) echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2-2"]');
+    echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2-2"]');
 
 // CATEGORY: /kompleti + children
 } elseif ( is_product_category_or_child('kompleti') ) {
 
-    if(shortcode_exists('yith_wcan_filters')) echo do_shortcode('[yith_wcan_filters slug="default-preset"]');
+    echo do_shortcode('[yith_wcan_filters slug="default-preset"]');
 
 // CATEGORY: /carape + children
 } elseif ( is_product_category_or_child('nogavice') ) {
 
-    if(shortcode_exists('yith_wcan_filters')) echo do_shortcode('[yith_wcan_filters slug="default-preset-2"]');
+    echo do_shortcode('[yith_wcan_filters slug="default-preset-2"]');
 
 // FALLBACK for any other product category
 } elseif ( is_product_category() ) {
 
-    if(shortcode_exists('yith_wcan_filters')) echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
+    echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
 }
 ?>
         </div>
@@ -925,9 +925,20 @@ if ( woocommerce_product_loop() ) {
 
 
 	woocommerce_product_loop_start();
-	$alen_products = new WP_Query( array('post_type'=>'product','post_status'=>'publish','posts_per_page'=>-1,'orderby'=>'menu_order title','order'=>'ASC') );
-	if ( $alen_products->have_posts() ) { while ( $alen_products->have_posts() ) { $alen_products->the_post(); do_action('woocommerce_shop_loop'); wc_get_template_part('content','product'); } }
-	wp_reset_postdata();
+
+	if ( wc_get_loop_prop( 'total' ) ) {
+		while ( have_posts() ) {
+			the_post();
+
+			/**
+			 * Hook: woocommerce_shop_loop.
+			 */
+			do_action( 'woocommerce_shop_loop' );
+
+			wc_get_template_part( 'content', 'product' );
+		}
+	}
+
 	woocommerce_product_loop_end();
 
 	/**

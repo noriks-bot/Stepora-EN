@@ -205,8 +205,6 @@ function enqueue_main_styles() {
         'all'
     );
 
-    wp_enqueue_style( 'landing-style', get_template_directory_uri().'/css/landing.css', array(), filemtime(get_template_directory().'/css/landing.css'), 'all' );
-
     // Enqueue product.css only on WooCommerce single product pages
     if (function_exists('is_product') && is_product()) {
         wp_enqueue_style(
@@ -1051,7 +1049,3 @@ function noriks_term_group( $group ) {
     return $groups[ $group ] ?? array();
 }
 
-add_action('woocommerce_before_shop_loop','alen_fix_shop_loop_total',5);
-function alen_fix_shop_loop_total(){ if(!wc_get_loop_prop('total')){ global $wp_query; if(isset($wp_query)&&$wp_query->found_posts) wc_set_loop_prop('total',$wp_query->found_posts); } }
-
-add_filter( 'xoo_wsc_is_sidecart_page', '__return_true', 99 );

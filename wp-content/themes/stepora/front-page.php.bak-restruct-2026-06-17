@@ -5,8 +5,6 @@
  * @package stepora
  */
 
-add_action('wp_enqueue_scripts', function(){ global $wp_styles,$wp_scripts; if($wp_styles){foreach((array)$wp_styles->queue as $h){$src=isset($wp_styles->registered[$h])?$wp_styles->registered[$h]->src:''; if(strpos($src,'/themes/stepora/')!==false && strpos($src,'landing.css')===false) wp_dequeue_style($h);}} if($wp_scripts){foreach((array)$wp_scripts->queue as $h){$src=isset($wp_scripts->registered[$h])?$wp_scripts->registered[$h]->src:''; if(strpos($src,'/themes/stepora/')!==false) wp_dequeue_script($h);}} },99999); // alen_clone_dequeue
-
 $clone_dir   = get_template_directory()     . '/assets/stepora-clone';
 $clone_uri   = get_template_directory_uri() . '/assets/stepora-clone';
 $source_file = $clone_dir . '/site/products/bunionfix-v2.html';
@@ -138,8 +136,8 @@ $wc_handler = '<script>(function(){
           credentials: "include",
           headers: {"Content-Type": "application/x-www-form-urlencoded"},
           body: body.toString()
-        })
-          .then(function(r){return r.json();}).then(function(data){ if(window.jQuery){jQuery(document.body).trigger("added_to_cart",[data&&data.fragments?data.fragments:{},data&&data.cart_hash?data.cart_hash:"",null]);} })
+        }).then(function(r){return r.text();})
+          .then(function(){ window.location.href = CART; })
           .catch(function(){ window.location.href = "/?add-to-cart=" + PID + "&quantity=" + qty; });
       }, true);
     });
@@ -149,14 +147,8 @@ $wc_handler = '<script>(function(){
   } else { bind(); }
   setTimeout(bind, 1500); setTimeout(bind, 3500);
 })();</script>';
-$__bp=stripos($html,'</body>'); if($__bp!==false){$html=substr($html,0,$__bp).$wc_handler.substr($html,$__bp);}
+$html = preg_replace( "#</body>#i", $wc_handler . "</body>", $html, 1 );
 // === END BORIS PATCH ===
-
-
-// alen wp inject
-ob_start(); wp_head(); $__h=ob_get_clean(); ob_start(); wp_footer(); $__f=ob_get_clean();
-$__hp=stripos($html,'</head>'); if($__hp!==false){$html=substr($html,0,$__hp).$__h.substr($html,$__hp);}
-$__fp=strripos($html,'</body>'); if($__fp!==false){$html=substr($html,0,$__fp).$__f.substr($html,$__fp);}
 
 header( 'Content-Type: text/html; charset=UTF-8' );
 echo $html;
